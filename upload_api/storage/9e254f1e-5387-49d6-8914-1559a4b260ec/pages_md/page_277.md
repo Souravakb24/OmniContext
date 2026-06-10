@@ -1,0 +1,12 @@
+- (iii) Part  C .    Consolidated  cases  that  would  individually  be processed under delegated powers of Service HQs/ CGHQ for the next two/ three years.
+- (iv) Part  D .    Consolidated  cases  that  would  individually  be processed under delegated powers of MoD for the next two/ three years in respect of ICG and IN respectively.
+- (c) RIC .    The  RIC  for  approved cases would be roll-on in nature, and under the following heads:-
+- (i) Major Engineering Work Package.
+- (ii) Major Electrical & Weapon Work Package.
+- (iii) Major Hull Work Package.
+- (iv) Major Equipment Replacement/ Upgradation.
+- (v) Services.
+- (vi) Material and Spares.
+- (d) Approval In Principle (AIP). The AIP for offloading plan shall be accorded at the Service HQ/ CGHQ level during ARC/ MidYear Refit Review (MYRR).
+- 13.3.3 Invitation of Expression of Interest (EoI). The invitation for EoI is issued after receipt of defect list and endorsement of staff remarks for seeking comments/ queries of the prospective refitting yards/ firms on the refit work package. The EoI document is to be approved by the Competent Technical Authority at the level of respective CFA.
+- 13.3.4 Mode of Tendering .    All  partially/  fully  offloaded  refits/  repairs  may  be undertaken on OTE/ LTE basis. To save costs on fuel consumption, administrative expenses, support infrastructure requirements, etc., in offloading the refit/ repair work to shipyards located away from the base port, competitive tendering on LTE basis to the shipyards in the immediate geographical vicinity of the ship's base and those shipyards willing to undertake the refit/repair in such vicinity, may be considered. In case the response from these shipyards is poor, quotes may be invited from other shipyards to undertake the repairs/ refits at the location specified by the Customer. In order to ensure build up and retention of capacity and expertise, long-term contracts of  multiple  refits  of  Ships/  Submarines/  Yard  craft  or  a  Class  of Ships/ Submarines/ Yard craft by means of a single RFP/ tender may also  be  undertaken.  Indian  shipyards  having  capacity/  past experience in constructing particular class of vessels (provided no other Indian shipyard has similar capacities/past experience), may be  considered  for  such  long-term  refit  contracts  on  nomination/ STE basis.

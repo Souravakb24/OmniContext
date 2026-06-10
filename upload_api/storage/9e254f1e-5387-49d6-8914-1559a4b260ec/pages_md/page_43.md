@@ -1,0 +1,13 @@
+
+framework  of  laid down  procedures,  canons  of  financial propriety and amplificatory instructions issued by Government from time to time. The financial powers so delegated also imply accountability and the CFAs must ensure that financial propriety and  probity  are  observed  in  all  cases  and  integrated  finance consulted wherever prescribed in the delegations.
+
+- (c) Greater  Capacity  Building .  Service  HQs/  Other  Organisations and their Procurement Agencies may undertake efforts to build greater expertise for negotiations, drafting and vetting of tender/ contract  documents,  to  ensure  more  efficient  procurement processing.
+
+## 2.3 Types of Revenue Procurement
+
+- 2.3.1  Indigenous  Procurement .  Procurement  from  Indian  vendors,  as defined  in  Paragraph  1.3.16  (a)  (Chapter  1)  is  called  indigenous procurement.  Payment  for  such  procurements  is  made  in  Indian Rupees. It is the policy of the Government to encourage procurement from  indigenous  vendors  through  inter-alia  greater  indigenisation in the field of Defence, so as to achieve greater self-reliance in the Defence sector.
+- 2.3.2  Foreign Procurement (Import) . Procurement from foreign sources/ vendors  is  referred  to  as  foreign  procurement,  and  payment  for the  same  is  usually  made  in  foreign  currency.  With  a  view  to promoting self-reliance in the Defence Sector, MoD has taken steps to  place certain restrictions on foreign procurements. Any import of  Defence  equipment,  irrespective  of  value,  will  require  explicit approval of Hon'ble Raksha Mantri or any competent authority as may be designated by MoD from time to time. This will apply to all categories  of  procurement  under  this  Manual.  The  procedure  for foreign procurement is laid down in Chapter 7 of this Manual.
+- 2.3.3  Procurements  under  Inter-Government  Agreements  (IGAs) .  As defined in Paragraph 1.3.20 (Chapter 1).
+- 2.3.4  Central Procurement (CP) .  As  defined in Paragraph 1.3.5 (Chapter 1).
+- 2.3.5  Local Purchase (LP). As defined in Paragraph 1.3.22 (Chapter 1).
+- 2.3.6  Procurement of Books and Print Media .  The procurement of print media  encompasses various  categories  such  as  books,  journals, magazines, and newspapers, each serving distinct purposes like  knowledge  dissemination  and  education.  While  books  are often  acquired  for  libraries  or  educational  curricula,  newspapers, magazines, etc., have a wider applicability. Decisions regarding the

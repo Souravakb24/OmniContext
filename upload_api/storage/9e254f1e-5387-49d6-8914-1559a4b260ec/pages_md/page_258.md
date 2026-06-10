@@ -1,0 +1,14 @@
+- 12.5.6   Pre-Bid Conference .    In  order to enable all prospective bidders to clearly understand and appreciate the scope, nature of work involved  and  final  deliverables  of  the  consultancy,  a  pre-bid conference  may  be  organised  after  issue  of  RFP  and  before submission of bids. The date, time and place of pre-bid conference should be indicated in the bidding document. This date shall be sufficiently ahead of bid opening date.
+
+## 12.5.7   Evaluation of Technical Bids .
+
+- (a)  Technical bids are to be analysed and evaluated by the CEC following a two stage process. In the first stage, the CEC shall evaluate each proposal on the basis of its responsiveness to  the  technical  conditions,  and  proposals  which  fail  to comply with important aspects of RFP , such as not providing bid security, submission of unsigned/ incomplete bids, not responding to the ToR fully and those with lesser validity than that prescribed in the RFP etc., will be summarily rejected at this stage, as being nonresponsive.
+- (b)  In  the  second  stage,  evaluation  will  be  undertaken  to determine  quality of the proposals. Since  consultancy services  involve  intellectual  products,  where  evaluation  of the same product by individual members of CEC may differ widely due to subjectivity that is implicit in the professional judgement  of  any  evaluator,  it is  important  that  such subjectivity is complemented by transparency, consistency and fairness.This objective could be achieved by adopting a  rating/  grading  system  for  evaluation  of  certain  defined criteria  and  also  sub-criteria,  if  required  (to  be  specified in  the  RFP),  in  the  technical  proposals.    The  criteria  and weightage to each criteria or sub-criteria would depend on the requirements of each case and may be fixed objectively. A model scheme of maximum/ minimum marks in terms of percentage is given below:-
+
+| Rated Criteria                                                                          | Range of Percentage for Score   |
+|-----------------------------------------------------------------------------------------|---------------------------------|
+| 1. Specific experience of the consultancy firm/ individual consultant                   | 5-10%                           |
+| 2. Methodology                                                                          | 20-50%                          |
+| 3. Qualifications and relevant experience of Key Personnel (only in the case of firms)* | 30-60%                          |
+| 4. Transfer of Knowledge*                                                               | 0-10%                           |
+| Overall                                                                                 | 100 %                           |

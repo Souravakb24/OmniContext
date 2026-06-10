@@ -1,0 +1,17 @@
+- 2.5 These instructions shall not be applicable to CPSEs, which may follow the instructions issued by Department of Public Enterprises in this regard.
+- 2.6 These instructions shall not be applicable to Statutory posts. A post shall be categorised as Statutory, if it is specifically mentioned under the provisions of any Act of Parliament. Post(s) created by Rules/Notification/Executive orders under any of the provisions of a Statute subsequent to notification of the Statute for smooth functioning of the Statutory Body shall not be categorised as Statutory Post(s). These posts shall be subject to the provisions of these instructions.
+- 2.7 The power to create post(s) resides with Cabinet and Department of Expenditure as given hereunder. No proposal for delegation of power to  create  posts  to  any  Authority  shall  be  included  in  any  Appraisal notes [CEE, EFC, etc], Draft Cabinet Note (DCN) or Bill.
+- 2.8 Proposals for creation of posts as part of a Statute should invariably be brought to the notice of Department of Expenditure through Appraisal Notes/DCN for approval.
+
+## 3. Creation of posts:
+
+- 3.1 Creation of posts at SAG and above levels [Pay Levels-14 and above] and Chief Executive of Autonomous Bodies irrespective of pay level shall be submitted to Cabinet.
+- 3.2 Proposals for creation of posts noted at para 3.1 shall be submitted to Cabinet by the Administrative Ministry as per laid down procedure after consultation with nodal Departments including Department of Expenditure.
+- 3.3 All other proposals for creation of posts shall be referred to Department of Expenditure through respective Integrated Financial Division (IFD), with the approval of Secretary of Administrative Ministry/Department.
+- 3.4 In case of multiple proposals, e.g. proposals for different grades in the same Autonomous Body or one or more Autonomous Bodies under the same Ministry/ Department, the Administrative Ministry/Department shall submit a consolidated proposal.
+- 3.5 Proposals for creation of posts shall be submitted on file, along with the  prescribed  checklist  issued  by  this  Department  ( Annexure- I ).
+
+![Subject: Official document header from the Government of India. Visual elements: Light purple background with black uppercase text left-aligned and the Government of India emblem (Ashoka Lion Capital with "सत्यमेव जयते" inscribed on the pillar base) right-aligned. The text reads "DELEGATION OF FINANCIAL POWERS RULES, 2024" on the first line, "MINISTRY OF FINANCE" on the second, and "DEPARTMENT OF EXPENDITURE" on the third. Spatial layout: Text occupies the left portion, emblem the right, with consistent spacing. Colours: Pastel purple background, black text, and grey-toned emblem. Visible text includes the full document title and the emblem's inscribed phrase.](images/page_97_pic_1.png)
+
+**Description:**
+Subject: Official document header from the Government of India. Visual elements: Light purple background with black uppercase text left-aligned and the Government of India emblem (Ashoka Lion Capital with "सत्यमेव जयते" inscribed on the pillar base) right-aligned. The text reads "DELEGATION OF FINANCIAL POWERS RULES, 2024" on the first line, "MINISTRY OF FINANCE" on the second, and "DEPARTMENT OF EXPENDITURE" on the third. Spatial layout: Text occupies the left portion, emblem the right, with consistent spacing. Colours: Pastel purple background, black text, and grey-toned emblem. Visible text includes the full document title and the emblem's inscribed phrase.

@@ -1,0 +1,171 @@
+entity_types:
+- Accommodation
+- Act
+- Activity
+- Agreement
+- Allowance
+- Appointment
+- Asset
+- Authority
+- Bid
+- Bidder
+- Buyer
+- Certificate
+- Concept
+- Condition
+- Contract
+- Cost
+- Credit
+- Currency
+- Department
+- Document
+- Equipment
+- Event
+- Expenditure
+- Fee
+- Finance
+- Function
+- Fund
+- Good
+- Government
+- Guarantee
+- Instrument
+- Interest
+- Liability
+- Limit
+- Organization
+- Party
+- Payment
+- Person
+- Policy
+- Price
+- Process
+- Procurement
+- Product
+- Project
+- Proposal
+- Rate
+- Regulation
+- Remittance
+- Requirement
+- Role
+- Rule
+- Service
+- Software
+- Source
+- Specification
+- Standard
+- Statute
+- Supplier
+- Tax
+relationship_types:
+- ABOLISH
+- ACCEPT_TERMS
+- ACCOUNTED_FOR
+- ADDRESSES
+- ADVISES
+- AFFECTS
+- ALLOCATES
+- AMEND
+- APPLIES_FOR
+- APPLIES_TO
+- APPOINTS
+- APPROVES
+- ASSESSES_CRITERIA
+- ASSOCIATES_WITH
+- AUTHORIZES
+- AWARDED
+- AWARD_CONTRACT
+- BE_LIABLE_TO_PAY
+- BE_VALID_UNTIL
+- BOOK
+- BREACH_CONTRACT
+- CERTIFIES_QUALITY
+- CLASSIFIED_AS
+- COMMIT_FUND
+- COMPLIES_WITH
+- COMPOSED_OF
+- CONDUCTS
+- CONDUCT_NEGOTIATION
+- CONFER_POWER
+- CONFORM_TO
+- CONSULTS
+- CONVERT
+- DEBAR
+- DEFINES
+- DEFINE_SCOPE
+- DELEGATES
+- DEPENDS_ON
+- DIVIDES_COST
+- EMPLOYS
+- ENFORCES
+- ENROLLED_IN
+- ENTER_INTO
+- ESTABLISHES
+- GOVERNS
+- GRANTS
+- GUIDES
+- HAS_SOURCE
+- INCLUDES
+- INCLUDES_EXPENSE_ON
+- INCORPORATES
+- ISSUE
+- IS_ACCOUNTED_FOR
+- IS_APPROVED_BY
+- IS_CREATED_BY
+- IS_GOVERNED_BY
+- IS_SUBJECT_TO_REVIEW
+- MAKE_PAYMENT
+- MANAGES
+- NOTIFIES
+- OBTAINS_BID
+- ORDERS
+- PASSES_CREDIT
+- PAY_FOR
+- PERFORMS
+- PROCESS_TENDER
+- PROVIDES
+- RECEIVING_PAYMENT_VIA
+- REGULATES
+- REIMBURSES
+- REPORTED_TO
+- REPORTS_TO
+- REQUIRES
+- REQUIRES_ACTIVITY
+- REQUIRES_APPROVAL_FROM
+- REQUIRES_REGISTRATION
+- REQUIRES_SUBMISSION
+- REQUIRE_SECURITY
+- SEEK_APPROVAL
+- SET_LIMITS
+- SOLICITS
+- SPECIFIES
+- SUBMITTED_TO
+- SUPERSEDES
+- SUPPORTS
+- SUPPORT_CLAIM
+- TEACHES
+- TRANSFERS_RISK
+- USES_RANK
+saturation:
+  window:
+  - 13
+  - 24
+  - 14
+  - 27
+  - 35
+  docs_processed: 6
+  is_saturated: false
+corpus_summary: This ontology models the complex operational and legal framework of
+  public administration, detailing the interactions between governmental bodies, organizations,
+  and individuals. It captures the lifecycle of public goods and services, from initial
+  policy formulation and procurement processes to the execution of contracts and projects.
+  The conceptual territory encompasses the financial mechanisms of governance, tracking
+  expenditures, fees, taxes, and funds, alongside the regulatory structures defined
+  by statutes, regulations, and departmental policies. Ultimately, it maps the authoritative
+  relationships governing compliance, resource allocation, risk transfer, and the
+  formal exchange of services and assets within a jurisdiction.
+version: 6
+domain: public_administration
+updated_at: '2026-06-07'
+last_document: 1304cf69-1ab5-4ae7-874e-ac934dad8481

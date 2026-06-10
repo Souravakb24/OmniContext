@@ -1,0 +1,22 @@
+
+## (b) In the case of Armed Forces Pensioners.
+
+- (i) Officers. When an officer is in respect of a pension, it shall be held in abeyance and officer will receive the pay and allowances of his rank.  Officers who wish to  commute during the  period of  re-employment  in  the  service  any portion of the pension which has been held in abeyance, may be permitted to do so provided the commutation of pension is otherwise permissible under the rules. A deduction equivalent to the amount of pension commuted shall be made from their  pay  from  the  date  on  which  the  commutation  becomes  effective.    The pension shall be restored on his reversion to the pension establishment.  The reemployed service will, however, not count for any increase in his pension.
+
+(ii) Sailors. A sailor who is in receipt of a pension shall be eligible to draw that  pension  in  addition to pay and allowances. His  re-employed   service  will, however, not count for any increase in his pension.
+
+
+NoteSailors who perform continuous embodied service for fifteen years or more shall be  subject  to  the  same  pension  rules  as  may  be  laid  down  from  time  to  time  for  the sailors of the regular navy.
+
+- Funeral Allowances. If death occurs during embodiment or training or is attributable to service,  funeral  allowances  shall  be  admissible  in  accordance  with  the  rules  applicable  to personnel of the regular Navy.
+- Maintenance of Pay Accounts. The pay accounts of personnel of the Service shall be maintained by the Supply Officer-in-Charge, Naval Pay Office Disbursement and advance of pay shall be regulated in the same manner as in the case of the personnel of the regular Navy.
+- Advance of Pay and Allowances. (1) The Commanding Officer may, if he considers it necessary, advance from the imprest to each member of the Service during training a sum not exceeding three-fourths of his pay.
+- Personnel called out in aid of the Civil Power may be paid an advance up to a maximum of seven days of pay and allowances.
+
+200. Traveling and Daily Allowances to Recruits. Traveling allowance shall be admissible to recruits of the Service at the same scales and under the same conditions as may be laid down from time to time for entrants in the regular Navy.
+
+
+## 201. Subsistence and Traveling Allowance for Recruits including Rejected recruits.
+
+
+(1)  Subsistence  and  traveling  allowances  shall  be  admissible  to  persons  seeking recruitment to the Service at the same scale as may be laid down in this behalf from time to time for recruits of the regular Navy, Allowances shall be admissible to such persons during their journey back home.

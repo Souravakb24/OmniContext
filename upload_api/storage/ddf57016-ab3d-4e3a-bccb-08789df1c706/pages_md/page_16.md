@@ -1,0 +1,7 @@
+- The Competent Authority is empowered to cancel the registration already granted if it determines that there is sufficient cause. Such cancellation by itself, however, will not affect the execution of contracts already awarded. Pending cancellation, it may   also suspend the registration of a bidder, and the bidder shall not be eligible to bid in any further tenders during the period of suspension.
+- For  national  security  reasons,  the  Competent Authority  shall  not  be  required  to  give reasons for rejection/cancellation of registration of a bidder.
+
+[ Note :-
+
+- (i) In respect of application of the Order to procurement by/ under State Governments, all functions assigned to DPIIT shall be carried out by the State Government concerned through  a  specific  department  or  authority  designated  by  it.  The  composition  of  the Registration Committee shall be as decided by the State Government. However, the requirement  of  political  and  security  clearance  as  per  para  D  shall  remain  and  no registration shall be granted without such clearance.
+- (ii) Registration granted by State Governments shall be valid only for procurement by the State Government and its agencies/ public enterprises etc. and shall not be valid for procurement in other states or by the Government of India and their agencies/ public enterprises etc. ]

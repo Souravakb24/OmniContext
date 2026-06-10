@@ -1,0 +1,15 @@
+
+Seller  through  demand  draft  drawn  on  any  Indian  Public  or  Private  Scheduled Commercial  Bank,  in  favour  of  the  Principal  Controller/  Controller  of  Defence Accounts concerned.
+
+- (g) The quality claims will be raised solely by the Buyer and without any certification/ countersignature by the Seller's representative stationed in India.
+
+## 29. Warranty :-
+
+- (a) The following  Warranty  will  form  part  of  the  Contract  placed  on  the  successful Bidder:-
+- (i) Except  as  otherwise  provided  in  the  invitation  tender,  the  Seller  hereby declares  that  the  goods,  stores  and  articles  sold/  supplied  to  the  Buyer under this Contract shall be of the best quality and workmanship and new in  all  respects,  and  shall  be  strictly  in  accordance  with  the  specifications and  particulars  contained/  mentioned  in  the  Contract.  The  Seller  hereby guarantees that the said goods/ stores/ articles would continue to conform to the description and quality aforesaid for a period of 12 months from the date of delivery of the said goods/ stores/ articles to the Buyer or 15 months from the date of shipment/ dispatch from the Seller's works, whichever is earlier and that notwithstanding the fact that the Buyer may have inspected and/ or approved the said goods/ stores/ articles, if during the aforesaid period of 12/ 15 months, the said goods/ stores/ articles are discovered to be not conforming to the description and quality aforesaid or not giving satisfactory performance or have deteriorated, the decision of the Buyer in that behalf shall be final and binding on the Seller, and the Buyer shall be entitled to call  upon  the  Seller  to  rectify  the  goods/  stores/  articles  or  such  portion thereof, as is found to be defective by the Buyer within a reasonable period, or such specified period as may be allowed by the Buyer in his discretion on application made thereof by the Seller, and in such an event, the above period  shall  apply  to  the  goods/  stores/  articles  rectified  from  the  date  of rectification mentioned in warranty thereof, otherwise the Seller shall pay to the Buyer such compensation as may arise by reason of the breach of the warranty therein contained.
+- (ii) Guarantee that they will supply spare parts, if and when required, on agreed basis  for  an  agreed  price.  The  agreed  basis  could  be,  and  including  but without any limitation, an agreed discount on the published catalogue or an agreed percentage of profit on the landed cost.
+- (iii) Warranty to the effect that before going out of production for the spare parts, they will give adequate advance notice to the Buyer, so that the latter may undertake the balance of the lifetime requirements of the spares.
+- (iv) Warranty to the effect that they will make available the blue prints of drawings of the spares, if and when required, in connection with the main equipment.
+- (b) The following  Warranty  will  form  part  of  the  Contract  placed  on  the  successful Bidder:-
+
+## OR

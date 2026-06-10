@@ -1,0 +1,12 @@
+
+0502. Flotilla Engineer Officer. The Flotilla Engineer officer on the staff of a flag or other officer in command of a flotilla shall perform such duties in connections with  the  ships  attached  to  the  flotilla  as  may  be  ordered  by  the  said  Flag  or  other officer.
+
+
+0503.  Squadron  Engineer  Officer. The  Engineer  officer  detailed  for  staff duties in each squadron shall perform such duties in connection with the ships under the command of the Flag or Senior Officer as are ordered by him. These shall include the following;-
+
+- (a) To superintend generally, in the ships attached to the squadron all maters  connected  with  the  propelling  machinery,  boilers  and  all other  machinery and details for which the Engineer officer of the ship is responsible; he shall visit ships in connection with his duties at any time that he may require to do so.
+- (b) To carry out the inspections of the machinery and boilers of ships attached  to  the  squadron  in  accordance  with  the  instructions  laid down in Marine Engineering Manual.
+- (c) To maintain a detailed and upto-date knowledge of the condition and durability of the machinery and boilers of ships and establishments  under  his  superintendence,  to  bring  at  once  to  the notice of the Flag or Senior Officer on whose staff he is borne any important defects, or reduction in the efficiency of the machinery of  any  ship,  and  to  ensure  that  the  necessary  steps  are  taken  to remedy such defects using all the resources available.
+- (d) To examine quarterly or as convenient, the engineering master log of  the  shops  under  his  superintendence  to  ascertain  whether  they are correct and whether the instructions have been complied with.
+- (e) To propose to the Flag or Senior officer, for his consideration, any measure which in his opinion may conduce to economy or to the efficiency and improvement of all maters under his superintendence.
+- (f) To  take  every  opportunity  of ascertaining  the capabilities of engineer officers to enable him to point out when called upon to do so, those who may be best qualified for any particular service or for promotion and to note during  his  inspections that the  instructions for  the  training  and  promotions  of  junior  officers  and  sailors  are being fully complied with.

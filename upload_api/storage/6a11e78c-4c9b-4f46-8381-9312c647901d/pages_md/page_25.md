@@ -1,0 +1,13 @@
+- The act of not returning to duty at the time ordered constitute the main offence against discipline and the aggravation of the offence shall depend upon the time for which shall be dealt with on its merits in each case.
+- Leave  breaking  offences  shall  invariably  be  described  on  the  punishment warrant or in the Daily Record of offence as follows: -
+
+'Did remain absent over leave_________________ hours_______ minutes, namely, from___________to__________'
+
+- Application of regulations 41 to 44: - (1) The provisions of regulations 41 to 44 shall apply to breaking out of ship, breaking away from a landing party and other case of improper absence other than leave breaking and desertion, except that any punishment applicable to the offence may be awarded in addition to mulcts pay and stoppage of leave, and it shall not be necessary to limit the period of detention for offences of this description in ordinary cases.
+- The provisions of regulations 41 to 44 shall not apply to sailors who are only absent from a particular part of their sail
+- Calculation  of  period  of  absence:  - (1)  The  period  of  improper  absence included  in  the  charge  shall  strictly  be  computed  from  the  time  when  leave expires (or the time of breaking out) until the time of return to the ship or place of duty.
+- When  a sailor  surrenders  or  is  apprehended as  an  absentees  away  from  the locality in which his leave expires, the Commanding officer may, having regard to the  circumstances,  consider  the  absence  as  having  terminated  at  the  time  of surrender or apprehension, but if a lengthy journey is involved in returning to the place where leave expired, the time involved in returning to the place where leave expired,  the  time  involved  in  such  journey  may  be  included  in  computing  the period of absence.
+- When an absentee is arrested by the civil authority on another charge and is subsequently  handed  over  to  the  Naval  Authorities,  his  absence  without  leave shall be regarded as ceasing from the time of his arrest by the civil authority.
+- Simple leave breaking: - Unless the offence is a repeated or aggravated offence, the punishment for an offence of leave breaking involving improper absence of not more than thirty six hours shall be confined to mulcts of pay and stoppage of leave, but the offence was the sequal to an offence of improperly leaving ship or place of duty, other punishments may be awarded in addition.
+- Aggravated offences: - (1) For the purpose of regulations 41 to 47 an offence of leave breaking shall be deemed to be aggravated: -
+- (a) if the absence exceeds thirty six hours;

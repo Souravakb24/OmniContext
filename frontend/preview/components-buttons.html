@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Buttons</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { padding: 22px 28px; display: flex; flex-direction: column; gap: 16px; }
+  .group { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  button { font: 500 14px var(--font-sans); padding: 10px 16px; border-radius: var(--radius); border: 1px solid transparent; cursor: pointer; transition: all 120ms cubic-bezier(0.2,0.8,0.2,1); display: inline-flex; align-items: center; gap: 8px; letter-spacing: -0.005em; }
+  .primary { background: var(--current); color: var(--paper); }
+  .primary:hover { background: var(--current-deep); }
+  .secondary { background: var(--paper-bright); color: var(--ink); border-color: var(--mist-2); }
+  .secondary:hover { background: var(--mist); }
+  .ghost { background: transparent; color: var(--ink); }
+  .ghost:hover { background: var(--mist); }
+  .danger { background: transparent; color: var(--ember); border-color: var(--ember); }
+  .danger:hover { background: var(--ember); color: var(--paper); }
+  .sm { padding: 6px 12px; font-size: 13px; border-radius: 6px; }
+  .lg { padding: 14px 22px; font-size: 15px; }
+  .icon-only { padding: 8px; }
+  svg { width: 16px; height: 16px; stroke-width: 1.6; }
+  .meta { font: var(--type-overline); text-transform: uppercase; letter-spacing: var(--tracking-overline); color: var(--fg-subtle); }
+</style></head>
+<body>
+<div class="card">
+  <div class="meta">Primary scale</div>
+  <div class="group">
+    <button class="primary lg">Upload a document</button>
+    <button class="primary">Upload a document</button>
+    <button class="primary sm">Upload</button>
+  </div>
+  <div class="meta">Variants</div>
+  <div class="group">
+    <button class="primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 5v14M5 12h14"/></svg>New collection</button>
+    <button class="secondary">Cancel</button>
+    <button class="ghost">Skip</button>
+    <button class="danger">Deactivate</button>
+    <button class="secondary icon-only" aria-label="More"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></svg></button>
+  </div>
+</div>
+</body></html>

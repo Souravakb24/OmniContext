@@ -1,0 +1,12 @@
+
+Fabrication  Contracts  shall  be  concluded  by  following tendering  procedures  as  in  Chapter  5  of  this  Manual. A sample format of Fabrication Contract is placed at DPMF 32.
+
+
+## 10.5   Indigenisation through Development Contracts
+
+- 10.5.1 The Armed Forces operate and maintain weapon platforms which are  either  imported  or  indigenously  developed  in  India.  These systems  are  maintained  and  sustained  by  Base  Workshops/ Base  Repair  Depots/  Equipment  Depots/  Naval  Dockyards/ Repair Yards etc. or by DPSUs or through OEM support. Constant changes  in  technology,  bottle  necks  and  dwindling  support  in supply chain from Foreign/ Indigenous OEMs, Obsolescence of systems,  weapons/sensors,  equipment,  ammunition,  clothing, etc.,  has  necessitated  indigenisation  of  imported  equipment/ assemblies/ sub-assemblies and Indigenous weapon platforms to sustain them through their life cycle. The development contracts to  conform  to  the  existing  laid  down  QRs/  enhanced  QRs  and meet  the  prescribed/  enhanced  performance  parameters,  by undertaking the following:-
+- (a) Design, development and fabrication of spares for Systems/ Sub-systems/ Equipment, etc.
+- (b) Develop  repair  and  sustenance  technologies  to  carryout Repair and Overhaul, Life Extension, Reliability improvements, Obsolescence management,  etc. through replacement/ refurbishment/Technology Insertions of Systems/ Subsystems/Equipment,  etc.  The  modifications to existing assets/systems  for  products/  solutions  that,  inter  alia, result in time or cost saving or help to overcome a recurrent problem or enhancement of Operational efficiency.
+- (c) Development and subsequent procurement through manufacture/ repair/ overhaul/ refurbishment of subsystems/ subassemblies/ assemblies/ components/ system  software /  materials/  spares/  ammunition/  etc., not designed and produced in India, for product support of existing inventory of the Services/ICG/ other Organisations.
+- (d) Develop  and  procure  items  comprising  the  entire/  part  of an  equipment  and  spares/  assemblies/  sub-assemblies/ maintenance  being  manufactured  in  India  through  Joint Ventures  (JV)/  Transfer  of  Technology  (ToT),  etc.  from foreign OEMs.
+- 10.5.2 Categories  of  Development  contracts .  This  category  would

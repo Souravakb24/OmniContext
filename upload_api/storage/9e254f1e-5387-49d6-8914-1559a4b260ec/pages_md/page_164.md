@@ -1,0 +1,12 @@
+
+tender  enquiry  and  the  contract  may  be  stipulated  that  if the  contract  is  terminated  due  to  default  of  the  contractor, the  advance  payment  would  be  deemed  as  an  interestbearing  advance  at  the  interest  rate  (e.g.,  the  interest  rate of the General Provident Fund - GPF) prevailing on the date of release of advance payment, plus 2% to be compounded quarterly. In appropriate cases, the competent authority may stipulate advance payments with suitable interest rates (e.g., the interest rate of the General Provident Fund - GPF) to be recovered along with the instalments of recovery of advance payment.
+
+- 6.25.2 Payment of Advance .  The advance payment shall be made to the Seller within 30 days of submission of all documents completed in all aspects as specified in the contract for drawal of advance.
+
+## 6.26 Price Variation Clause (PVC)/ Price Adjustment Clause
+
+- 6.26.1 Normally, a contract shall be entered into on a fixed price basis. Nevertheless, in fluctuating market conditions, it may sometimes become necessary in the case of long-term contracts to consider variable  price  quotes  given  by  the  suppliers.  The  following guidelines  are  to  be  followed  in  cases  where  a  Price  Variation provision is sought to be included in the contract:-
+- (a) Price  Variation  Clause  (PVC)  may  be  provided  only  in  longterm contracts, where the delivery period extends beyond 18 months. In short-term contracts, firm and fixed prices shall be provided for. Where a Price Variation clause is provided, the price agreed upon shall specify the base level, viz. the month and year to which the price is linked, to enable variations being calculated with reference to the price levels prevailing in that month and year.
+- (b) A formula for calculation of the Price Variations that have taken place between the Base level and the scheduled delivery date shall be included in this clause. The variations are calculated by using indices published by Governments or Chambers of Commerce or multilateral organisations such as IMF or World Bank, periodically.
+- (c) The Price Variation clause shall also specify cut-off dates for material and labour, as these inputs taper off well before the scheduled delivery dates.
+- (d) The Price Variation clause shall provide for a ceiling on Price Variations, particularly where escalations are involved. It may be a percentage per annum or an overall ceiling or both. The buyer shall ensure a provision in the contract for benefit of any

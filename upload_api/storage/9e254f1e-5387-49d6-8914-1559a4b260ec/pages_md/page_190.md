@@ -1,0 +1,13 @@
+- 7.13.3 It should also be mentioned in the RFP that the LC would be valid for 90 days from the date of its opening, on extendable basis by mutual consent of both the buyer and the seller, unless it is a revolving LC. The period may also be varied, as per requirement, but it should be decided while processing the proposal and indicated in the RFP . All  expenses related to LC outside India should be borne by the foreign vendor.
+- 7.13.4 In case of extension of delivery period, both LC and delivery period shall be extended and if the delay is attributable to the vendor, the extension of LC charges shall be borne by the supplier. In such cases of extension in the delivery period, the vendor shall invariably extend the validity period of the APBG/ PBG/ WBG. While extending the LC, it may be ensured that the extended validity of LC covers the extended delivery period.
+- 7.13.5 Payment through DBT should preferably be made for all payments below USD 1 lakh and such payments should be made within 30 days of receipt of clear payment documents or as specified in the contract, unless insisted otherwise by the foreign vendor.
+- 7.13.6 Normally, no part LCs would be opened for part-shipments, unless staggered delivery is specifically provided for in the contract, in accordance with the Delivery Schedule. However, in multiple-line indents, where part order is ready for dispatch with uncertainty on readiness of balance items, part LCs may be opened for receipt of part consignment within the DP .
+- 7.13.7 In Repair & Overhaul (ROH) contracts, where dispatch of equipment(s) for repair and overhauling is not certain, part LC may be opened before their dispatch for overhauling.
+
+## 7.14 Exchange Rate
+
+- 7.14.1 Exchange Rate applicable for various currencies prevailing on the last date of submission of the commercial bids as indicated in the RFP, shall be taken into account for working out the prices in INR terms, for comparison. The exchange rate shall be as per BC Selling rate of the State Bank of India on the last date of submission of the commercial bids as per RFP. Paragraph 5.30.3 (Chapter 5) is relevant in this regard.
+
+## 7.15 I nstallation, Commissioning and AMC
+
+- 7.15.1 If the equipment/ spare parts are required to be installed and/ or commissioned and training is to be imparted, relevant information in  this  regard  should  be  provided  in  the  RFP  and  concomitant

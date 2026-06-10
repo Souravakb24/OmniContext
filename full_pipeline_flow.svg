@@ -1,0 +1,439 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 2600" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#475569"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#3b82f6"/>
+    </marker>
+    <marker id="arr-red" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="2600" fill="#080c14"/>
+
+  <!-- ═══ TITLE ═══ -->
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#f1f5f9">RAG Pipeline — Full Flow: Upload → Ingest → Chunks → Vector DB</text>
+  <line x1="60" y1="50" x2="940" y2="50" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 1: UPLOAD API
+  ══════════════════════════════════════════════════════ -->
+
+  <!-- Section label -->
+  <rect x="60" y="62" width="180" height="24" rx="4" fill="#1d4ed8"/>
+  <text x="150" y="79" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">① UPLOAD API</text>
+
+  <!-- Client box -->
+  <rect x="380" y="62" width="240" height="44" rx="22" fill="#1d4ed8"/>
+  <text x="500" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">CLIENT</text>
+  <text x="500" y="97" text-anchor="middle" font-size="11" fill="#bfdbfe">POST /api/v1/upload  +  X-API-Key</text>
+
+  <line x1="500" y1="106" x2="500" y2="126" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- API key -->
+  <rect x="340" y="126" width="320" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+  <text x="500" y="141" text-anchor="middle" font-size="11" font-weight="bold" fill="#94a3b8">API Key Auth  (X-API-Key header)</text>
+  <text x="500" y="155" text-anchor="middle" font-size="10" fill="#64748b">401 UNAUTHORIZED if wrong/missing</text>
+
+  <line x1="500" y1="162" x2="500" y2="182" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Phase 1 box -->
+  <rect x="80" y="182" width="840" height="210" rx="8" fill="#0b1120" stroke="#1d4ed8" stroke-width="1.6"/>
+  <rect x="80" y="182" width="840" height="26" rx="8" fill="#1d4ed8"/>
+  <rect x="80" y="198" width="840" height="10" fill="#1d4ed8"/>
+  <text x="500" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">PHASE 1 — Sequential Checks  (fail-fast, nothing written to disk)</text>
+
+  <!-- C1 -->
+  <rect x="110" y="220" width="780" height="34" rx="5" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="110" y="220" width="32" height="34" rx="5" fill="#2563eb"/>
+  <text x="126" y="242" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">C1</text>
+  <text x="350" y="234" text-anchor="middle" font-size="11" font-weight="bold" fill="#e2e8f0">Size Check</text>
+  <text x="350" y="247" text-anchor="middle" font-size="10" fill="#64748b">file ≤ 500 MB  (content-length or len(bytes))</text>
+  <text x="770" y="241" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 413 FILE_TOO_LARGE</text>
+
+  <!-- C2 -->
+  <rect x="110" y="260" width="780" height="34" rx="5" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="110" y="260" width="32" height="34" rx="5" fill="#2563eb"/>
+  <text x="126" y="282" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">C2</text>
+  <text x="350" y="274" text-anchor="middle" font-size="11" font-weight="bold" fill="#e2e8f0">Extension Check</text>
+  <text x="350" y="287" text-anchor="middle" font-size="10" fill="#64748b">.pdf  .docx  .ppt  .pptx  only</text>
+  <text x="770" y="281" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 415 UNSUPPORTED</text>
+
+  <!-- C3 -->
+  <rect x="110" y="300" width="780" height="34" rx="5" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="110" y="300" width="32" height="34" rx="5" fill="#2563eb"/>
+  <text x="126" y="322" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">C3</text>
+  <text x="350" y="314" text-anchor="middle" font-size="11" font-weight="bold" fill="#e2e8f0">MIME Check</text>
+  <text x="350" y="327" text-anchor="middle" font-size="10" fill="#64748b">magic bytes must match extension  (python-magic)</text>
+  <text x="770" y="321" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 400 VALIDATION_FAILED</text>
+
+  <!-- C4 -->
+  <rect x="110" y="340" width="780" height="34" rx="5" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="110" y="340" width="32" height="34" rx="5" fill="#2563eb"/>
+  <text x="126" y="362" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">C4</text>
+  <text x="350" y="354" text-anchor="middle" font-size="11" font-weight="bold" fill="#e2e8f0">Empty Check</text>
+  <text x="350" y="367" text-anchor="middle" font-size="10" fill="#64748b">file &gt; 4096 bytes</text>
+  <text x="770" y="361" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 400 VALIDATION_FAILED</text>
+
+  <line x1="500" y1="392" x2="500" y2="412" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Phase 2 box -->
+  <rect x="80" y="412" width="840" height="250" rx="8" fill="#0b1120" stroke="#7c3aed" stroke-width="1.6"/>
+  <rect x="80" y="412" width="840" height="26" rx="8" fill="#7c3aed"/>
+  <rect x="80" y="428" width="840" height="10" fill="#7c3aed"/>
+  <text x="500" y="430" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">PHASE 2 — Parallel Deep Checks  (ProcessPoolExecutor)</text>
+
+  <!-- SHA row -->
+  <rect x="110" y="452" width="780" height="30" rx="5" fill="#1a1040" stroke="#4b3080" stroke-width="1"/>
+  <text x="500" y="463" text-anchor="middle" font-size="11" font-weight="bold" fill="#a78bfa">SHA-256  computed first  (hashlib.sha256 over entire file bytes)</text>
+  <text x="500" y="476" text-anchor="middle" font-size="10" fill="#6b7280">fingerprint used in C7 duplicate check</text>
+
+  <!-- C7 -->
+  <rect x="110" y="490" width="780" height="44" rx="5" fill="#1e293b" stroke="#4b3080" stroke-width="1"/>
+  <rect x="110" y="490" width="32" height="44" rx="5" fill="#7c3aed"/>
+  <text x="126" y="510" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">C7</text>
+  <text x="350" y="504" text-anchor="middle" font-size="11" font-weight="bold" fill="#e2e8f0">Duplicate Check  (async Postgres query)</text>
+  <text x="350" y="517" text-anchor="middle" font-size="10" fill="#64748b">hash in DB + file on disk  →  409 blocked</text>
+  <text x="350" y="530" text-anchor="middle" font-size="10" fill="#f59e0b">hash in DB, file gone  →  re-upload allowed</text>
+  <text x="770" y="516" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 409 DUPLICATE</text>
+
+  <!-- C5 C6 C8 parallel -->
+  <text x="500" y="552" text-anchor="middle" font-size="10" fill="#64748b" font-style="italic">C5  C6  C8 run concurrently in separate processes</text>
+
+  <rect x="96"  y="560" width="238" height="84" rx="6" fill="#1e293b" stroke="#334155"/>
+  <rect x="96"  y="560" width="238" height="22" rx="6" fill="#065f46"/>
+  <rect x="96"  y="572" width="238" height="10" fill="#065f46"/>
+  <text x="215" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">C5 Corruption Check</text>
+  <text x="215" y="594" text-anchor="middle" font-size="10" fill="#6ee7b7">PDF → PyMuPDF open</text>
+  <text x="215" y="608" text-anchor="middle" font-size="10" fill="#6ee7b7">DOCX → zipfile.is_zipfile</text>
+  <text x="215" y="622" text-anchor="middle" font-size="10" fill="#6ee7b7">PPT/X → python-pptx parse</text>
+  <text x="215" y="636" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 400</text>
+
+  <rect x="381" y="560" width="238" height="84" rx="6" fill="#1e293b" stroke="#334155"/>
+  <rect x="381" y="560" width="238" height="22" rx="6" fill="#065f46"/>
+  <rect x="381" y="572" width="238" height="10" fill="#065f46"/>
+  <text x="500" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">C6 Password Check</text>
+  <text x="500" y="594" text-anchor="middle" font-size="10" fill="#6ee7b7">PDF only — PyMuPDF</text>
+  <text x="500" y="608" text-anchor="middle" font-size="10" fill="#6ee7b7">doc.is_encrypted → reject</text>
+  <text x="500" y="622" text-anchor="middle" font-size="10" fill="#64748b">skipped for DOCX / PPT</text>
+  <text x="500" y="636" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 400</text>
+
+  <rect x="666" y="560" width="238" height="84" rx="6" fill="#1e293b" stroke="#334155"/>
+  <rect x="666" y="560" width="238" height="22" rx="6" fill="#065f46"/>
+  <rect x="666" y="572" width="238" height="10" fill="#065f46"/>
+  <text x="785" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">C8 Virus Scan</text>
+  <text x="785" y="594" text-anchor="middle" font-size="10" fill="#6ee7b7">ClamAV daemon  (pyclamd)</text>
+  <text x="785" y="608" text-anchor="middle" font-size="10" fill="#6ee7b7">scan_stream(bytes)</text>
+  <text x="785" y="622" text-anchor="middle" font-size="10" fill="#64748b">skipped if CLAMAV_ENABLED=false</text>
+  <text x="785" y="636" text-anchor="middle" font-size="10" fill="#ef4444">FAIL → 400</text>
+
+  <line x1="500" y1="662" x2="500" y2="682" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Conversion diamond -->
+  <polygon points="500,682 630,718 500,754 370,718" fill="#1e293b" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="500" y="713" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">Needs</text>
+  <text x="500" y="728" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">Conversion?</text>
+
+  <!-- YES branch -->
+  <line x1="630" y1="718" x2="730" y2="718" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="676" y="712" text-anchor="middle" font-size="10" fill="#f59e0b">YES</text>
+  <rect x="730" y="696" width="170" height="44" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="815" y="715" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">LibreOffice</text>
+  <text x="815" y="729" text-anchor="middle" font-size="10" fill="#94a3b8">soffice --headless (sync)</text>
+  <text x="815" y="741" text-anchor="middle" font-size="10" fill="#94a3b8">temp → .pdf → del temp</text>
+  <!-- rejoin -->
+  <path d="M730,718 Q680,754 630,754" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- NO label -->
+  <text x="440" y="766" text-anchor="middle" font-size="10" fill="#22c55e">NO (.pdf)</text>
+
+  <line x1="500" y1="754" x2="500" y2="780" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Storage + DB side by side -->
+  <rect x="80"  y="780" width="420" height="80" rx="8" fill="#0b1120" stroke="#0ea5e9" stroke-width="1.6"/>
+  <rect x="80"  y="780" width="420" height="24" rx="8" fill="#0369a1"/>
+  <rect x="80"  y="794" width="420" height="10" fill="#0369a1"/>
+  <text x="290" y="797" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Storage  —  services/storage.py</text>
+  <text x="290" y="818" text-anchor="middle" font-size="11" fill="#7dd3fc">mkdir  STORAGE_ROOT / &lt;doc_id&gt; /</text>
+  <text x="290" y="834" text-anchor="middle" font-size="11" fill="#7dd3fc">write  &lt;doc_id&gt;.pdf  ← only file on disk</text>
+  <text x="290" y="850" text-anchor="middle" font-size="10" fill="#64748b">500 STORAGE_ERROR if disk full / permissions</text>
+
+  <rect x="520" y="780" width="420" height="80" rx="8" fill="#0b1120" stroke="#10b981" stroke-width="1.6"/>
+  <rect x="520" y="780" width="420" height="24" rx="8" fill="#065f46"/>
+  <rect x="520" y="794" width="420" height="10" fill="#065f46"/>
+  <text x="730" y="797" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">PostgreSQL INSERT  —  db/models.py</text>
+  <text x="730" y="818" text-anchor="middle" font-size="11" fill="#6ee7b7">documents: doc_id · filename · pdf_path · sha256</text>
+  <text x="730" y="834" text-anchor="middle" font-size="11" fill="#6ee7b7">user_id · mime · size · tags · status=UPLOADED</text>
+  <text x="730" y="850" text-anchor="middle" font-size="11" fill="#6ee7b7">api_logs: method · path · latency_ms · ip</text>
+
+  <line x1="500" y1="860" x2="500" y2="880" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Upload response -->
+  <rect x="320" y="880" width="360" height="54" rx="8" fill="#166534" stroke="#22c55e" stroke-width="1.6"/>
+  <text x="500" y="899" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">200 OK — status: UPLOADED</text>
+  <text x="500" y="915" text-anchor="middle" font-size="11" fill="#86efac">{ doc_id, filename, pdf_path, size_bytes, … }</text>
+  <text x="500" y="928" text-anchor="middle" font-size="10" fill="#4ade80">save doc_id → call /api/v1/ingest next</text>
+
+  <!-- divider -->
+  <line x1="60" y1="950" x2="940" y2="950" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 2: INGESTION API
+  ══════════════════════════════════════════════════════ -->
+
+  <rect x="60" y="958" width="200" height="24" rx="4" fill="#0e7490"/>
+  <text x="160" y="975" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">② INGESTION API</text>
+
+  <line x1="500" y1="934" x2="500" y2="962" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- POST /ingest -->
+  <rect x="320" y="962" width="360" height="44" rx="22" fill="#0e7490"/>
+  <text x="500" y="981" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">POST /api/v1/ingest</text>
+  <text x="500" y="997" text-anchor="middle" font-size="11" fill="#a5f3fc">{ doc_id, mode, chunker, skip_vlm }</text>
+
+  <line x1="500" y1="1006" x2="500" y2="1026" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Celery dispatch -->
+  <rect x="310" y="1026" width="380" height="44" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="500" y="1045" text-anchor="middle" font-size="12" font-weight="bold" fill="#fcd34d">Celery Task Dispatched</text>
+  <text x="500" y="1061" text-anchor="middle" font-size="10" fill="#94a3b8">202 ACCEPTED returned immediately — processing async</text>
+
+  <line x1="500" y1="1070" x2="500" y2="1090" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- DB status update -->
+  <rect x="340" y="1090" width="320" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="500" y="1104" text-anchor="middle" font-size="11" font-weight="bold" fill="#94a3b8">DB status → CONVERTING</text>
+  <text x="500" y="1117" text-anchor="middle" font-size="10" fill="#64748b">crud.update_document_status(db, doc_id, "CONVERTING")</text>
+
+  <line x1="500" y1="1124" x2="500" y2="1144" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 3: INGESTION PIPELINE (6 steps)
+  ══════════════════════════════════════════════════════ -->
+
+  <rect x="60" y="1144" width="880" height="836" rx="10" fill="#07090f" stroke="#0e7490" stroke-width="1.8"/>
+  <rect x="60" y="1144" width="880" height="28" rx="10" fill="#0e7490"/>
+  <rect x="60" y="1162" width="880" height="10" fill="#0e7490"/>
+  <text x="500" y="1163" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">INGESTION PIPELINE  —  services/ingestion/pipeline.py</text>
+
+  <!-- Step 1 -->
+  <rect x="90" y="1186" width="820" height="70" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1186" width="56" height="70" rx="7" fill="#1d4ed8"/>
+  <text x="118" y="1208" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1224" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">1</text>
+  <text x="118" y="1242" text-anchor="middle" font-size="9" fill="#93c5fd">of 6</text>
+  <text x="460" y="1204" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Render Page Images</text>
+  <text x="460" y="1220" text-anchor="middle" font-size="10" fill="#64748b">PyMuPDF  fitz.open(pdf) → page.get_pixmap(dpi=300)</text>
+  <text x="460" y="1235" text-anchor="middle" font-size="10" fill="#64748b">saves  pages/page_1.png … page_N.png  (temp, deleted later)</text>
+  <text x="460" y="1248" text-anchor="middle" font-size="10" fill="#94a3b8">output: dict { page_no → PNG path }</text>
+
+  <line x1="500" y1="1256" x2="500" y2="1272" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 2 -->
+  <rect x="90" y="1272" width="820" height="84" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1272" width="56" height="84" rx="7" fill="#1d4ed8"/>
+  <text x="118" y="1295" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1311" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">2</text>
+  <text x="118" y="1329" text-anchor="middle" font-size="9" fill="#93c5fd">of 6</text>
+  <text x="460" y="1292" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Parallel Docling OCR</text>
+  <text x="460" y="1308" text-anchor="middle" font-size="10" fill="#64748b">PDF split into N sub-PDFs (one per worker)</text>
+  <text x="460" y="1322" text-anchor="middle" font-size="10" fill="#64748b">each worker: Docling full pass — OCR + table detection + formula + picture extraction</text>
+  <text x="460" y="1336" text-anchor="middle" font-size="10" fill="#64748b">results merged: page_elements dict { page_no → [element, …] }</text>
+  <text x="460" y="1348" text-anchor="middle" font-size="10" fill="#94a3b8">element types: text · table · picture · equation · title · section_header · list_item · caption</text>
+
+  <line x1="500" y1="1356" x2="500" y2="1372" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 3 -->
+  <rect x="90" y="1372" width="820" height="70" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1372" width="56" height="70" rx="7" fill="#1d4ed8"/>
+  <text x="118" y="1394" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1410" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">3</text>
+  <text x="118" y="1428" text-anchor="middle" font-size="9" fill="#93c5fd">of 6</text>
+  <text x="460" y="1392" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Reading-Order Sort</text>
+  <text x="460" y="1408" text-anchor="middle" font-size="10" fill="#64748b">per page: elements sorted by column (left=0, right=1) then top→bottom</text>
+  <text x="460" y="1422" text-anchor="middle" font-size="10" fill="#64748b">ensures correct reading order for multi-column PDFs</text>
+  <text x="460" y="1434" text-anchor="middle" font-size="10" fill="#94a3b8">DB status → PARSING</text>
+
+  <line x1="500" y1="1442" x2="500" y2="1458" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 4 -->
+  <rect x="90" y="1458" width="820" height="98" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1458" width="56" height="98" rx="7" fill="#7c3aed"/>
+  <text x="118" y="1480" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1496" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">4</text>
+  <text x="118" y="1514" text-anchor="middle" font-size="9" fill="#c4b5fd">of 6</text>
+  <text x="460" y="1478" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">VLM Enrichment  (Ollama Vision)  — skippable</text>
+  <text x="460" y="1494" text-anchor="middle" font-size="10" fill="#64748b">for every picture element: crop bbox from page PNG → send to Ollama vision model</text>
+  <text x="460" y="1508" text-anchor="middle" font-size="10" fill="#64748b">model generates natural-language description of the image</text>
+  <text x="460" y="1522" text-anchor="middle" font-size="10" fill="#64748b">page PNGs → compressed WebP → stored in document_pages Postgres table</text>
+  <text x="460" y="1536" text-anchor="middle" font-size="10" fill="#64748b">per-page markdown written to  pages_md/page_N.md  +  &lt;doc_id&gt;.md  (full doc)</text>
+  <text x="460" y="1548" text-anchor="middle" font-size="10" fill="#94a3b8">set skip_vlm=true to skip image descriptions (faster)</text>
+
+  <line x1="500" y1="1556" x2="500" y2="1572" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 5 -->
+  <rect x="90" y="1572" width="820" height="70" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1572" width="56" height="70" rx="7" fill="#0e7490"/>
+  <text x="118" y="1594" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1610" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">5</text>
+  <text x="118" y="1628" text-anchor="middle" font-size="9" fill="#a5f3fc">of 6</text>
+  <text x="460" y="1592" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Fast Docling Pass  (for chunking)</text>
+  <text x="460" y="1608" text-anchor="middle" font-size="10" fill="#64748b">second Docling run with OCR disabled — just structure + tables</text>
+  <text x="460" y="1622" text-anchor="middle" font-size="10" fill="#64748b">faster than step 2, produces clean document structure for chunker</text>
+  <text x="460" y="1634" text-anchor="middle" font-size="10" fill="#94a3b8">DB status → CHUNKING</text>
+
+  <line x1="500" y1="1642" x2="500" y2="1658" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Step 6 -->
+  <rect x="90" y="1658" width="820" height="98" rx="7" fill="#1e293b" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="90" y="1658" width="56" height="98" rx="7" fill="#0e7490"/>
+  <text x="118" y="1680" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Step</text>
+  <text x="118" y="1696" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">6</text>
+  <text x="118" y="1714" text-anchor="middle" font-size="9" fill="#a5f3fc">of 6</text>
+  <text x="460" y="1678" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Build Chunks</text>
+  <text x="460" y="1694" text-anchor="middle" font-size="10" fill="#64748b">HybridChunker or HierarchicalChunker  (Docling)</text>
+  <text x="460" y="1708" text-anchor="middle" font-size="10" fill="#64748b">each chunk: { text, chunk_index, chunker, bbox, page_no, headings, raw_text }</text>
+  <text x="460" y="1722" text-anchor="middle" font-size="10" fill="#64748b">+ figure chunks: one per picture  { text=heading+caption+VLM_desc, image_ref, bbox }</text>
+  <text x="460" y="1736" text-anchor="middle" font-size="10" fill="#64748b">layout_json + chunks_json + ingestion_report → saved to documents table (JSONB)</text>
+  <text x="460" y="1748" text-anchor="middle" font-size="10" fill="#94a3b8">output: chunks_payload dict with all chunks</text>
+
+  <line x1="500" y1="1756" x2="500" y2="1776" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- divider inside pipeline box -->
+  <line x1="90" y1="1776" x2="890" y2="1776" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="500" y="1792" text-anchor="middle" font-size="10" fill="#64748b" font-style="italic">pipeline.run() complete — returns chunks_payload → passed to indexer.run()</text>
+
+  <!-- close pipeline box -->
+
+  <line x1="500" y1="1980" x2="500" y2="2000" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 4: INDEXING
+  ══════════════════════════════════════════════════════ -->
+
+  <rect x="60" y="1800" width="880" height="260" rx="10" fill="#07090f" stroke="#f59e0b" stroke-width="1.8"/>
+  <rect x="60" y="1800" width="880" height="28" rx="10" fill="#92400e"/>
+  <rect x="60" y="1818" width="880" height="10" fill="#92400e"/>
+  <text x="500" y="1819" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">INDEXER  —  services/ingestion/indexer.py</text>
+
+  <!-- Embedding -->
+  <rect x="90" y="1842" width="820" height="80" rx="7" fill="#1e293b" stroke="#78350f" stroke-width="1"/>
+  <rect x="90" y="1842" width="56" height="80" rx="7" fill="#b45309"/>
+  <text x="118" y="1868" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Embed</text>
+  <text x="460" y="1860" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">Embedding  —  SentenceTransformer</text>
+  <text x="460" y="1876" text-anchor="middle" font-size="10" fill="#64748b">load model  (EMBED_MODEL, device=cuda/cpu)</text>
+  <text x="460" y="1890" text-anchor="middle" font-size="10" fill="#64748b">model.encode(all chunk texts, batch_size=auto, normalize=True)</text>
+  <text x="460" y="1904" text-anchor="middle" font-size="10" fill="#64748b">output: float32 numpy array  [N_chunks × embedding_dim]</text>
+  <text x="460" y="1917" text-anchor="middle" font-size="10" fill="#94a3b8">DB status → EMBEDDING</text>
+
+  <line x1="500" y1="1922" x2="500" y2="1938" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ChromaDB upsert -->
+  <rect x="90" y="1938" width="820" height="80" rx="7" fill="#1e293b" stroke="#78350f" stroke-width="1"/>
+  <rect x="90" y="1938" width="56" height="80" rx="7" fill="#b45309"/>
+  <text x="118" y="1964" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Index</text>
+  <text x="460" y="1956" text-anchor="middle" font-size="12" font-weight="bold" fill="#e2e8f0">ChromaDB Upsert</text>
+  <text x="460" y="1972" text-anchor="middle" font-size="10" fill="#64748b">collection.upsert(ids, documents, embeddings, metadatas)</text>
+  <text x="460" y="1986" text-anchor="middle" font-size="10" fill="#64748b">metadata per chunk: doc_id · page_numbers · provenance (bbox) · headings · chunk_type</text>
+  <text x="460" y="2000" text-anchor="middle" font-size="10" fill="#64748b">HNSW cosine-space index built automatically</text>
+  <text x="460" y="2013" text-anchor="middle" font-size="10" fill="#94a3b8">DB status → INDEXING → COMPLETED</text>
+
+  <line x1="500" y1="2060" x2="500" y2="2080" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION 5: FINAL STATE
+  ══════════════════════════════════════════════════════ -->
+
+  <line x1="60" y1="2072" x2="940" y2="2072" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <rect x="60" y="2080" width="880" height="220" rx="10" fill="#07090f" stroke="#22c55e" stroke-width="1.8"/>
+  <rect x="60" y="2080" width="880" height="28" rx="10" fill="#166534"/>
+  <rect x="60" y="2098" width="880" height="10" fill="#166534"/>
+  <text x="500" y="2099" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">FINAL STATE  —  status: COMPLETED</text>
+
+  <!-- Disk -->
+  <rect x="90" y="2118" width="380" height="164" rx="7" fill="#1e293b" stroke="#164e63" stroke-width="1"/>
+  <rect x="90" y="2118" width="380" height="22" rx="7" fill="#164e63"/>
+  <rect x="90" y="2130" width="380" height="10" fill="#164e63"/>
+  <text x="280" y="2132" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Disk  (STORAGE_ROOT/&lt;doc_id&gt;/)</text>
+  <text x="280" y="2154" font-size="10" fill="#7dd3fc" text-anchor="middle">&lt;doc_id&gt;.pdf           ← original PDF</text>
+  <text x="280" y="2170" font-size="10" fill="#7dd3fc" text-anchor="middle">images/page_N_pic_M.png  ← extracted figures</text>
+  <text x="280" y="2186" font-size="10" fill="#7dd3fc" text-anchor="middle">pages_md/page_N.md      ← per-page markdown</text>
+  <text x="280" y="2202" font-size="10" fill="#7dd3fc" text-anchor="middle">&lt;doc_id&gt;.md             ← full document markdown</text>
+  <text x="280" y="2218" font-size="10" fill="#64748b" text-anchor="middle">pages/ (temp PNGs) — deleted after WebP saved</text>
+  <text x="280" y="2234" font-size="10" fill="#64748b" text-anchor="middle">chunks/ — NOT on disk, stored in Postgres JSONB</text>
+  <text x="280" y="2274" font-size="10" fill="#64748b" text-anchor="middle"></text>
+
+  <!-- DB -->
+  <rect x="510" y="2118" width="420" height="164" rx="7" fill="#1e293b" stroke="#064e3b" stroke-width="1"/>
+  <rect x="510" y="2118" width="420" height="22" rx="7" fill="#064e3b"/>
+  <rect x="510" y="2130" width="420" height="10" fill="#064e3b"/>
+  <text x="720" y="2132" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">PostgreSQL  (ragdb)</text>
+  <text x="720" y="2154" font-size="10" fill="#6ee7b7" text-anchor="middle">documents: pdf_path · sha256 · layout_json (JSONB)</text>
+  <text x="720" y="2170" font-size="10" fill="#6ee7b7" text-anchor="middle">           chunks_json (JSONB) · ingestion_report</text>
+  <text x="720" y="2186" font-size="10" fill="#6ee7b7" text-anchor="middle">document_pages: page_no · image_webp (WebP bytes)</text>
+  <text x="720" y="2202" font-size="10" fill="#6ee7b7" text-anchor="middle">api_logs: every request logged</text>
+  <text x="720" y="2218" font-size="10" fill="#6ee7b7" text-anchor="middle">ingestion_jobs: job_id · progress · current_step</text>
+
+  <!-- Vector DB -->
+  <rect x="90" y="2290" width="840" height="0" rx="7"/>
+
+  <!-- ChromaDB box -->
+  <rect x="200" y="2310" width="600" height="60" rx="7" fill="#1e293b" stroke="#92400e" stroke-width="1.5"/>
+  <rect x="200" y="2310" width="600" height="22" rx="7" fill="#78350f"/>
+  <rect x="200" y="2322" width="600" height="10" fill="#78350f"/>
+  <text x="500" y="2324" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">ChromaDB  (vector store)</text>
+  <text x="500" y="2346" text-anchor="middle" font-size="10" fill="#fcd34d">collection: { id, text, embedding[dim], metadata } per chunk</text>
+  <text x="500" y="2360" text-anchor="middle" font-size="10" fill="#fcd34d">HNSW cosine-space index  — ready for similarity search</text>
+
+  <!-- line from indexer to chromadb -->
+  <line x1="500" y1="2060" x2="500" y2="2080" stroke="#475569" stroke-width="2"/>
+  <line x1="500" y1="2300" x2="500" y2="2310" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       STATUS TIMELINE at bottom
+  ══════════════════════════════════════════════════════ -->
+  <rect x="60" y="2390" width="880" height="68" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="500" y="2408" text-anchor="middle" font-size="11" font-weight="bold" fill="#94a3b8">Document Status Timeline</text>
+
+  <!-- status pills -->
+  <rect x="80"  y="2418" width="110" height="22" rx="11" fill="#1d4ed8"/>
+  <text x="135" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">UPLOADED</text>
+  <line x1="190" y1="2429" x2="210" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="210" y="2418" width="110" height="22" rx="11" fill="#0e7490"/>
+  <text x="265" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">CONVERTING</text>
+  <line x1="320" y1="2429" x2="340" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="340" y="2418" width="100" height="22" rx="11" fill="#7c3aed"/>
+  <text x="390" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">PARSING</text>
+  <line x1="440" y1="2429" x2="460" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="460" y="2418" width="100" height="22" rx="11" fill="#0e7490"/>
+  <text x="510" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">CHUNKING</text>
+  <line x1="560" y1="2429" x2="580" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="580" y="2418" width="100" height="22" rx="11" fill="#92400e"/>
+  <text x="630" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">EMBEDDING</text>
+  <line x1="680" y1="2429" x2="700" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="700" y="2418" width="100" height="22" rx="11" fill="#92400e"/>
+  <text x="750" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">INDEXING</text>
+  <line x1="800" y1="2429" x2="820" y2="2429" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <rect x="820" y="2418" width="100" height="22" rx="11" fill="#166534"/>
+  <text x="870" y="2433" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">COMPLETED</text>
+
+  <text x="500" y="2452" text-anchor="middle" font-size="10" fill="#475569">each status written to Postgres documents.status — poll GET /api/v1/status/{doc_id} to track progress</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECTION LABELS (left rail)
+  ══════════════════════════════════════════════════════ -->
+  <text x="30" y="700"  text-anchor="middle" font-size="10" fill="#1d4ed8" font-weight="bold" writing-mode="tb">UPLOAD API</text>
+  <text x="30" y="1300" text-anchor="middle" font-size="10" fill="#0e7490" font-weight="bold" writing-mode="tb">INGESTION PIPELINE</text>
+  <text x="30" y="1960" text-anchor="middle" font-size="10" fill="#b45309" font-weight="bold" writing-mode="tb">INDEXER</text>
+
+</svg>

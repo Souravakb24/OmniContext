@@ -1,0 +1,14 @@
+
+Officer or the Battery Commander, as the case may be, shall supervise and control the duties performed by those under his command and shall be responsible for the training, administration, health, maintenance of discipline, efficiency and the maintenance of accounts in the establishment,  or  the  Battery  under  his  command,  the  security  of  buildings,  armament, equipment, and other stores under his charge and shall see that these are complete, serviceable and confirm to the latest pattern and scale from which no deviation shall be allowed without the sanction of the Government.
+
+- The Commanding Officer or the Battery Commander,  shall bring to the notice of the Administrative authority all defects, losses and damages which such Commanding Officer has not been able to rectify.
+- The  Commanding  Officer  or  the  Battery  Commander  shall  so  that  no  sailor  or civilian employee who is not fit to perform his duty is retained in the service.
+- The Commanding Officer or the Battery Commander shall in the performance of his duties be guided by Chapter 3 of the Regulations for the Navy Part I.
+- Officers other than Commanding Officer-Tenure of Appointment. (1) The tenure of appointment of officers other than the Commanding Officers, except when otherwise ordered by the Government, shall be three years, In the case of an officer belonged to the service, it may be extended for a period of one year at a time provided that the total period so extended shall not exceed five years.
+- Arrangements  for  relieving  officers  shall  be  made  so  as  to  ensure  continuity  of administration and training.
+
+NoteWhen only one officer in any rank belonging to the permanent establishment is appointed as  an  officer  other  than  a  Commanding  Officer  in  the  entire  establishment,  the  tenure  of appointment as prescribed in this regulation shall not apply in so far as officers of the regular navy are concerned.
+
+- Duties of Officers other than Commanding  Officers. Officers other than Commanding Officers  or  Battery  Commanders  are  to  be  guided  in  the  performance  of  their duties by Chapters 4,5,6,7,8,9,10,14,15,18 and 21 of the regulations for the Navy Part I
+- Sanctioning Authority of Personnel of the Service. The Commissions  in the Service with  designations  of  rank  corresponding  to  those  of  regular  Navy  shall  be  granted  by  the President  and  the  sanctioning  authority  for  the  appointment  of  officers  of  the  service  like commanding, Executive.  Logistics and other officers shall be the Naval Headquarters and for sailors Commodore, Bureau of Sailors.
+- Officers  Performing  Special  Duties. An  officer  holding  a  command  is  to  afford  to every  officer  under  his  command,  charged  with  special  or  particular  duties,  the  means  of performing such duties properly and faithfully.

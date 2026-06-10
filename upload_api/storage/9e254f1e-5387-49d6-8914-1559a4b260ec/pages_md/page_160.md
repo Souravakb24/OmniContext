@@ -1,0 +1,12 @@
+- 6.19.2 Purchase officers must consult the Legal Advisor (Defence) and Government counsel in all cases of arbitration.
+- 6.19.3 To avoid lengthy arbitration proceedings and subsequent appeals, etc., efforts shall be made to ensure effective defense and timely presentation  of  the  case  to  the  arbitrator/  arbitration  tribunal. Documents to be filed in the matter of resolution of dispute, if any,  shall  be  carefully  scrutinised  before  filing,  to  safeguard government interest.
+
+## 6.19.4 Arbitration Awards
+
+
+.
+
+- (a) Arbitration/  court  awards  should  be  critically  reviewed.  In cases where there is a decision against government/ public sector enterprise (PSE), the decision to appeal should not be taken in a routine manner, but only when the case genuinely merits  going  for  the  appeal  and  there  are  high  chances  of winning in the court/ higher court.
+- (b) In  cases  where  the  Ministry/  Department/  Organisation  has challenged an arbitral award and, as a result, the amount of the arbitral award has not been paid, 75% of the arbitral award (which may include interest up to date of the award) shall be paid by the Ministry/ Department/ Organisation to the contractor/ concessionaire against a Bank Guarantee (BG). The BG shall only be for the said 75% of the arbitral award as above and not for  the  interest  which  may  become payable to the Ministry/ Department/ Organisation should the subsequent court order require refund of the said amount.
+- (c) The payment may be made into a designated Escrow Account with  the  stipulation  that  the  proceeds  will  be  used  first,  for payment of lenders' dues, second, for completion of the project and then for completion of other projects of the same Ministry/ Department/ Organisation as mutually agreed/ decided. Any  balance  remaining  in  the  escrow  account  subsequent to  settlement  of  lenders'  dues  and  completion  of  projects of  the  Ministry/  Department/  Organisation  may  be  allowed to  be  used  by  the  contractor/  concessionaire  with  the  prior approval  of  the  lead  banker  and  the  Ministry/  Department/ Organisation. If otherwise eligible and subject to contractual provisions, retention money and other amounts withheld may also be released against BG.
+- (d) Provisions  of  Manual  for  Procurement  of  Goods  issued  by Ministry  of  Finance  shall  be  referred  with  regard  to  Dispute Resolution.

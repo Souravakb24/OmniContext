@@ -1,0 +1,9 @@
+- Persons belonging to any branch of the permanent or the reserve cadre of the Armed Forces  who  have  been  discharged  as  'unsuitable'  or  'Service  No  Longer  Required',  or dismissed shall not be enrolled in the service.  Provided that those discharged on the ground of 'Service No Longer Required' consequent upon reduction of establishment may be considered for enrollment.
+- Suspected Deserters. Where a person offering himself for enrolment is suspected to be a  deserter from the Government service, the Commanding Officer of the establishment or the Officer-in-Charge of the Coast Battery, as the case may be, shall hand  over such person to the Civil Police or to the proper authority of the Service to which he is supposed to belong if such authority so claims him.
+- Previous Service. (1)  In  the case of released personnel from the Armed Forces, who may be eligible to be enrolled in the service and the Commanding Officer of the establishment or  the  Officer-in-Charge  of  the  coast  Battery  is  satisfied  that  such  personnel  are  up  to  the standard of the class will be paid equivalent to the pay group to which such personnel belonged at the time of release.
+- On joining the Service, the sailors shall be allowed to count for purposes of increment of pay-
+- (a) full paid previous service in the regular Armwed Forces;
+- (b)  previous called up or embodied service in full and one-fourth of other service in the Reserve Forces.
+- Age of  compulsory  Retirement. No sailor  shall  be  retained  in  the  Service  after  he attains the age of fifty-five years.
+- Discharge certificate. A sailor who is discharged from the Service shall be furnished with a certificate of Service as is done for the regular naval personnel.
+- The terms and conditions of service for the permanent staff, officers, Master Chief Petty Officers, Sailors and other personnel shall be as specified in Schedules III and IV.

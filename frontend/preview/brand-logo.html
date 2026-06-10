@@ -1,0 +1,31 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Logo</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { background: var(--paper); display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; }
+  .stage { display: flex; align-items: center; justify-content: center; padding: 28px 24px; border-radius: var(--radius-md); border: 1px solid var(--mist); background: var(--paper-bright); height: 160px; box-sizing: border-box; }
+  .stage.dark { background: var(--ink); border-color: var(--ink); }
+  .wm { font: italic 400 56px "Instrument Serif", "Iowan Old Style", Georgia, serif; letter-spacing: -0.015em; line-height: 1; }
+  .ink .wm  { fill: #0E1B2C; }
+  .dark .wm { fill: #F5F1E8; }
+  .fl  { fill: none; stroke: #2E6F8E; stroke-width: 2.2; stroke-linecap: round; }
+  .dark .fl { stroke: #D9B271; }
+  .dot.ink { fill: #2E6F8E; } .dot.dark { fill: #D9B271; }
+</style></head>
+<body>
+<div class="card">
+  <div class="stage ink">
+    <svg viewBox="0 0 440 92" width="320" height="68" aria-label="InflowMind">
+      <text class="wm" x="14" y="60">InflowMind</text>
+      <path class="fl" d="M 6 80 C 60 66, 110 92, 170 78 S 280 56, 330 78 S 430 92, 438 72" />
+      <circle class="dot ink" cx="298" cy="18" r="3.4"/>
+    </svg>
+  </div>
+  <div class="stage dark">
+    <svg viewBox="0 0 440 92" width="320" height="68" aria-label="InflowMind">
+      <text class="wm" x="14" y="60">InflowMind</text>
+      <path class="fl" d="M 6 80 C 60 66, 110 92, 170 78 S 280 56, 330 78 S 430 92, 438 72" />
+      <circle class="dot dark" cx="298" cy="18" r="3.4"/>
+    </svg>
+  </div>
+</div>
+</body></html>

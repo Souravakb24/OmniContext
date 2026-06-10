@@ -1,0 +1,21 @@
+
+## SECONDMENT AND RETIREMENT
+
+- 16 . Cadre of Officers .    The cadre  of  officers  in the  Service shall be  as  authorized  by  the Government.
+- 17 . Branches. The Service shall comprise Executive, Engineering, Electrical, Medical and Education Branches.
+- 18 . Ranks. The following ranks are authorized to be held by;
+- (a) Executive Branch. -  Commander, Lieutenant Commander, Lieutenant, SubLieutenant, Acting Sub-Lieutenant.
+- (b) Engineering BranchCommander, Lieutenant Commander, Lieutenant, SubLieutenant, Acting Sub-Lieutenant
+- (c) Electrical  Branch-Commander,  Lieutenant  Commander,  Lieutenant,  SubLieutenant, Acting Sub-Lieutenant
+- (d) Medical Branch.Surgeon Commander, Surgeon Lieutenant, Lieutenant,urgeon Lieutenant.
+- (e) Education BranchCommander, Lieutenant Commander, Lieutenant, Sub-Lieutenant, Acting Sub-Lieutenant
+
+## 19. Precedence
+
+- The order of precedence shall  be  Indian  Navy  and  Indian  Naval  Auxiliary Service.
+- All officers shall take precedence in the order specified in sub-regulation (1), rank for rank irrespective of seniority.
+- Officers holding equivalent acting higher ranks shall rank among themselves according to the date of their substantive seniority.
+- 20 . Types of Commissions. There shall be two types of commissions in the Service-
+- (a) Permanent  Commission. Officers  granted  permanent  commission  in  the Service shall undergo specified training as laid down from time to time in peace time and shall be liable to be called up for actual service with the Indian Navy, in case  of  emergency  or  when  grave  emergency  appears  to  be  imminent  or whenever required.
+- (b) Honorary Commission.
+- (i) High Government officials, officers of the Army, the Navy and the Air Force  and  persons  of  good  social  position  may  be  granted  honorary

@@ -1,0 +1,12 @@
+- (b) Cases falling under above Sub-Paragraph, shall not be treated as Single Tender Enquiry (STE)/ PAC procurements.
+- 2.7.2 Further  details  regarding  procurement of goods/ services developed/ produced with ToT or through Indigenous Design & Development from the Indian industry, are brought out in Chapter 10.
+
+## 2.8 Emergency Procurements
+
+- 2.8.1 Emergency Procurements are procurements made under delegated financial  powers  of  certain  specified  authorities  in  the  Defence Services, which are exercisable by them during periods preparatory to war, hostilities, special operations, natural calamities and disasters. Such procurements are to be undertaken as and when the aforesaid eventualities are notified by the Government. The proposal related to procedure to be followed for exercising Emergency Powers shall be routed through FA (DS) to Secretary DMA and Defence Secretary, for approval of Raksha Mantri. However, emergency procurements by the Defence Services may only be undertaken for indigenous stores/ spares/equipment, etc. and exception if any, irrespective of value, will require specific approval of the RM. In such cases of import, the requirement for alternate product development/ procurement from indigenous sources may be dispensed with temporarily on case to case basis. Further, care may be taken to ensure that services, repairs and maintenance of existing assets taken up through the emergency procurement  route,  are  not  disproportionate  with  procurement of  armaments,  equipment,  etc.  The  proposals  for  emergency procurement  of  stores/spares,  etc.  must  be  accompanied  with initiatives taken and timelines towards indigenisation.  The matter may be reviewed at all CFA levels concerned, whenever emergency procurements are proposed/undertaken.
+- 2.8.2 MoD's SoP on Emergency Procurement, issued from time to time, may be referred in this regard.
+- 2.8.3 Special Financial Powers .  The process of tendering/conclusion of contract while exercising special financial powers as provided for in  the  DFPDS  shall  be  in  accordance  with  the  norms  specified  in the DFPDS and guidelines/provisions of this Manual and/or relevant directive/orders of MoD issued from time to time.
+
+## 2.9 Time Limit for Procurement & Accountability
+
+- 2.9.1 The  effect of delay in  processing  and  clearance  of  various procurement  activities  needs  no  emphasis.  The  decentralisation of decision making mechanism and delegation of financial powers are aimed at facilitating faster decision making and obtaining the

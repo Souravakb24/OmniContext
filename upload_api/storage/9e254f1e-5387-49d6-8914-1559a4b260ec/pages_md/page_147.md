@@ -1,0 +1,12 @@
+
+these cases, the letter of acceptance shall result in a binding contract. This mode could be used in single bid cases, local purchase of COTS items, items with standard specifications, etc.
+
+- (c)    However, Purchase/ Supply orders should be placed in all cases where  the  purchase  is  made  against  Rate  Contracts/  Price Agreements centrally concluded by the Central Procurement Authorities/ Departmental authorities, who are empowered to do so.  Sanction of the CFA under whose financial powers the Purchase/Supply Order falls, need to be obtained every time the Purchase/Supply Order is placed
+- (d) For purchases valued above ₹ 10 lakh, a Contract document should be executed, with all necessary clauses.
+- (e)  A Contract document should invariably be executed in respect of  all  turnkey  projects  or  agreements  for  maintenance  of equipment and provision of services.
+
+## 6.11 Changes in the Terms of/ Amendment to a Concluded Contract
+
+- 6.11.1   Changes  in  the Terms  of  a  Concluded  Contract .    No  variation in the terms of a concluded contract should normally be made, unless the contract specifically provides for it, in which case, this can be done with the specific written consent of the parties to the contract.
+- 6.11.2   Amendment to a Concluded Contract .  Amendment to a contract already  concluded,  may  become  essential  in  certain  situations when  either  party  to  the  contract  requests  for  an  amendment and the proposed amendment is acceptable to the other party to the contract. Requests for such amendment and modifications mostly  emanate  from  the  supplier.  However,  in  a  few  cases,  it may be necessary to amend the contract suo moto in the interest of  the  administration.  In  such  cases,  it  is  legally  necessary  to obtain clear acceptance of the amendment from the supplier. If the  contractor  does  not  raise  objections  within  14  days  to  any suo-moto  modifications/  amendments  made  by  the  Procuring Entity, it shall be assumed that the contractor has consented to the amendment.
+- 6.11.3   Enhancement in Rates .  No enhancement in rates/ prices should be  made  unless  the  contract  specifically  provides  for  it.  Such situations may arise in those cases where the contract provides for  Price  Variation  Clauses,  Exchange  Rate  Variation  clause  or the  change  is  due  to  variation  in  GST/  Customs  Duties/  other Government taxes & levies and the contract provides for payment

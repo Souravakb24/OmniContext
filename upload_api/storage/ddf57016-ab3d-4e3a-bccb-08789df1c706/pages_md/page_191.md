@@ -1,0 +1,19 @@
+
+## GUIDELINES FOR PREPARATION OF COMMERCIAL BID
+
+- Summary Sheet at Enclosure 5 of this RFP should be filled in all respects.
+- The enclosed Quantified Work Package at Annexure 2 of SoR ( Enclosure 1 ) is to be filled up in all respects. Unit cost/ rate for each serial as also the total cost of repairs, {e.g. ₹ .....X..... for One Pump (unit rate) and ₹ .....Y..... for five pumps (total cost)} and budgetary cost of mandatory spares should be indicated against each Defect List Item. The cost of Anticipatory Spares should be indicated separately, but this would not be used for determining L1.
+- Cost  of  yard  materials  such  as  steel  plates,  weld  consumables,  general  nature  cables,  pipes and tubes should be indicated separately. Whereas, ferrous scrap shall be the property of the Contractor, non-ferrous items and unused spares shall be the property of the Customer. The cost of ferrous material indicated in the Bid should therefore be inclusive of discount for scrap value.
+- Each page is to be authenticated (signed) by the Bidder.
+- Page numbering is a must to identify/ locate missing/ misplaced pages.
+- Bid Validity .  The Commercial Bid is to be valid ..................... days ( period to be specified, not exceeding 180 days ) from the last date of submission of the Bids.
+- A sample for preparation of Commercial Bid is appended below:-
+
+| Defect List   |                                                                                                                                                                                       | Repair Cost                                                                     | Repair Cost                                                                                                                    | Budgetary Cost                                                                            |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Item No.      | Description                                                                                                                                                                           | Unit Cost                                                                       | Total Cost                                                                                                                     | of Mandatory Spares                                                                       |
+| 0023          | Fuel Storage Tank Top plating between Frames 26 to 31.5 (Port & Stbd) holed to be renewed. Approximate area 15m 2 . Thickness 6mm. The following items are required to be removed and | (a) ₹ X (per m 2 of renewal of steel) (b) ₹ Y (Cost of Steel Plate per m 2 /kg) | (a) ₹ A (b) ₹ B { Indicate clearly discount, if any, in the amount mentioned in (a) & (b) for the Total scope of DL No. 0023 } | Specify cost of all spares required for completion of the scope of each DL, as applicable |
+| 0024          | Five Gyro Motor Units to be overhauled                                                                                                                                                | ₹ Z                                                                             | ₹ C {Indicate clearly discount, if any, in the amount mentioned in (a) for the Total scope of DL No. 0024 }                    |                                                                                           |
+
+
+## Enclosure 4

@@ -1,0 +1,15 @@
+- (g) A Bidder or any of its affiliates participated as a consultant in the preparation of the design or technical specifications of the contract that is the subject of the Bid;
+- (h) In case of a holding company having more than one independent manufacturing unit  or  more  than  one  unit  having  common  business  ownership/  management, only one unit should quote. Similar restrictions would apply to closely related sister companies.  Bidders  must  proactively  declare  such  sister/  common  business/ management units in same/ similar line of business.
+
+## 20. Public Procurement (Preference to Make in India) (PPP-MII) Order, 2024 .
+
+- (a) Orders issued by the Government of India regarding eligibility to participate and for purchase preference to 'Local Suppliers' to encourage 'Make in India' and promote manufacturing  and  production  of  goods  and  services  in  India,  as  amended  and revised till date, shall apply to this procurement.
+- (b) Categories of Local Suppliers .  Bidders are divided into three categories based on Local Content {the amount of value added in India, which shall be the total value of  the  item  procured  (excluding  net  domestic  indirect  taxes)  minus  the  value  of imported content in the item (including all customs duties) as a proportion of the total value, in percentage}:-
+- (i) 'Class-I local Supplier' with local content equal to or more than ..................... (to be specified) or 50%, whichever is higher.
+- (ii) 'Class-II  local  Supplier'  with  local  content  more  than  ..................... (to  be specified) or 20%, whichever is higher, but less than that applicable for Class-I local Supplier.
+- (iii) 'Non-Local Supplier' with local  content  less  than  that  applicable  for  Class-II local Supplier, in sub-paragraph (ii) above.
+- (c) Purchase Preference .  Subject to the provisions of this Order and to any specific instructions issued by the Nodal Ministry or in pursuance of this Order, purchase preference  shall  be  given  to  Class-I  local  suppliers  in  procurements  undertaken (where the estimated value to be procured is more than 5 lakh) by procuring entities in the manner specified hereunder.
+- (i) In the procurement of goods, which are divisible in nature, the Class-I local supplier shall get purchase preference over Class-II local supplier as well as Non-local supplier, as per following procedure:-
+- (aa) Among all qualified bids, the lowest bid shall be termed as L1. If L1 is a Class-I local supplier, the contract for full quantity shall be awarded to L1.
+- (ab) Among all qualified bids, the lowest bid shall be termed as L1. If L1 is Class-I local supplier, the contract for full quantity shall be awarded to L1.
+- (ac) If L1 bid is not a Class-I local supplier, 50% of the order quantity shall be awarded to L1. Thereafter, the lowest bidder among the Class-I local suppliers shall be invited to match the L1 price for the remaining 50%

@@ -1,0 +1,11 @@
+
+one year, then midpoint of delivery period is to be taken for deciding escalation. Month-wise escalation from date of LPP may be given, or if it is proposed yearly, then seven months or more may be considered for one additional year's escalation, e.g. if an item is to be delivered in the FY 2024-25  and LPP is for FY  2018-19, then the prices are to be escalated from the FY 2019-20 up to FY 2024-25.
+
+- (e) Budgetary Quotes (BQs). BQs obtained from one or more prospective sellers may also form the basis of benchmarking cost. If there is huge variation in the BQs, the aberrations are to be marginalised.
+- (f) Market  Surveys  (MS). Prevailing  market  rates  obtained through  MS  or  prices  available  from  open  sources  like internet,  etc.,  may  be  taken  for  benchmarking.  The  source and authenticity of the market rates so obtained, are to be indicated in the CNC.
+- (g) Labour Cost. Labour cost is to be broken down into labour hours  used  and  the  Man-Hour  Rate  (MHR).  In  case  of procurement of major items, the apportionment of estimated hours  required  by  the  vendor  and  the  MHR  of  the  vendor, where available, is to be used for working out the labour cost.
+- (h) Professional Officers'  Valuation  (POV). POV  may  be considered  in  case  no  other  prices  are  available  of  that particular item.
+- (i) Factoring Discounts/ Exchange Rate Variation (ERV). Discounts may be factored in while benchmarking, viz. on account  of  Long-Term  Business  Agreements  (LTBA)  with other OEMs or economies of scale. In case of Bought Out Items (BOI) from abroad or indigenous items with substantial import content, LPP plus Exchange Rate Variation (ERV) since last purchase date, if any, are to be factored in benchmarking.
+- (j) Taxes and Duties .  Taxes and duties may not be factored in, while benchmarking.
+- (k) DPSUs .    In  case  of  DPSUs,  the  parameters  of  cost  as  per Pricing Policy or Govt. of India letters, if any, may be factored in while arriving at benchmark price.
+- (l) Other Factors .  Factors such as obsolescence, redundancy, Freight  &  Insurance,  Profit  &  Warranty,  etc.,  may  also  be considered while arriving at benchmark price.

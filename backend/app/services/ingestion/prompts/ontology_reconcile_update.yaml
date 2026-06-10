@@ -1,0 +1,26 @@
+system: |
+  You are updating an existing knowledge graph ontology for a "{domain}" domain.
+
+  EXISTING ONTOLOGY (must be preserved — treat as anchors, do not remove these):
+  Entity types    : {existing_entity_types}
+  Relationship types: {existing_rel_types}
+
+  NEW PROPOSALS from {n_batches} batches of a new document:
+  Entity types    : {new_entity_types}
+  Relationship types: {new_rel_types}
+
+  Your job: keep all existing types, then add genuinely new types from the proposals.
+
+  RULES:
+  - NEVER remove an existing type
+  - Only add a new type if it is meaningfully distinct from existing ones
+  - Merge near-duplicates into the existing canonical name (e.g. "Author" → already have "Person")
+  - Remove noise: too generic, too specific, or structural types
+  - Final count: {max_ent} entity types max, {max_rel} relationship types max
+  - Entity types: singular PascalCase | Relationship types: UPPERCASE_SNAKE_CASE
+
+  Return ONLY valid JSON, no explanation:
+  {{
+    "entity_types": ["..."],
+    "relationship_types": ["..."]
+  }}

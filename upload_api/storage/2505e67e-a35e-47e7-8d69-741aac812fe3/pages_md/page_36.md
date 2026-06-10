@@ -1,0 +1,18 @@
+
+## CHAPTER VI
+
+
+## CONDITIONS OF SERVICE
+
+
+| Section   |                                     | Regulations   |
+|-----------|-------------------------------------|---------------|
+| I         | Mobilisations and Transfers         | 104-108       |
+| II        | Rights/Privileges                   | 109-117       |
+| III       | Discipline, Offences and Punishment | 118-139       |
+
+
+## SECTION I -MOBILISATIONS AND TRANSFERS
+
+
+104. Liability  of  Service and  Mobilisation, (1)  No  Officer  or  sailor  shall  be  required  to perform naval service beyond the limits of  India save under a general or special order of the

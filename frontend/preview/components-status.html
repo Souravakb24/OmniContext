@@ -1,0 +1,39 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Status pills</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { padding: 24px 28px; display: flex; flex-direction: column; gap: 14px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill { font: 500 12px/1 var(--font-sans); padding: 6px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 6px; letter-spacing: 0.005em; }
+  .dot { width: 6px; height: 6px; border-radius: 999px; }
+  .neutral { background: var(--mist); color: var(--ink-2); } .neutral .dot { background: var(--ink-3); }
+  .current { background: var(--current-soft); color: var(--current-deep); } .current .dot { background: var(--current); }
+  .moss    { background: var(--moss-soft); color: var(--moss); } .moss .dot { background: var(--moss); }
+  .ember   { background: var(--ember-soft); color: var(--ember); } .ember .dot { background: var(--ember); }
+  .sand    { background: var(--sand-soft); color: #7A5A1C; } .sand .dot { background: var(--sand); }
+  .pulse .dot { animation: pulse 1.4s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: 0.3 } }
+  .meta { font: var(--type-overline); text-transform: uppercase; letter-spacing: var(--tracking-overline); color: var(--fg-subtle); }
+</style></head>
+<body>
+<div class="card">
+  <div class="meta">Ingestion pipeline</div>
+  <div class="row">
+    <span class="pill neutral"><span class="dot"></span>Uploaded</span>
+    <span class="pill current pulse"><span class="dot"></span>Converting</span>
+    <span class="pill current pulse"><span class="dot"></span>Parsing</span>
+    <span class="pill current pulse"><span class="dot"></span>Chunking</span>
+    <span class="pill current pulse"><span class="dot"></span>Embedding</span>
+    <span class="pill current pulse"><span class="dot"></span>Indexing</span>
+    <span class="pill moss"><span class="dot"></span>Ready</span>
+    <span class="pill ember"><span class="dot"></span>Failed</span>
+  </div>
+  <div class="meta">Roles &amp; quotas</div>
+  <div class="row">
+    <span class="pill current">Admin</span>
+    <span class="pill neutral">Member</span>
+    <span class="pill sand">Pro</span>
+    <span class="pill sand">2 of 5 left</span>
+    <span class="pill ember">Account disabled</span>
+  </div>
+</div>
+</body></html>

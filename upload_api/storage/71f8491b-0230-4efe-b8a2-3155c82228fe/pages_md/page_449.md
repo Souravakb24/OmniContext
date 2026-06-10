@@ -1,0 +1,15 @@
+
+Government or administration  (under delegated authority) of the place where  the  armoury  is  situated.  A  copy  of  the  entries  in  the  registers relating to the quarters' ending the last day of March, June, September or December, each year, certified as true copy under the signature of the officer-in-charge of the ships/establishment armoury  will be forwarded  to  the  District  Magistrate  concerned  as  early  as  possible after  the  expiry  of  each  quarter.  The  officer  in-charge  of  the  unit armoury will also submit to District Magistrate by 15 th December each year,  a  report  showing  the  particulars  of  arms  or  ammunition  in  the unit armoury which have or will become liable to forfeiture by the end of that year.
+
+- (l) Arms and ammunition deposited  in  a  ship's/establishment's  armoury and the register maintained for this purpose will be inspected periodically  by  the  Commanding officer of the ship's/establishments, or  any  other  officer  empowered  by  him,  in  accordance  with  the procedure  prescribed  by  the  state  Government  where  the  ship  or establishment is located.
+
+(3) Officer. An officer is allowed to possess fire arms for the purposes of sport provided that before their purchase he takes out a licence on payment of prescribed fee for the possession of such weapons unless otherwise exempt.
+
+
+(4) Sailors. Sailors whether on the active list or retired and in receipt as such of a pension, if granted a licence to carry or possess a sporting gun, a rifle together with a reasonable quantity of ammunition for sporting purposes, in Form III set out in Schedule III to Arms Rule 1962, are exempt from the payment of any fee for such a licence, provided that if application for renewal is not made within one month of the date  on  which  the  licence  expired  and  unless  the  applicant  satisfies  the  licensing authority  that  he  had  sufficient  cause  for  not  making  the  application  within  that period,  the  licensing  authority  may,  in  his  discretion,  levy  renewal  of  the  rate specified in the form. If an individual wishes to carry these Arms and ammunition on a journey outside the area covered by the licence (se out in Schedule III to the Arms Rule)  on  payment  of  the  prescribed  fee.  Arms  and  ammunition  will  not  be  carried when proceeding on leave to foreign countries.
+
+
+(5) Purchase  of  Arms  by  Sailors. A  sailor  shall  not  purchase  arms  or ammunition unless: -
+
+- (a) He  has been furnished by his  Commanding  officer  or  head  of department with a written permit specifying, in the case of arms, the period for which it is valid, and in the case of ammunition, the amount purchase able on the occasion by each individual purchase
+- (b) The arms and ammunition are purchased from a person entitled under the Arms Act, 1959 (Act 54 of 1959) and Arms Rules 1962, to possess or sell arms or ammunition.

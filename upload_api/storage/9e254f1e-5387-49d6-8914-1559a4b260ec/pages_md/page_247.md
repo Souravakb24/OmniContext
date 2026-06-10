@@ -1,0 +1,12 @@
+
+Paragraph  11.7.2  above,  in  addition  to  guidelines  specified  in Chapter 5 and Paragraph 2.1.10 (Chapter 2). It should be framed in  such  a  manner  as  to  encourage  maximum  participation from  competent  vendors.  Technical  specifications  should  be framed  duly  keeping  the  provisions  of  Rule  144  of  GFR  2017 and Paragraph 5.14 (Chapter 5) in view. The RFP clauses shall be  framed  with  objective,  clear,  measurable  and  functional parameters,  duly  incorporating  specific  technical,  qualitative and performance characteristics, keeping in view the scope of the  project  and  needs  of  the  procuring  organisation,  without including  superfluous,  ambiguous  and  non-essential  features. The RFP shall be vetted by the Integrated Finance in those cases where financial powers are to be exercised with the concurrence of Integrated Finance. If pre-qualification is decided upon, RFP shall be given only to prequalified bidders.
+
+- 11.7.4 Terms of Reference (TOR) for Engagement of Consultants .   In case consultants are to be engaged for complex and turnkey ICT projects, TOR as given in Paragraphs 12.5.2 shall be included in the RFP.
+- 11.7.5 Evaluation Criteria .  Based on the nature and complexity of the project  and  scope  of  work  envisaged,  the  proposals  shall  be evaluated as per one of the methods given in Paragraph 5.31.6 (Chapter 5).
+
+## 11.8 Special Features
+
+- 11.8.1 Change Management .  Following mechanism may be put in place at  various  stages  of  processing  to  cater  for  rapid  changes  in technology:-
+- (a) Technical  Specifications .  Technical  specifications  should include use of words 'or higher' after the indicated specifications, to cater for technology upgrades.
+- (b) Between  Grant  of  AoN  and  Issue  of  RFP .    Any  change/ upgradations    (except  minor  corrections)  in  specifications of hardware or software (without change in envisaged scope or cost of project) between grant of AoN and issue of RFP , may  be  approved  by  CFA  concerned,  in  consultation  with respective  technical  directorate/  department.  In  case  the change/ upgradation results in change in the scope or cost of the project, then fresh AoN shall be sought.
+- (c) After Issue of RFP  and Before Bid Submission  Date Extended Date .  Any amendments (except minor corrections)

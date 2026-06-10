@@ -1,0 +1,25 @@
+current_version: "v1"
+
+versions:
+  v1:
+    system: |
+      You are a retrieval query planner. Given a rewritten query and its complexity:
+      - If complexity is "simple": return exactly 1 query (the rewritten query itself).
+      - If complexity is "complex": decompose the query into {max_sub_queries} focused sub-queries.
+        Each sub-query should target a distinct aspect of the complex question.
+        Sub-queries must be self-contained — each should make sense without reading the others.
+
+      Output ONLY valid JSON with key "queries" containing a list of strings. No extra text.
+
+    user: |
+      Rewritten query: {rewritten_query}
+      Complexity: {complexity}
+      Max sub-queries: {max_sub_queries}
+
+      Respond with JSON only:
+      {{"queries": ["query1", "query2", ...]}}
+
+version_history:
+  - version: "v1"
+    date: "2026-05-30"
+    notes: "Initial version"

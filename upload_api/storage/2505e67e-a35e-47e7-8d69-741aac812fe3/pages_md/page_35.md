@@ -1,0 +1,11 @@
+- Responsibility for Safe Custody of Clothing. (1) Sailors shall be responsible for the safe custody of all articles of clothing and necessaries issued to them which shall be recovered on their discharge from service.
+- Sailors  shall' be  required  to make good any deficiencies discovered at the time of their discharge in accordance with the rules applicable to sailors of the Indian Navy.
+- Condemnation and Replacement of Clothing and Stores. Condemnation of Clothing and Stores  shall be carried out by  a board of  survey  and demand for replacement shall be in accordance with the corresponding regulations for the Navy.
+- Victualling. (1) Sailors shall be entitled  to rations as admissible to sailors in the Indian Navy.
+- Directives contained in the Victualling Directive (IBR-14) shall be applicable to the units of the Service.
+- Accounting  Procedure. The  accounting  procedure  as  laid  down  in  Part  III  of  the Victualling Directive shall be followed by the establishments of the service.
+- Payment Issues. Officers and sailors, when embodied, shall be entitled to draw victuals on payment, as applicable to the regular personnel of the Indian Navy.
+- Mess Traps. (1) Commanding Officers and officers messes in establishments shall be entitled  to  the  same  common  sliding  scale  of  mess  traps  as  is  applicable  to  Commanding Officers of Ships or establishments and wardroom messes respectively of Indian Naval Ships and establishments.
+- Conditions regarding initial issue, replacement, etc. shall also remain the same.
+- Establishments  shall  be  entitled  in  respect  of  sailors  of  the  Service  to  the  same common sliding scales of mess utensils, implements, and galley gear as are applicable to sailors in Indian Navy.  Ships and establishments.
+- Conditions regarding initial issue, replacement and survey shall remain the same.

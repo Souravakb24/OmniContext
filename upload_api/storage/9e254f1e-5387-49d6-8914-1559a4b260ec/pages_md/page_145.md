@@ -1,0 +1,12 @@
+
+material variation in any of the terms or conditions in a contract becomes unavoidable, the financial and other effects involved should  be  examined  and  recorded  and  specific  approval  of the authority competent to approve the revised financial and other commitments obtained, before varying the conditions. All such changes should be in the form of an amendment to the contract, duly signed by all parties to the contract.
+
+- (e) No  contract  involving  an  uncertain  or  indefinite  liability  or any  condition  of  an  unusual  character  should  be  entered into without the previous consent of the competent financial authority.
+- (f) Whenever practicable and advantageous, contracts should be placed only after tenders have been openly invited.
+- (g) In  selecting  the  tender  to  be  accepted,  the  financial  status of  the  individuals  and  firms  tendering  should  be  taken  into consideration, in addition to all other relevant factors.
+- (h) No work of any kind should be commenced without proper execution of an agreement/ contract.
+- (i) Even in those rare cases where a formal written contract is not made, no order for supplies, etc., should be placed without at least a written agreement as to the price.
+- (j) It  is  desirable that the Contract document, where necessary, is executed within 21 days of the issue of letter of acceptance or within mutually agreed period as specified in the contract. Non-fulfilment  of  this  condition  of  executing  a  contract  by the contractor or supplier would constitute sufficient ground for annulment of the award and forfeiture of Earnest Money Deposit.
+- (k) Contracts shall normally be entered into on a firm and fixed price basis, with payments linked to deliveries, for which the bidders  are  required  to  quote  a  fixed  price  for  completing the  deliveries  in  accordance  with  the  given  specifications/ functional  requirements  as  per  RFP .  Cost  plus  contracts should ordinarily be avoided. Where such contracts become unavoidable, full justification should  be recorded  before entering into the contract.
+- (l) Departmental issue of materials should be avoided as far as possible.  Where  it  is  decided  to  supply  materials  departmentally, a schedule of quantities of such material, which are required to execute the contract work, should form an essential part of the contract.
+- (m) In  contracts  where  government  property  is  entrusted  to  a contractor  either  for  use  on  payment  of  hire  charges  or  for

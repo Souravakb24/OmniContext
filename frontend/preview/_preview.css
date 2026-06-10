@@ -1,0 +1,29 @@
+/* Shared chrome for preview cards. Each card is a 700-wide tile. */
+@import url("../colors_and_type.css");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper-soft);
+  color: var(--ink);
+  font: var(--type-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  padding: 24px 28px;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+.card .label {
+  font: var(--type-overline);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-overline);
+  color: var(--fg-subtle);
+  margin-bottom: 4px;
+}
+.card .mono { font: var(--type-code-sm); color: var(--fg-subtle); }
+.row { display: flex; align-items: center; gap: 16px; }
+.col { display: flex; flex-direction: column; gap: 16px; }
+.grid { display: grid; gap: 12px; }

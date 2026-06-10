@@ -1,0 +1,13 @@
+
+as technically compliant, is to be opened only thereafter.
+
+- 5.26.5 Validity  of  the  Offer .  The  commercial offer  shall  have  a  validity of up to 18 months from the last date of submission of the offer or  as  indicated  in  the  RFP ,  depending  on  the  period  required  for completing the technical evaluation, so as to ensure that the offer remains valid until the order is placed/ contract signed. A shorter validity period may be prescribed commensurate with the period of trial/ testing.
+- 5.26.6 Assessment of the Vendor's Facility .  If  required  and  considered necessary, a composite delegation of representatives of the User Department,  Quality  Assurance  (QA)  Agency,  Indenter,  CFA  and Integrated Finance may be deputed to visit the plant/ factory of the vendor finally recommended by the CNC to assess the capability/ capacity of the selected vendors  to carry out upgradation, refurbishment, etc., before commercial negotiations are finalised and approved by the CFA.
+
+## 5.27 Instructions to Bidders
+
+- 5.27.1 Subject  to  other  specific  provisions  in  this  Manual,  the  broad instructions for the prospective bidders are as follows:-
+- (a) Eligibility .    All  bidders  who  fulfil  the  'Eligibility  Criteria'  and 'Qualification Criteria' stipulated in the tender document/ RFP shall be eligible to bid. In L TE and two-stage bidding (Second Stage seeking commercial bids) cases, only such bidders who have been specifically invited, or previously shortlisted, shall be eligible to bid.
+- (b) Clarification(s)  on  Bidding  Documents . A  prospective bidder  who  requires  clarification(s)  regarding  the  contents of  the  bidding  documents,  shall  notify  the  Procuring  Entity in  writing  and  the  Procuring  Entity  shall  respond  in  writing to  the  clarifications  sought  not  later  than  14  days  prior  to the  date  of  opening  of  the  tenders.  Copies  of  the  query/ies and clarification/s by the Procuring Entity shall be sent to all prospective bidders who have received the bidding documents.
+- (c) Quotations submitted under Original Memos .    Bids  shall  be forwarded by bidders under their original memo/ letter pad, furnishing, inter alia, the TIN/ GST No., bank details, complete postal and e-mail address of the bidder. This is applicable only in cases other than e-Procurement.
+- (d) Amendment(s) to Bidding Documents .  At any time prior to the date of submission of bids, the Procuring Entity may, whether

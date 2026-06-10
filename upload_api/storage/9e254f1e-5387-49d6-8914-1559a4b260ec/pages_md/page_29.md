@@ -1,0 +1,11 @@
+
+economy, efficiency, effectiveness and integrity in the procurement process. They must avoid wasteful, dilatory and improper practices violating  the  Code  of  Integrity  for  Public  Procurement  (Please see Paragraph 2.1.8) They should, at the same time, ensure that the  methodology  adopted  for  procurement  should  not  only  be reasonable and appropriate for the cost and complexity but should also effectively achieve the planned objective of the procurement.
+
+- 2.1.4 Procedural  Propriety .  In  reference  to  the  above  two  Principles, the procedure to be followed in making public procurement must conform to the following yardsticks: -
+- (a) The description of the subject matter of procurement, to the extent practicable, should be objective, functional, generic and measurable and specify technical, qualitative and performance characteristics.  It  should  not  indicate  a  requirement  for  a particular trademark, trade name or brand.
+- (b) The  specifications  in  terms  of  quality,  type,  etc.,  as  also quantity  of  goods  and  services  to  be  procured,  should  be clearly  spelt  out,  keeping  in  view  the  specific  needs  of  the procuring  organisations.  The  specifications  so  worked  out should  meet  the  basic  needs  of  the  organisation  without including superfluous and non-essential features, which may result in unwarranted expenditure.
+- (c) Where applicable, the technical specifications shall, to the  extent  practicable,  be  based  on  the  national  technical regulations  or  recognised  national  standards  or  building codes, wherever such standards exist, and in their absence, be developed as per India's capabilities, and in the meantime, where  unavoidable,  be  based  on  the  relevant  international standards.
+- (d) Care should also be taken to avoid purchasing quantities in excess of requirement to avoid inventory carrying costs.
+- (e) Offers  should  be  invited  following  a  fair,  transparent  and reasonable procedure.
+- (f) The procuring authority should be satisfied that the selected offer adequately meets the requirement in all respects.
+- (g) The  procuring  authority  should  satisfy  itself  that  the  price of  the  selected  offer  is  reasonable  and  consistent  with  the quality required.

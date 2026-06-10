@@ -1,0 +1,13 @@
+- (ad) In case of an unincorporated association or body of individuals, the beneficial owner  is  the  natural  person(s),  who,  whether  acting  alone  or  together,  or through one or more juridical person, has ownership of or entitlement to more than 15% of the property or capital or profits of such association or body of individuals.
+- (ae) Where no natural person is identified under sub-paragraphs (aa), (ab), (ac) or (ad) above, the beneficial owner is the relevant natural person who holds the position of senior managing official.
+- (af) In  case  of  a  trust,  the  identification  of  beneficial  owner(s)  shall  include identification of the author of the trust, the trustee, the beneficiaries with 15% or more interest in the trust and any other natural person exercising ultimate effective control over the trust through a chain of control or ownership.
+- (f) An 'agent', for the purpose of sub-paragraph (c) above, shall be a person employed to do any act for another, or to represent another in dealings with third person.
+- Conflict of Interest among Bidders/ Agents .   A Bidder shall not have conflict of interest with other bidders. Such conflict of interest can lead to anti-competitive practices to the detriment of Buyer's interests. The Bidder found to have a conflict of interest shall be disqualified. A Bidder may be considered to have a conflict of interest with one or more parties in this bidding process, if:-
+- (a) They have controlling partner(s) in common; or
+- (b) They receive or have received any direct or indirect subsidy/ financial stake from any of them; or
+- (c) They have the same legal representative/agent for purposes of this Bid; or
+- (d) They have relationship with each other, directly or through common third parties, that puts them in a position to have access to information about or influence on the Bid of another Bidder; or
+- (e) Bidder participates in more than one Bid in this bidding process. Participation by a Bidder in more than one Bid will result in the disqualification of all bids in which the parties are involved. However, this does not limit the inclusion of components/ subassemblies/ assemblies from one bidding manufacturer in more than one bid.
+- (f) In  cases of agents quoting in offshore procurements, on behalf of their principal manufacturers, one agent cannot represent two manufacturers or quote on their behalf in a particular tender enquiry. One manufacturer can also authorise only one agent/dealer. There can be only one Bid from the following:-
+- (i) The principal manufacturer directly or through one Indian agent on his behalf; and
+- (ii) Indian/ foreign agent on behalf of only one principal.

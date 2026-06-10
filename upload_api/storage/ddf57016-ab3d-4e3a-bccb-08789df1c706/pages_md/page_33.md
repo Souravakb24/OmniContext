@@ -1,0 +1,19 @@
+
+## INDICATIVE TIME FRAME FOR PROCUREMENT UNDER SINGLE BID SYSTEM, TWO BID SYSTEM AND TWO STAGE BIDDING
+
+
+| Ser.               | Activity                                                                                                                                                           | Average Time Period (In Weeks)   | Average Time Period (In Weeks)   | Average Time Period (In Weeks)                         |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------|--------------------------------------------------------|
+|                    |                                                                                                                                                                    | Single Bid                       | Two Bid                          | Two Stage Bidding                                      |
+| Receipt of Indent  | Receipt of Indent                                                                                                                                                  | Receipt of Indent                | Receipt of Indent                | Receipt of Indent                                      |
+| 1.                 | Vetting and Registration of Indent                                                                                                                                 | 1                                | 1                                | 1                                                      |
+| 2.                 | Vendor Selection and preparation of RFP                                                                                                                            | 1                                | 1                                | 1                                                      |
+| 3.                 | IFA's concurrence, CFA's approval and floating of RFP                                                                                                              | 2                                | 2                                | 2                                                      |
+| Procurement Action | Procurement Action                                                                                                                                                 | Procurement Action               | Procurement Action               | Procurement Action                                     |
+| 4.                 | Time allowed for submission of offers                                                                                                                              | 2 to 3                           | 3                                | 3 weeks for technical bids and 2 weeks for commercial  |
+| 5.                 | Opening of technical bid and technical evaluation by TEC                                                                                                           | NA                               | 3                                | 3 weeks for initial round, 2 weeks for each subsequent |
+| 6.                 | Opening of commercial bids, preparation of CST and vetting, etc.                                                                                                   | 2                                | 2                                | 2                                                      |
+| 7.                 | Submission of proposal for procurement or making counter offer or for holding negotiations with the concurrence of the IFA and approval of the proposal by the CFA | 2                                | 2                                | 2                                                      |
+
+
+Appendix D (Refers to Paragraphs 2.9.1 and 4.8.1)

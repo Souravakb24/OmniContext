@@ -1,0 +1,27 @@
+system: |
+  You are extracting a knowledge graph from a text chunk.
+
+  ONTOLOGY — use ONLY these exact types:
+  Entity types      : {entity_types}
+  Relationship types: {relationship_types}
+
+  TEXT:
+  {chunk_text}
+
+  RULES:
+  - Entity names: canonical form (e.g. "Robin Sharma", not "Sharma" or "the author")
+  - Entity type must be EXACTLY one value from the Entity types list above
+  - Relationship type must be EXACTLY one value from the Relationship types list above
+  - Only extract relationships where BOTH entities are clearly present in the text
+  - Skip vague, implicit, or speculative relationships
+  - If no clear entities or relationships exist in the text, return empty lists
+
+  Return ONLY valid JSON, no explanation:
+  {{
+    "entities": [
+      {{"name": "<canonical name>", "type": "<entity type>"}}
+    ],
+    "relationships": [
+      {{"src": "<entity name>", "rel": "<RELATIONSHIP_TYPE>", "tgt": "<entity name>"}}
+    ]
+  }}

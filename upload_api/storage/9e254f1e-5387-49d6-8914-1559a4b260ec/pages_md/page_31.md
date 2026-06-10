@@ -1,0 +1,13 @@
+- (c) Statement  of  the  justification  for  choice  of  a  procurement method other than open competitive bidding.
+- (d) Documents  relating  to  pre-qualification  and  registration  of bidders, if applicable.
+- (e) Particulars  of  issue,  receipt,  opening  of  the  bids  and  the participating bidders at each stage.
+- (f) Requests  for  clarifications  and  any  reply  thereof,  including the clarifications given during pre-bid conferences.
+- (g) Bids evaluated, and documents relating to their evaluation.
+- (h) Contracts and Contract Amendments.
+- (i) Complaint handling and all correspondence with stakeholders.
+- 2.1.7 Financial Propriety . Public Procurement, like any other expenditure in  Government,  must  also  conform  to  Standards  (also  called Canons) of Financial Propriety.  Rule 21 of GFR - 2017 has prescribed that every officer incurring or authorising expenditure from public moneys should be guided by high standards of financial propriety. Every officer should also enforce financial order and strict economy and  see  that  all  relevant  financial  rules  and  regulations  are observed, by his own office and by subordinate disbursing officers. Among the principles on which emphasis is generally laid are the following: -
+- (a) Every  officer  is  expected  to  exercise  the  same  vigilance in  respect  of  expenditure  incurred  from  public  money,  as  a person  of  ordinary  prudence  would  exercise  in  respect  of expenditure of his own money.
+- (b) The  expenditure  should  not  be  prima  facie  more  than  the occasion demands.
+- (c) No  authority  should  exercise  its  powers  of  sanctioning expenditure to pass an order, which will be directly or indirectly to its own advantage.
+- (d) Expenditure  from  public  money  should  not  be  incurred  for the benefit of a particular person or a section of the people, unless: -
+- (i) A claim for the amount could be enforced in a Court of

@@ -1,0 +1,14 @@
+- (ii) In cases of procurement for a value in excess of ₹ 10 crore, the Class-I local supplier/ Class-II local supplier shall be required to provide a certificate from the statutory auditor or cost auditor of the company (in the case of companies) or from a practicing cost accountant or practicing chartered accountant (in respect of suppliers other than companies) giving the percentage of local content.
+- (iii) Complaints  about  Local  Content  declarations  may  be  made  through  the channels  of  Procuring  Entity. (Procuring  Entity  may  prescribe  fees  for  such complaints)
+- (iv) False declarations shall be in breach of the Code of Integrity under Rule 175(1) (i)(h) of GFR 2017, for which a bidder or its successors can be debarred for up to two years as per Rule 151(iii) of GFR 2017, along with such other actions as may be permissible under law.
+- (v) A supplier who has been debarred by any procuring entity for violation of this Order shall not be eligible for preference under this Order for procurement by any other procuring entity for the duration of the debarment.
+- (e) Ineligibility Based on Reciprocity .  Entities from such countries identified as not allowing  Indian  companies  to  participate  in  their  Government  procurement,  shall not be allowed to participate on reciprocal basis in this tender. The term 'entity' of a country shall have the same meaning as under the FDI Policy of DPIIT as amended from time to time.
+
+## 21. Public Procurement Policy for MSEs, 2012 (as amended in 2018 and subsequent amendments) .
+
+- (a) Policies  of  the  Government  to  support  Micro  and  Small  Industries  (MSEs)  in comparison to the large-scale Industries shall apply to this procurement.
+- (b) MSEs shall be exempted from payment of Earnest Money Deposit and issued tender documents free of cost.
+- (c) MSEs which are interested in availing benefits on purchase preference (as given in Sub Paragraph 21(d) below), shall enclose with their offer, the proof of their being registered as MSE on Udyam .
+- (d) Purchase Preference .  Subject to the provisions of this Policy and to any specific instructions issued by the Nodal Ministry or in pursuance of this Policy, purchase preference shall be given to MSEs in procurements undertaken as under:-
+- (i) Margin of Purchase Preference .  The margin of purchase preference shall be L1+15%.
+- (ii) If a MSE bidder quotes a price within the band of the L1+15% in a situation where the L1 price is quoted by someone other than an MSE, the MSE bidders are eligible for being awarded 25% of the total tendered value if they agree to match the L1 price.

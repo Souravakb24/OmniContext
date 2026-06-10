@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Radii</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; padding: 22px 24px; }
+  .tile { text-align: center; }
+  .box { height: 80px; background: var(--paper); border: 1px solid var(--mist); }
+  .name { font: 500 13px var(--font-sans); color: var(--ink); margin-top: 8px; }
+  .val { font: var(--type-code-sm); color: var(--fg-subtle); }
+</style></head>
+<body>
+<div class="card">
+  <div class="tile"><div class="box" style="border-radius:6px"></div><div class="name">sm</div><div class="val">6 px</div></div>
+  <div class="tile"><div class="box" style="border-radius:8px"></div><div class="name">default</div><div class="val">8 px</div></div>
+  <div class="tile"><div class="box" style="border-radius:12px"></div><div class="name">md</div><div class="val">12 px</div></div>
+  <div class="tile"><div class="box" style="border-radius:16px"></div><div class="name">lg</div><div class="val">16 px</div></div>
+  <div class="tile"><div class="box" style="border-radius:20px"></div><div class="name">xl</div><div class="val">20 px</div></div>
+  <div class="tile"><div class="box" style="border-radius:999px"></div><div class="name">pill</div><div class="val">999 px</div></div>
+</div>
+</body></html>

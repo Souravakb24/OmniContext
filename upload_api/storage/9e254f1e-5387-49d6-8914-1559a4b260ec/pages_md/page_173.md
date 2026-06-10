@@ -1,0 +1,17 @@
+- (iv) Specimen signatures of sanctioning and countersigning authorities (in case of ink-signed documents).
+- (v) GST Identification Number (GSTIN)/ Permanent Account Number (PAN) of the supplier/ vendor.
+- (vi) A copy of the techno-commercial evaluation and rejection details, if any, in case of two bid system
+- (vii) A copy of the Comparative Statement of Tenders (CST) with price bids
+- (viii) A copy of TPC/PNC proceedings, if held
+- (b) Documents to be submitted to Paying Authority for Payment along with the Bill .  Depending upon the peculiarities of the procurement being undertaken, documents may be selected from the list given below and specified in the RFP and Supply Order/ Contract:-
+- (i) An ink-signed copy of the Contingent Bill/ Seller's Bill.
+- (ii) An ink-signed copy of the Commercial Invoice.
+- (iii) A copy of the Supply Order with UO Number and date of IFA's concurrence, where required under delegation of financial powers.
+- (iv) CRVs in duplicate.
+- (v) Inspection note.
+- (vi) Relevant documents/ proof of payment in support of the claim for statutory and other levies, such as, Customs duty  clearance  certificate,  proof  of  payment  for  EPF/ ESIC contribution with nominal roll of beneficiaries, etc., as applicable. GST Challan may not be insisted upon for release of payments as its compliance is being monitored by the Government (GST Data Analytics Wing) through a robust and well-established online system, unless there is compelling evidence of GST evasion by the firm.
+- (vii) Exemption certificate for GST/ Customs duty, if applicable.
+- (viii) Copy of APBG, if any.
+- (ix) Guarantee/ Warranty Certificate, if applicable.
+- (x) Copy  of  Integrity  Pact,  Performance  Bank  Guarantee/ Indemnity Bond, where applicable.
+- (xi) DP extension letter with CFA's sanction (with or without LD), UO Number and date of IFA's concurrence/ note of CFA and IFA in case the advise of IFA has been overruled.

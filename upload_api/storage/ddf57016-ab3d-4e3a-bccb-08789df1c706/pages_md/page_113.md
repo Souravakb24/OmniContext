@@ -1,0 +1,16 @@
+
+## PART IV - SPECIAL CONDITIONS OF RFP
+
+
+## The Bidder is required to give confirmation of their acceptance of the Special Conditions of the RFP mentioned below .
+
+
+## 1. Performance Guarantee .
+
+- (a) Indigenous  Cases .    The  Bidder  will  be  required  to  furnish  a  Performance Guarantee by way of a  Account Payee Demand Draft, Fixed Deposit Receipt (FDR), Banker's Cheque, Insurance Surety Bonds, Bank Guarantee (BG)/ Electronic BG (e-BG) or Electronic EMD (e-EMD) from any of the Indian Public or Private Sector Scheduled Commercial Banks or payment online in an acceptable form for a sum equal to .......... % of the Contract value within 30 days of receipt of the confirmed order. Performance Bank Guarantee (PBG) should be valid up to 60 days beyond the period of warranty.
+- (b) Foreign Cases .  The Seller will be required to furnish a Performance Guarantee by  way  of  a  Bank  Guarantee  from  any  Indian  Public  or  Private  Sector Scheduled Commercial Bank or an International Bank of repute in favour of the Government of India, Ministry of Defence to be confirmed by the ........................... (Buyer's  bank)  equal  to  ..........  %  of  the  total  value  of  this  Contract,  i.e. for  US  $  ……………  {US  Dollars  (in  words)  ……….……………………….. only}. Performance Bank Guarantee (PBG) should be valid up to 60 days beyond the period of warranty. The Performance Bank Guarantee shall be considered open upon receipt by the Buyer's Bank.
+- (c) The specimen of PBG is given in DPMF -15 .
+- (d) In case any claims or any other Contract obligations are outstanding, the Seller will extend the Performance Bank Guarantee as asked for by the Buyer till such time as the Seller settles all claims and completes all Contract obligations including warranty. The Performance Bank Guarantee will be subject to encashment by the Buyer, in case the conditions regarding adherence to delivery schedule, settlement of claims and other provisions of the Contract are not fulfilled by the Seller.
+- (e) Provisions  relating  to  sanctions  for  violation  of  the  Integrity  Pact  shall  also  be applicable for forfeiture of Performance Bond in case of a decision by the Buyer to forfeit the same without assigning any reason therefor.
+- Option  Clause .    The  Contract  will  have  an  Option  Clause,  wherein  the  Buyer  can exercise an option to procure an additional 50% of the original contracted quantity under the present Contract, in accordance with the same terms & conditions of the present Contract. This will be applicable within the original delivery period of the Contract. The Bidder is to confirm the acceptance of the same for inclusion in the Contract. It will be entirely the discretion of the Buyer to exercise this option or not.
+- Repeat Order Clause .    The  Contract will have a Repeat Order Clause, wherein the Buyer can order up to 50% of the original ordered quantity under the present Contract within -06 months from the date of completion of supply under this Contract, at the same terms & conditions of the present Contract. The Bidder is to confirm acceptance of this clause. It will be entirely the discretion of the Buyer to place the Repeat Order or not.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 96" width="480" height="96" aria-label="InflowMind">
+  <defs>
+    
+  </defs>
+  <text class="wm" x="14" y="66">InflowMind</text>
+  
+  <path class="fl" d="M 8 84 C 60 70, 110 96, 170 82 S 280 60, 330 82 S 430 96, 472 76"></path>
+  
+  <circle cx="298" cy="22" r="3.6" fill="#D9B271"></circle>
+</svg>

@@ -1,0 +1,13 @@
+- 124 Debt Cases: -  The Commanding Officer shall be justified, under sub-section (1) of section 21 in not allowing any sailor belonging to his ship to be taken under any warrant, process, or writ of execution issued by any court public servant for any debt or alleged debt.
+- 125 Report of refusal to surrender: -  Every case of refusal to surrender an officer or sailor to warrant, summons or other process, shall at once be reported fully to the Chief of the Naval Staff, with the grounds or such refusal and the offences with which the officer or sailor is charged on shore.
+- 126 Legal advice, engagement of counsel and defence of personnel in civil court: -(1)    The  rules  regarding  the  engagement  and  remuneration  of  counsel  for  the prosecution of offenders in a civil court and the defence of sailors charged with criminal offences shall be as detailed in Appendix II.
+- When  the  defence  of  an  officer  is  considered  desirable  the  case  shall  be reported  to  the  Chief of the  Naval  Staff for obtaining  the  orders  of  the Government there on.
+
+## SECTION IV - DESERTERS AND ABSENTEES
+
+- 127 Absentees: -    Sailors  who  may  have  quitted  their  ships  without  leave,  or  have overstayed their leave, or have improperly absented themselves when detached on duty, and who may be apprehended before the expiration of seven days, beyond the precincts of a dockyard or other Government establishment in which they may have been employed, shall be treated either as absentees or as deserters, according to circumstances when are to be judged by their respective Commanding Officers.
+- 128 Arrest by civil authority: -  If an absentee without leave is arrested by the Civil authority  on  another  charge  and  is  subsequently  handed  over  to  the  Naval authorities, his absence without leave shall be regarded as ceasing from the date of his arrest by the civil authority.
+- 129 Deserters and absentees on sailing: -    When any person, below  the  rank of an officer, belonging to a ship under ailing orders remains absent without leave, the Commanding Officer shall place the notation R.Q. against his name on the ship's books  and  shall  furnish  the  senior  Naval  Officer  present,  his  Administrative Authority and the Chief of the Naval Staff with a list of any such absentees.
+- 130 Removal of  R.Q :-    If  any  such  absentee  should  return  or  be  apprehended  and brought back after the ship has sailed, he may be:-
+- (a) sent to his proper ship, or
+- (b) dealt with in the ship to which he is brought.

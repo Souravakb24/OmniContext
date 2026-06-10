@@ -1,0 +1,11 @@
+- (g) In  the  case  of  procurements  made  through  Rate  Contracts concluded by Central Procurement Organisations (CPOs), only award details need to be published.
+- (h) These instructions on e-publishing would not apply to procurements  made  in  terms  of  provisions  for  purchase  of goods  without  quotations  or  purchase  of  goods  by  Local Purchase Committee (LPC).
+- (i) In case organisations/ formations, for reasons to be recorded, require  the  advertisements  to  be  published  in  newspapers, a request to the Directorate of Advertising and  Visual Publicity (DAVP) shall be sent in a signed letter, stating that Competent Authority has approved publication of newspaper advertisement(s) despite GFR 2017 provisions {Rules 161(i) & (ii), 183(ii) and 201(ii) which provide for use of advertisements for procurement values above prescribed thresholds}. In such cases too, only window advertisement shall be published in newspapers. The advertisement for invitation of tenders shall include  the  complete  web  address  from  where  the  bidding documents may be downloaded.
+
+## 5.3.2 e-Procurement .
+
+- (a) It  is  mandatory  for  Organisations/  Formations  to  receive all  bids  through  e-Procurement  portals  in  respect  of  all procurements.
+- (b) Organisations/ Formations, which do not have a large volume of  procurement  or  carry  out  procurements  required  only for  day-to-day running of offices and also have not initiated e-Procurement  through  any  other  solution  provided  so  far, may use e-Procurement solution developed by the National Informatics Centre (NIC)/ DePP .
+- (c) These instructions on e-Procurement will not apply to procurements  made  by  Organisations/  Formations  through Rate Contracts.
+- (d) In  individual  cases  where  national  security  and  strategic considerations demand confidentiality, Organisations/ Formations may exempt such cases from e-Procurement after seeking approval of Secretary concerned with concurrence of Financial Advisor.
+- (e) In case  of tenders floated by Indian Missions  abroad, Competent Authority to decide the tender, may exempt such case from e-Procurement.

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InflowMind — design system</title>
+  <link rel="stylesheet" href="colors_and_type.css" />
+  <style>
+    body { background: var(--paper); min-height: 100vh; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 64px 32px 96px; position: relative; }
+
+    /* hero */
+    .hero { position: relative; padding-bottom: 48px; border-bottom: 1px solid var(--mist); }
+    .hero-flow { position: absolute; right: -40px; top: -40px; width: 720px; height: 280px; pointer-events: none; opacity: 0.7; }
+    .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+    .brand-mark { width: 36px; height: 36px; }
+    .brand-name { font: italic 400 28px var(--font-display); color: var(--ink); letter-spacing: -0.01em; }
+    .brand-tag { font: 500 11px var(--font-sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--current); padding: 4px 10px; background: var(--current-soft); border-radius: 999px; margin-left: 4px; }
+
+    h1 { font: 400 64px/1.05 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0 0 16px; max-width: 720px; }
+    h1 em { color: var(--current); font-style: italic; }
+    .lede { font: 400 17px/1.55 var(--font-sans); color: var(--ink-2); margin: 0; max-width: 580px; }
+
+    /* sections */
+    .section { padding: 56px 0 0; }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; }
+    .section-head h2 { font: 500 22px var(--font-sans); color: var(--ink); letter-spacing: -0.01em; margin: 0; }
+    .section-head p { font: 400 13px var(--font-sans); color: var(--ink-3); margin: 0; }
+    .eyebrow { font: 500 11px var(--font-sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--current); margin: 0 0 14px; }
+
+    /* kit cards */
+    .kits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .kit { position: relative; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-xl); padding: 24px; text-decoration: none; color: inherit; transition: all var(--dur-2) var(--ease-flow); display: flex; flex-direction: column; gap: 14px; }
+    .kit:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); border-color: var(--mist-2); }
+    .kit-thumb { aspect-ratio: 16/10; background: var(--paper); border: 1px solid var(--mist); border-radius: var(--radius-md); overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center; }
+    .kit-num { font: italic 400 32px var(--font-display); color: var(--current); }
+    .kit h3 { font: 500 18px var(--font-sans); letter-spacing: -0.005em; margin: 0; color: var(--ink); }
+    .kit p { font: 400 13px/1.5 var(--font-sans); color: var(--ink-3); margin: 0; }
+    .kit-foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 12px; border-top: 1px dashed var(--mist); }
+    .kit-foot .arrow { color: var(--current); font: 500 13px var(--font-sans); }
+    .kit-tag { font: 500 11px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+
+    /* thumbnail miniatures */
+    .mini-marketing { display: flex; flex-direction: column; gap: 6px; padding: 12px; width: 100%; height: 100%; box-sizing: border-box; }
+    .mini-marketing .h { font: italic 400 22px var(--font-display); color: var(--ink); }
+    .mini-marketing .h em { color: var(--current); }
+    .mini-marketing .line { width: 60%; height: 4px; background: var(--mist); border-radius: 99px; }
+    .mini-marketing .line.short { width: 30%; }
+    .mini-marketing .pill { display: inline-block; padding: 4px 10px; background: var(--current); color: var(--paper); border-radius: 999px; font: 500 9px var(--font-sans); width: fit-content; }
+
+    .mini-app { display: grid; grid-template-columns: 28% 1fr; width: 100%; height: 100%; }
+    .mini-app .side { background: var(--paper-bright); border-right: 1px solid var(--mist); padding: 8px 6px; display: flex; flex-direction: column; gap: 4px; }
+    .mini-app .side .row { height: 6px; background: var(--mist); border-radius: 2px; }
+    .mini-app .side .row.active { background: var(--current-soft); }
+    .mini-app .main-area { padding: 8px; display: flex; flex-direction: column; gap: 4px; background: var(--paper-soft); }
+    .mini-app .main-area .row { height: 6px; background: var(--mist-2); border-radius: 2px; }
+    .mini-app .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 6px; }
+    .mini-app .card-thumb { background: var(--paper-bright); border: 1px solid var(--mist); border-radius: 4px; height: 32px; }
+
+    .mini-admin { display: grid; grid-template-columns: 28% 1fr; width: 100%; height: 100%; }
+    .mini-admin .side { background: var(--paper-bright); border-right: 1px solid var(--mist); padding: 8px 6px; display: flex; flex-direction: column; gap: 4px; }
+    .mini-admin .side .row { height: 6px; background: var(--mist); border-radius: 2px; }
+    .mini-admin .side .row.active { background: var(--current-soft); }
+    .mini-admin .main-area { padding: 8px; display: flex; flex-direction: column; gap: 4px; }
+    .mini-admin .trow { display: grid; grid-template-columns: 22px 1fr 28px 28px; gap: 4px; align-items: center; padding: 4px 6px; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: 4px; }
+    .mini-admin .av { width: 14px; height: 14px; border-radius: 99px; background: var(--current); }
+    .mini-admin .line { height: 4px; background: var(--mist); border-radius: 99px; }
+    .mini-admin .pill { height: 8px; width: 24px; background: var(--moss-soft); border-radius: 99px; }
+    .mini-admin .pill.r { background: var(--current-soft); }
+
+    /* tokens row */
+    .tokens { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .token { padding: 16px; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-md); }
+    .swatch-row { display: flex; gap: 6px; margin-bottom: 10px; height: 28px; }
+    .swatch-row span { flex: 1; border-radius: 4px; }
+    .token-name { font: 500 13px var(--font-sans); color: var(--ink); }
+    .token-desc { font: 400 12px var(--font-sans); color: var(--ink-3); margin: 2px 0 0; }
+
+    .note { margin-top: 56px; padding: 20px 24px; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-md); }
+    .note p { font: 400 14px/1.55 var(--font-sans); color: var(--ink-2); margin: 0; }
+    .note p + p { margin-top: 8px; }
+    .note b { color: var(--ink); font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <svg class="hero-flow" viewBox="0 0 720 280" preserveAspectRatio="none" aria-hidden>
+      <path d="M -20 160 C 100 100, 220 220, 360 160 S 600 90, 740 140" fill="none" stroke="#2E6F8E" stroke-width="1.5" opacity="0.45" stroke-linecap="round"/>
+      <path d="M -20 200 C 120 140, 240 260, 380 200 S 620 130, 740 180" fill="none" stroke="#2E6F8E" stroke-width="1.5" opacity="0.22" stroke-linecap="round"/>
+    </svg>
+
+    <section class="hero">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden>
+          <rect width="64" height="64" rx="14" fill="#0E1B2C"/>
+          <path d="M 10 36 C 18 24, 24 44, 32 32 S 46 20, 54 32" fill="none" stroke="#F5F1E8" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="3.2" fill="#D9B271"/>
+        </svg>
+        <span class="brand-name">InflowMind</span>
+        <span class="brand-tag">Design system v0.1</span>
+      </div>
+      <h1>Flow through<br>your <em>knowledge.</em></h1>
+      <p class="lede">A starting visual identity for your multi-tenant knowledge platform. Tap into any of the three views below to see it in action — then tell me what to keep, swap, or push further.</p>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Three views to explore</p>
+      <div class="section-head">
+        <h2>Click any tile to open it.</h2>
+        <p>All three are clickable and interactive.</p>
+      </div>
+
+      <div class="kits">
+        <a class="kit" href="ui_kits/marketing-site/index.html">
+          <div class="kit-thumb">
+            <div class="mini-marketing">
+              <span class="pill">FOR RESEARCH TEAMS</span>
+              <div class="h">Flow through<br/>your <em>knowledge.</em></div>
+              <div class="line"></div>
+              <div class="line short"></div>
+              <div style="margin-top:auto;display:flex;gap:4px"><span class="pill" style="background:#2E6F8E">Start free</span><span style="font:500 9px sans-serif;color:#2A3A4F;align-self:center">See the pipeline →</span></div>
+            </div>
+          </div>
+          <span class="kit-tag">01 · Marketing site</span>
+          <h3>The public homepage.</h3>
+          <p>Hero, pricing, and the three-step pipeline explainer. Your front door.</p>
+          <div class="kit-foot"><span class="kit-tag">5 sections</span><span class="arrow">Open →</span></div>
+        </a>
+
+        <a class="kit" href="ui_kits/member-app/index.html">
+          <div class="kit-thumb">
+            <div class="mini-app">
+              <div class="side">
+                <div class="row" style="background:#2E6F8E;height:10px;border-radius:3px"></div>
+                <div class="row active"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+              </div>
+              <div class="main-area">
+                <div class="row" style="width:50%;height:8px;background:#0E1B2C"></div>
+                <div class="row" style="width:25%;height:4px"></div>
+                <div class="grid2"><div class="card-thumb"></div><div class="card-thumb"></div><div class="card-thumb"></div><div class="card-thumb"></div></div>
+              </div>
+            </div>
+          </div>
+          <span class="kit-tag">02 · Member app</span>
+          <h3>What members do every day.</h3>
+          <p>Sign in, drop a PDF, watch ingestion run, ask the library a question — fully clickable.</p>
+          <div class="kit-foot"><span class="kit-tag">Try the upload</span><span class="arrow">Open →</span></div>
+        </a>
+
+        <a class="kit" href="ui_kits/admin-console/index.html">
+          <div class="kit-thumb">
+            <div class="mini-admin">
+              <div class="side">
+                <div class="row" style="background:#2E6F8E;height:10px;border-radius:3px"></div>
+                <div class="row active"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+              </div>
+              <div class="main-area">
+                <div class="trow"><div class="av"></div><div class="line"></div><div class="pill r"></div><div class="pill"></div></div>
+                <div class="trow"><div class="av"></div><div class="line"></div><div class="pill r"></div><div class="pill"></div></div>
+                <div class="trow"><div class="av" style="background:#D9B271"></div><div class="line"></div><div class="pill" style="background:var(--mist)"></div><div class="pill"></div></div>
+                <div class="trow"><div class="av" style="background:#C24A3A"></div><div class="line"></div><div class="pill" style="background:var(--mist)"></div><div class="pill" style="background:var(--ember-soft)"></div></div>
+              </div>
+            </div>
+          </div>
+          <span class="kit-tag">03 · Admin console</span>
+          <h3>What admins use to run the org.</h3>
+          <p>Members table, collection limits, usage quotas. Promote, demote, deactivate.</p>
+          <div class="kit-foot"><span class="kit-tag">Try Deactivate</span><span class="arrow">Open →</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">The system in one row</p>
+      <div class="section-head">
+        <h2>The look, the feel, the rhythm.</h2>
+        <p><a href="README.md" style="color:var(--current)">Read the full README →</a></p>
+      </div>
+
+      <div class="tokens">
+        <div class="token">
+          <div class="swatch-row">
+            <span style="background:#0E1B2C"></span>
+            <span style="background:#2E6F8E"></span>
+            <span style="background:#D9B271"></span>
+            <span style="background:#F5F1E8;border:1px solid #E7E1D3"></span>
+          </div>
+          <div class="token-name">Palette</div>
+          <p class="token-desc">Ink · Current · Sand · Paper</p>
+        </div>
+        <div class="token">
+          <div style="font:italic 400 28px 'Instrument Serif',serif;color:#0E1B2C;letter-spacing:-0.01em;line-height:1">Aa</div>
+          <div style="font:500 18px 'Geist',sans-serif;color:#0E1B2C;margin-top:-4px">Aa</div>
+          <div class="token-name" style="margin-top:8px">Type</div>
+          <p class="token-desc">Instrument Serif + Geist</p>
+        </div>
+        <div class="token">
+          <svg viewBox="0 0 120 32" width="100%" height="28">
+            <path d="M 4 18 C 24 6, 48 30, 68 18 S 100 6, 116 18" fill="none" stroke="#2E6F8E" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="68" cy="18" r="2.4" fill="#D9B271"/>
+          </svg>
+          <div class="token-name" style="margin-top:6px">Flow line</div>
+          <p class="token-desc">Hero + loading motif</p>
+        </div>
+        <div class="token">
+          <div style="display:flex;gap:6px;align-items:center;height:28px">
+            <span style="font:500 11px 'Geist',sans-serif;color:#5C7A4F;background:#DCE3D2;padding:5px 9px;border-radius:99px">● Ready</span>
+            <span style="font:500 11px 'Geist',sans-serif;color:#1B4A63;background:#D8E6EC;padding:5px 9px;border-radius:99px">● Indexing</span>
+          </div>
+          <div class="token-name" style="margin-top:8px">Status pills</div>
+          <p class="token-desc">7-stage ingestion pipeline</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="note">
+      <p><b>New here?</b> Click <b>02 · Member app</b> first — it's the most interactive. Try clicking <b>Upload a document</b> in the top-left, drop any PDF in, and watch the ingestion pipeline run. Then open the <b>Ask</b> tab in the sidebar and send a question.</p>
+      <p>When you've seen all three, tell me what you like, what feels off, and what direction to explore next. I'll iterate from there.</p>
+    </div>
+
+  </div>
+</body>
+</html>

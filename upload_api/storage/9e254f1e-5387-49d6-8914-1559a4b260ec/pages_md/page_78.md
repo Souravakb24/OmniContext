@@ -1,0 +1,13 @@
+
+IFA is done at AoN stage or at an interim stage of procurement, action in procurement process shall be taken as per the decision of CFA and IFA shall continue to participate in this process as Finance member. At the time of Expenditure Angle Sanction (EAS) stage, IFA may either concur the final proposal or record their dissent to the final proposal. CFA may agree with IFA's advice or overrule the advice of the IFA by a written order giving reasons for overruling the IFA's advice on file at EAS stage. The sanction letter issued in latter cases shall not contain UO Number of IFA but shall clearly indicate that the advice of the IFA was taken but the same was overruled by CFA and copy of relevant notings of IFA & CFA shall be endorsed along with the CFA sanction to paying authority. A quarterly report on such overruling cases shall be submitted by the IFAs to CGDA. These overruling cases shall also be reported by CGDA to FA(DS) on quarterly basis, starting from QE April, July and so on. FA(DS) may consider issuing appropriate directives to all the stakeholders or  bring  to  the  notice  of  Defence  Secretary/  Raksha  Mantri  for suitable directions. There shall be no requirement for CFA to report the overruling cases to Next Higher CFA. Even in case of overruling of IFA by CFA at any stage of the procurement process the case will continue to be processed as per the financial power of CFA in consultation with IFA as per the DFPDS.
+
+
+## 4.5 Processing of Proposals after AoN
+
+- 4.5.1 After accord of AoN by the CFA, the Procuring Entity is required to go through the tendering action as per the provisions of Chapter 5  of  this  Manual  and  obtain  CFA's  approval  for  the  proposed procurement  at  Expenditure  Angle  Sanction  (EAS) stage, in consultation  with  Integrated  Finance,  where  required  as  per  the delegation  of  financial  powers.  The  tendering  action  may  be initiated/  facilitated  by  a  Procurement  Committee  constituted by the CFAs at their discretion, as brought out in the succeeding paragraph.
+
+## 4.6 Procurement Committee (PC)
+
+- 4.6.1 A collegiate-based decision mechanism speeds up procurement cycle.  This  helps  in  avoiding  delays  in  procurement  and  also facilitates more informed decision making during various stages of procurement. All CFAs at their discretion may form PC within their domain on a case-by-case basis. Following activities as decided by the CFA will be performed by PCs at various stages of procurement after AoN has been accorded:-
+- (a) Activities of PC post AoN: -
+- (i) Finalisation of RFP & NIT.

@@ -1,0 +1,14 @@
+- (a) Description and Specifications of goods/ services, including the nature, quantity, apportionment of quantity (if any), Tender/ Advance sample (if any), time and place or places of delivery.
+- (b) Quality standards, Inspection criteria and inspecting agency.
+- (c) The  criteria  for  eligibility  and  qualifications  to  be  met  by the  bidders  such  as  minimum  level  of  experience,  past performance,  technical  capability,  manufacturing  facilities and financial  position,  etc.,  or  limitation  for  participation  of the bidders, if any.
+- (d) Eligibility  criteria  for  goods/  services,  indicating  any  legal restrictions or conditions about the origin of goods/services, etc., which may require to be met by the successful bidder.
+- (e) The procedure as well as date, time and place for sending the bids.
+- (f) Date, time and place of opening of the bids.
+- (g) Criteria for evaluation of the bids.
+- (h) Special  terms  affecting  performance,  if  any,  including  trial methodology/ trial directives, where applicable.
+- (i) Essential terms of the procurement contract.
+- (j) Bidding  Documents  shall  include  a  clause  that  'if  a  firm quotes NIL charges/ consideration, the bid shall be treated as unresponsive and shall not be considered'.
+- (k) Suitable provision shall be kept in the bidding document to enable a bidder to question the bidding conditions, bidding process and/ or rejection of its bid. The reasons for rejecting a tender or non-issuing a tender document to a prospective bidder  shall  be  disclosed  where  enquiries  are  made  by  the bidder.
+- (l) Suitable provision for settlement of disputes, if any, emanating from  the  resultant  contract,  shall  be  kept  in  the  bidding document.
+- (m) The bidding document is to indicate clearly that the resultant contract shall be interpreted under Indian Laws.
+- (n) The  specifications  of  the  required  goods  shall  be  clearly

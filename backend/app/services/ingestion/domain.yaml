@@ -1,0 +1,42 @@
+domains:
+  physics:
+    definition: Physics is the natural science that studies matter, energy, and the
+      fundamental forces of the universe, encompassing classical mechanics, electromagnetism,
+      quantum theory, thermodynamics, and all related subfields such as nuclear physics.
+    added_at: '2026-05-28'
+    doc_count: 6
+  computer_science:
+    definition: Computer science is the discipline that studies the theory, design,
+      development, and application of algorithms, data structures, software, and hardware
+      systems to solve problems and create computational solutions.
+    added_at: '2026-05-29'
+    doc_count: 58
+  psychology:
+    definition: Documents that provide practical advice, frameworks, and inspirational
+      content for improving personal productivity, habits, mindset, and overall life
+      effectiveness.
+    added_at: '2026-05-30'
+    doc_count: 2
+  material_science:
+    definition: Documents that cover the study and application of material properties,
+      structure, and processing, including metallurgy, ceramics, polymers, composites,
+      and advanced functional materials.
+    added_at: '2026-05-31'
+    doc_count: 5
+  military:
+    definition: Military is the discipline that studies the organization, strategy,
+      tactics, and operations of armed forces, encompassing land, naval, and air components.
+    added_at: '2026-06-01'
+    doc_count: 11
+  public_administration:
+    definition: The discipline that studies the organization, policies, procedures,
+      and management of public sector institutions, focusing on government operations,
+      procurement, and personnel management.
+    added_at: '2026-06-06'
+    doc_count: 10
+  finance:
+    definition: Finance is the discipline that studies the management, creation, and
+      study of money, investments, and financial instruments, including corporate
+      finance, banking, and capital markets.
+    added_at: '2026-06-07'
+    doc_count: 9

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>omnicontext — sign in</title>
+  <link rel="stylesheet" href="colors_and_type.css" />
+  <style>
+    /* ============================================================
+       omnicontext — auth page (sign in / create account).
+       Maps to backend:
+         Sign in            → POST /api/auth/login            { org_name, username, password }
+         Create new org     → POST /api/org/register          { org_name }
+                              then POST /api/org/{id}/user/register { username, password, role:"admin" }
+         Join existing org  → POST /api/org/{id}/user/register { username, password, role:"member" }
+       ============================================================ */
+    body { background: var(--paper); color: var(--ink); }
+    .auth { display: grid; grid-template-columns: 1.02fr 0.98fr; min-height: 100vh; }
+
+    /* ---------- LEFT: brand panel ---------- */
+    .brandside { position: relative; background: var(--ink); color: var(--paper); padding: 48px 56px; display: flex; flex-direction: column; overflow: hidden; }
+    .brandside .bg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.55; pointer-events: none; }
+    .bs-brand { position: relative; display: flex; align-items: center; gap: 11px; }
+    .bs-brand .mk { width: 32px; height: 32px; }
+    .bs-brand b { font: italic 400 24px var(--font-display); letter-spacing: -0.01em; color: var(--paper); }
+    .bs-mid { position: relative; margin-top: auto; margin-bottom: auto; padding: 40px 0; display: flex; flex-direction: column; }
+    .bs-mid h1 { font: 400 46px/1.1 var(--font-display); letter-spacing: var(--tracking-display); margin: 0 0 20px; max-width: 460px; }
+    .bs-mid h1 em { color: var(--sand); font-style: italic; }
+    .bs-mid p { font: 400 16px/1.6 var(--font-sans); color: rgba(245,241,232,0.72); margin: 0; max-width: 380px; }
+
+    /* document-flow visual on the dark panel */
+    .bs-visual { position: relative; height: 150px; margin-top: 28px; }
+    .bs-visual svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .doc { fill: rgba(245,241,232,0.10); stroke: rgba(245,241,232,0.40); stroke-width: 1; }
+    .doc-fold { fill: rgba(245,241,232,0.22); }
+    .doc-hi { fill: #D9B271; stroke: #C99F58; }
+    .doc-hi-fold { fill: #C99F58; }
+    .glow { filter: blur(13px); }
+    .float { animation: drift 6s ease-in-out infinite; }
+    .float-2 { animation-delay: -1.5s; animation-duration: 7s; }
+    .float-3 { animation-delay: -3s; animation-duration: 5.5s; }
+    .float-4 { animation-delay: -4.5s; animation-duration: 8s; }
+    @keyframes drift { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-4px);} }
+    .pglow { animation: pglow 2.6s ease-in-out infinite; }
+    @keyframes pglow { 0%,100% { opacity: .35;} 50% { opacity: .8;} }
+
+    .bs-foot { position: relative; font: 400 13px var(--font-sans); color: rgba(245,241,232,0.5); }
+
+    /* ---------- RIGHT: form panel ---------- */
+    .formside { display: flex; align-items: center; justify-content: center; padding: 40px 32px; }
+    .formcard { width: 100%; max-width: 380px; }
+    .fc-head { margin-bottom: 24px; }
+    .fc-head h2 { font: 400 38px/1.1 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0 0 6px; }
+    .fc-head p { font: 400 14px var(--font-sans); color: var(--ink-3); margin: 0; }
+
+    /* segmented toggle */
+    .seg { display: flex; gap: 4px; background: var(--mist); padding: 4px; border-radius: var(--radius); margin-bottom: 26px; }
+    .seg button { flex: 1; padding: 9px 12px; border-radius: 6px; font: 500 13px var(--font-sans); color: var(--ink-3); background: transparent; border: none; cursor: pointer; transition: all var(--dur-1) var(--ease-flow); }
+    .seg button.on { background: var(--paper-bright); color: var(--ink); box-shadow: var(--shadow-1); }
+
+    form { display: flex; flex-direction: column; gap: 16px; }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field label { font: 500 13px var(--font-sans); color: var(--ink); }
+    .field input { font: 400 14px var(--font-sans); padding: 11px 13px; border-radius: var(--radius); border: 1px solid var(--mist-2); background: var(--paper-bright); color: var(--ink); transition: border-color var(--dur-1) var(--ease-flow), box-shadow var(--dur-1) var(--ease-flow); }
+    .field input::placeholder { color: var(--ink-4); }
+    .field input:focus { outline: none; border-color: var(--current); box-shadow: 0 0 0 3px rgba(46,111,142,0.18); }
+    .field .hint { font: 400 12px var(--font-sans); color: var(--ink-4); }
+
+    /* org mode radio (signup only) */
+    .orgmode { display: none; gap: 8px; }
+    .orgmode.show { display: grid; grid-template-columns: 1fr 1fr; }
+    .orgmode label { display: flex; flex-direction: column; gap: 3px; padding: 12px 14px; border: 1px solid var(--mist-2); border-radius: var(--radius); cursor: pointer; transition: all var(--dur-1) var(--ease-flow); background: var(--paper-bright); }
+    .orgmode label:hover { border-color: var(--ink-4); }
+    .orgmode input { position: absolute; opacity: 0; pointer-events: none; }
+    .orgmode label.sel { border-color: var(--current); background: var(--current-soft); }
+    .orgmode .t { font: 500 13px var(--font-sans); color: var(--ink); }
+    .orgmode .s { font: 400 11px var(--font-sans); color: var(--ink-3); }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font: 500 15px/1 var(--font-sans); padding: 13px 18px; border-radius: var(--radius); border: 1px solid transparent; cursor: pointer; background: var(--current); color: var(--paper); transition: all var(--dur-1) var(--ease-flow); margin-top: 4px; }
+    .btn:hover { background: var(--current-deep); }
+    .btn:active { transform: translateY(1px); }
+
+    .fc-switch { font: 400 13px var(--font-sans); color: var(--ink-3); text-align: center; margin-top: 6px; }
+    .fc-switch button { background: none; border: none; color: var(--current); font: 500 13px var(--font-sans); cursor: pointer; padding: 0; white-space: nowrap; }
+    .fc-switch button:hover { text-decoration: underline; }
+
+    .fc-legal { font: 400 12px/1.5 var(--font-sans); color: var(--ink-4); text-align: center; margin-top: 18px; }
+    .fc-legal a { color: var(--ink-3); }
+
+    .fc-demo { font: 400 12px/1.6 var(--font-sans); color: var(--ink-3); text-align: center; margin-top: 14px; padding: 10px 12px; background: var(--paper); border: 1px dashed var(--mist-2); border-radius: var(--radius); }
+    .fc-demo button { background: none; border: none; color: var(--current); font: 500 12px var(--font-sans); cursor: pointer; padding: 0; }
+    .fc-demo button:hover { text-decoration: underline; }
+
+    /* Google OAuth button */
+    .btn-google { display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: 100%; font: 500 15px/1 var(--font-sans); padding: 12px 18px; border-radius: var(--radius); border: 1px solid var(--mist-2); cursor: pointer; background: var(--paper-bright); color: var(--ink); transition: all var(--dur-1) var(--ease-flow); }
+    .btn-google:hover { border-color: var(--ink-4); background: var(--paper); box-shadow: var(--shadow-1); }
+    .btn-google:active { transform: translateY(1px); }
+    .btn-google svg { flex-shrink: 0; }
+
+    /* divider */
+    .or-divider { display: flex; align-items: center; gap: 12px; margin: 4px 0; }
+    .or-divider::before, .or-divider::after { content: ''; flex: 1; height: 1px; background: var(--mist-2); }
+    .or-divider span { font: 400 12px var(--font-sans); color: var(--ink-4); white-space: nowrap; }
+
+    .back { position: absolute; top: 24px; right: 32px; font: 500 13px var(--font-sans); color: var(--ink-3); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; z-index: 5; }
+    .back:hover { color: var(--current); }
+
+    /* success toast */
+    .toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(20px); opacity: 0; background: var(--ink); color: var(--paper); padding: 13px 20px; border-radius: var(--radius); font: 500 14px var(--font-sans); box-shadow: var(--shadow-3); transition: all var(--dur-2) var(--ease-flow); z-index: 50; display: flex; align-items: center; gap: 10px; }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    .toast svg { width: 16px; height: 16px; color: var(--sand); }
+
+    @media (max-width: 860px) {
+      .auth { grid-template-columns: 1fr; }
+      .brandside { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="auth">
+
+    <!-- LEFT brand panel -->
+    <aside class="brandside">
+      <svg class="bg" viewBox="0 0 600 800" preserveAspectRatio="none" aria-hidden>
+        <path d="M -20 280 C 120 200, 280 380, 420 280 S 640 180, 660 240" fill="none" stroke="#2E6F8E" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+        <path d="M -20 340 C 140 260, 300 440, 440 340 S 640 250, 660 300" fill="none" stroke="#2E6F8E" stroke-width="1.4" stroke-linecap="round" opacity="0.28"/>
+      </svg>
+
+      <a class="bs-brand" href="Omnicontext Landing.html">
+        <svg class="mk" viewBox="0 0 64 64" aria-hidden>
+          <rect width="64" height="64" rx="14" fill="#1B2B3D"/>
+          <path d="M 10 36 C 18 24, 24 44, 32 32 S 46 20, 54 32" fill="none" stroke="#F5F1E8" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="3.2" fill="#D9B271"/>
+        </svg>
+        <b>omnicontext</b>
+      </a>
+
+      <div class="bs-mid">
+        <h1>Ask your documents<br><em>anything.</em></h1>
+        <p>Sign in to your workspace — upload, organize, and get cited answers from everything your team knows.</p>
+
+        <div class="bs-visual">
+          <svg viewBox="0 0 480 150" preserveAspectRatio="none" aria-hidden>
+            <defs>
+              <symbol id="d" viewBox="0 0 14 18" overflow="visible">
+                <path class="doc" d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+                <path class="doc-fold" d="M 9 1 V 5 H 13 Z"/>
+              </symbol>
+              <symbol id="dh" viewBox="0 0 14 18" overflow="visible">
+                <path class="doc-hi" d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+                <path class="doc-hi-fold" d="M 9 1 V 5 H 13 Z"/>
+              </symbol>
+            </defs>
+            <path d="M -10 80 C 90 40, 190 120, 280 80 S 440 40, 490 70" fill="none" stroke="rgba(46,111,142,0.55)" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M -10 110 C 100 70, 220 140, 310 110 S 460 78, 490 100" fill="none" stroke="rgba(245,241,232,0.18)" stroke-width="1" stroke-linecap="round"/>
+            <g class="float"><use href="#d" x="120" y="92" width="14" height="18"/></g>
+            <g class="float float-2"><use href="#d" x="190" y="118" width="14" height="18"/></g>
+            <g class="float float-3"><use href="#d" x="262" y="100" width="14" height="18"/></g>
+            <g class="float float-4"><use href="#d" x="340" y="116" width="14" height="18"/></g>
+            <g class="float float-2"><use href="#d" x="430" y="104" width="14" height="18"/></g>
+            <g>
+              <circle class="glow pglow" cx="392" cy="46" r="22" fill="#D9B271"/>
+              <g class="float float-4"><use href="#dh" x="385" y="37" width="14" height="18"/></g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="bs-foot">Smarter document intelligence for modern teams.</div>
+    </aside>
+
+    <!-- RIGHT form panel -->
+    <main class="formside">
+      <a class="back" href="Omnicontext Landing.html">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to site
+      </a>
+
+      <div class="formcard">
+        <div class="fc-head">
+          <h2 id="fc-title">Welcome.</h2>
+          <p id="fc-desc">Sign in to your workspace.</p>
+        </div>
+
+        <div class="seg" role="tablist">
+          <button id="tab-in" class="on" onclick="setMode('in')">Sign in</button>
+          <button id="tab-up" onclick="setMode('up')">Create account</button>
+        </div>
+
+        <!-- Google OAuth -->
+        <button class="btn-google" type="button" onclick="handleGoogle()">
+          <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden>
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg>
+          Continue with Google
+        </button>
+
+        <div class="or-divider"><span>or continue with username</span></div>
+
+        <form id="authform" onsubmit="return submitForm(event)">
+          <!-- org mode (signup only) -->
+          <div class="orgmode" id="orgmode">
+            <label id="om-new" class="sel" onclick="setOrgMode('new')">
+              <input type="radio" name="orgmode" value="new" checked>
+              <span class="t">New organisation</span>
+              <span class="s">You'll be the admin</span>
+            </label>
+            <label id="om-join" onclick="setOrgMode('join')">
+              <input type="radio" name="orgmode" value="join">
+              <span class="t">Join existing</span>
+              <span class="s">Your team already uses it</span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label for="org">Organisation</label>
+            <input id="org" name="org_name" type="text" placeholder="acme-research" autocomplete="organization" required>
+            <span class="hint" id="org-hint" style="display:none">Lowercase, hyphens, no spaces. This becomes your workspace.</span>
+          </div>
+
+          <div class="field">
+            <label for="user">Username</label>
+            <input id="user" name="username" type="text" placeholder="rahul" autocomplete="username" required>
+          </div>
+
+          <div class="field">
+            <label for="pw">Password</label>
+            <input id="pw" name="password" type="password" placeholder="••••••••" autocomplete="current-password" required>
+          </div>
+
+          <div class="field" id="pw2-field" style="display:none">
+            <label for="pw2">Confirm password</label>
+            <input id="pw2" name="password2" type="password" placeholder="••••••••" autocomplete="new-password">
+          </div>
+
+          <button class="btn" type="submit" id="submit-btn">Sign in</button>
+        </form>
+
+        <p class="fc-switch" id="switch-line">
+          New to omnicontext? <button onclick="setMode('up')">Create an account</button>
+        </p>
+
+        <p class="fc-demo" id="fc-demo">
+          Demo — sign in as <button type="button" onclick="fillDemo('priya')">priya</button> for the admin view, or
+          <button type="button" onclick="fillDemo('sam')">sam</button> for a member's view.
+        </p>
+
+        <p class="fc-legal">
+          By continuing you agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <div class="toast" id="toast">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+    <span id="toast-msg">Signed in</span>
+  </div>
+
+  <script>
+    let mode = 'in';        // 'in' | 'up'
+    let orgMode = 'new';    // 'new' | 'join'  (signup only)
+
+    function setMode(m) {
+      mode = m;
+      const up = m === 'up';
+      document.getElementById('tab-in').classList.toggle('on', !up);
+      document.getElementById('tab-up').classList.toggle('on', up);
+      document.getElementById('fc-title').textContent = up ? 'Create your account.' : 'Welcome back.';
+      document.getElementById('fc-desc').textContent  = up ? 'Start a workspace or join your team.' : 'Sign in to your workspace.';
+      document.getElementById('orgmode').classList.toggle('show', up);
+      document.getElementById('pw2-field').style.display = up ? 'flex' : 'none';
+      document.getElementById('org-hint').style.display = (up && orgMode === 'new') ? 'block' : 'none';
+      document.getElementById('pw2').required = up;
+      document.getElementById('submit-btn').textContent = up ? (orgMode === 'new' ? 'Create organisation' : 'Join organisation') : 'Sign in';
+      document.getElementById('pw').setAttribute('autocomplete', up ? 'new-password' : 'current-password');
+      // demo hint only makes sense for sign-in
+      document.getElementById('fc-demo').style.display = up ? 'none' : 'block';
+      // switch line
+      document.getElementById('switch-line').innerHTML = up
+        ? `Already have an account? <button onclick="setMode('in')">Sign in</button>`
+        : `New to omnicontext? <button onclick="setMode('up')">Create an account</button>`;
+      updateOrgLabel();
+    }
+
+    function setOrgMode(o) {
+      orgMode = o;
+      document.getElementById('om-new').classList.toggle('sel', o === 'new');
+      document.getElementById('om-join').classList.toggle('sel', o === 'join');
+      document.querySelector('input[name="orgmode"][value="'+o+'"]').checked = true;
+      document.getElementById('org-hint').style.display = (mode === 'up' && o === 'new') ? 'block' : 'none';
+      document.getElementById('submit-btn').textContent = o === 'new' ? 'Create organisation' : 'Join organisation';
+      updateOrgLabel();
+    }
+
+    function updateOrgLabel() {
+      const lbl = document.querySelector('label[for="org"]');
+      if (mode === 'up' && orgMode === 'new') lbl.textContent = 'Name your organisation';
+      else if (mode === 'up' && orgMode === 'join') lbl.textContent = 'Organisation to join';
+      else lbl.textContent = 'Organisation';
+    }
+
+    function submitForm(e) {
+      e.preventDefault();
+      const pw = document.getElementById('pw').value;
+      const pw2 = document.getElementById('pw2').value;
+      if (mode === 'up' && pw !== pw2) {
+        document.getElementById('pw2').style.borderColor = 'var(--ember)';
+        document.getElementById('pw2').focus();
+        return false;
+      }
+      const org = (document.getElementById('org').value || 'your workspace').trim();
+      const username = (document.getElementById('user').value || 'member').trim();
+
+      // ---- Role resolution ----
+      // Production: POST /api/auth/login returns { role } — use that verbatim.
+      //   Sign up + new org → first user is the admin (POST /api/org/register).
+      //   Sign up + join     → role "member".
+      // Demo (no backend): on sign-in we infer the role from the username so the
+      //   prototype routes correctly — known admins land in the admin experience.
+      const DEMO_ADMINS = ['priya', 'rahul'];
+      let role, msg;
+      if (mode === 'up') {
+        role = orgMode === 'new' ? 'admin' : 'member';
+        msg  = orgMode === 'new' ? "Organisation created — you're the admin" : ('Joined ' + org);
+      } else {
+        role = DEMO_ADMINS.includes(username.toLowerCase()) ? 'admin' : 'member';
+        msg  = 'Signed in as ' + role;
+      }
+      showToast(msg);
+
+      // Carry the resolved identity into the app; it opens the right experience.
+      const q = '?role=' + encodeURIComponent(role)
+              + '&user=' + encodeURIComponent(username)
+              + '&org='  + encodeURIComponent(org);
+      setTimeout(() => { window.location.href = 'ui_kits/member-app/index.html' + q; }, 1400);
+      return false;
+    }
+
+    function showToast(text) {
+      const t = document.getElementById('toast');
+      document.getElementById('toast-msg').textContent = text;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 1300);
+    }
+
+    function fillDemo(name) {
+      document.getElementById('user').value = name;
+      document.getElementById('pw').value = 'demo-pass';
+      document.getElementById('org').value = 'Atlas Research';
+    }
+
+    function handleGoogle() {
+      showToast('Google login coming soon');
+    }
+
+    // Open in signup mode when arriving via a "Get started" link (#start / #signup).
+    if (['#start', '#signup', '#get-started'].includes(location.hash)) setMode('up');
+  </script>
+</body>
+</html>

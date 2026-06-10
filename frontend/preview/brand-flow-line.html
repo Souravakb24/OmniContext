@@ -1,0 +1,83 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Flow line</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { background: var(--paper); padding: 0; position: relative; overflow: hidden; }
+  .stage { position: relative; height: 300px; overflow: hidden; }
+  .stage svg.flow { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .stage .copy { position: relative; padding: 36px 36px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; pointer-events: none; }
+  .stage .copy h1 { font: 400 48px/1.05 "Instrument Serif", "Iowan Old Style", Georgia, serif; letter-spacing: -0.015em; color: var(--ink); margin: 0; }
+  .stage .copy h1 em { color: var(--current); font-style: italic; }
+  .stage .copy .sub { font: 500 11px/1.2 var(--font-sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); margin-top: 18px; }
+
+  /* documents travelling along the flow lines */
+  .doc { fill: #FAF7F0; stroke: #8A95A3; stroke-width: 1; }
+  .doc-fold { fill: #E7E1D3; }
+  .doc-hi { fill: #2E6F8E; stroke: #1B4A63; }
+  .doc-hi-fold { fill: #1B4A63; }
+  .glow { filter: blur(14px); opacity: 0.45; }
+
+  .float { animation: drift 6s ease-in-out infinite; }
+  .float-2 { animation-delay: -1.5s; animation-duration: 7s; }
+  .float-3 { animation-delay: -3s;   animation-duration: 5.5s; }
+  .float-4 { animation-delay: -4.5s; animation-duration: 8s; }
+  @keyframes drift {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-4px); }
+  }
+  .pulse-glow { animation: pulseGlow 2.6s ease-in-out infinite; }
+  @keyframes pulseGlow {
+    0%, 100% { opacity: 0.32; }
+    50%      { opacity: 0.7; }
+  }
+</style></head>
+<body>
+<div class="card">
+  <div class="stage">
+    <svg class="flow" viewBox="0 0 700 300" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <!-- mini document mark -->
+        <symbol id="doc" viewBox="0 0 14 18" overflow="visible">
+          <path class="doc"      d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+          <path class="doc-fold" d="M 9 1 V 5 H 13 Z"/>
+        </symbol>
+        <symbol id="doc-hi" viewBox="0 0 14 18" overflow="visible">
+          <path class="doc-hi"      d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+          <path class="doc-hi-fold" d="M 9 1 V 5 H 13 Z"/>
+        </symbol>
+      </defs>
+
+      <!-- three layered flow lines -->
+      <path d="M -20 130 C 100 80, 220 200, 360 130 S 600 60, 720 110"
+            fill="none" stroke="#2E6F8E" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
+      <path d="M -20 170 C 120 110, 260 240, 400 170 S 620 100, 720 150"
+            fill="none" stroke="#2E6F8E" stroke-width="1.3" stroke-linecap="round" opacity="0.28"/>
+      <path d="M -20 220 C 140 180, 300 280, 460 220 S 640 180, 720 200"
+            fill="none" stroke="#8A95A3" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+
+      <!-- documents scattered along the lines -->
+      <g class="float">       <use href="#doc" x="232" y="155" width="14" height="18"/></g>
+      <g class="float float-2"><use href="#doc" x="298" y="208" width="14" height="18"/></g>
+      <g class="float float-3"><use href="#doc" x="346" y="248" width="14" height="18"/></g>
+      <g class="float">       <use href="#doc" x="398" y="232" width="14" height="18"/></g>
+      <g class="float float-4"><use href="#doc" x="438" y="178" width="14" height="18"/></g>
+      <g class="float float-2"><use href="#doc" x="492" y="200" width="14" height="18"/></g>
+      <g class="float float-3"><use href="#doc" x="554" y="240" width="14" height="18"/></g>
+      <g class="float">       <use href="#doc" x="612" y="218" width="14" height="18"/></g>
+      <g class="float float-2"><use href="#doc" x="662" y="244" width="14" height="18"/></g>
+
+      <!-- the highlighted retrieved document, with a soft glow -->
+      <g>
+        <circle class="glow pulse-glow" cx="586" cy="78" r="26" fill="#2E6F8E"/>
+        <g class="float float-4">
+          <use href="#doc-hi" x="579" y="69" width="14" height="18"/>
+        </g>
+      </g>
+    </svg>
+
+    <div class="copy">
+      <h1>Flow through<br>your <em>knowledge.</em></h1>
+      <div class="sub">Vector retrieval from docs and collections</div>
+    </div>
+  </div>
+</div>
+</body></html>

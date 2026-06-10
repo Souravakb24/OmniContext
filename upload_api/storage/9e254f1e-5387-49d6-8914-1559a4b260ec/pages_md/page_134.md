@@ -1,0 +1,11 @@
+
+resorting  to  Cost  Analysis  in  situations  where  there  is  a wide variance over the LPP , not explained by corresponding changes in indices. A sample format for undertaking Cost Analysis is placed at DPMF 25 .
+
+- (f) Efforts are to be made to check cost break-up details to the extent possible.
+- 5.33.4 Last  Purchase  Price  (LPP)  as  a  Determinant  of  Reasonable Price .    LPP  is  one  of  the  relevant  factors  in  deciding  price reasonableness. However, following factors may be considered while comparing the quoted rates with the LPP:-
+- (a) LPP  of  more  than  three  years'  vintage  or  of  obsolete items  is  not  a  real  scale  for  comparison.  However,  such LPP could be used as an input for assessing the rates by adding yearly escalation, if considered necessary. The rate of escalation may differ from case to case, depending on the  type  of  goods  being  procured.  This  escalation  factor shall be carefully worked out on the basis of data of past purchases of the same/ similar items or as per the Pricing Policy  Agreements,  if  any.  The  escalation  factor  shall  be worked  out  by  Procuring  Agencies  of  the  Services/other Organisations after mutual consultation as per modalities to be laid down, so that different escalation factors are not applied by different Procuring Agencies for same/ similar items and in respect of the same source, or shall be worked out as per pricing policy where such pricing agreement is in place.
+- (b) LPP pertains to a past successfully executed/ placed order of similar magnitude and scope of supply.
+- (c) Factors like basket price and bulk discount offered are to be taken into account while using LPP as a scale for comparing prices.
+- (d) Price Variation clause, if any, and the final cost paid by the user in respect of last purchase to which LPP pertains, is to be considered.
+- (e) Factors  like  items  supplied  against  LPP  being  of  current production or ex-stock supply, are to be taken into account.
+- (f) Market conditions and other factors like re-starting production lines due to obsolescence, may also have to be considered.

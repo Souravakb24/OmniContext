@@ -1,0 +1,12 @@
+
+Organisations under MoD, from grants placed at their disposal by other Ministries/Departments like the Ministry of Home Affairs, Ministry of Environment and Forests, etc.
+
+- 1.2.3 The  procedure  laid  down  in  this  Manual  shall  be  followed for  Central  Procurement  as  well  as  for  Local  Purchase  under delegated financial powers of all authorities in the MoD, Service HQs and all Organisations, including subordinate authorities at all levels, covered by this Manual (as per Paragraphs 1.2.1 and 1.2.2).
+
+## 1.3 Definitions
+
+- 1.3.1 Unless  the  context  requires  otherwise,  the  terms  used  in  this Manual shall have the meanings as described herein below.
+- 1.3.2  Authority  Holding  Sealed  Particulars  (AHSP) .  The  authority responsible for collecting, collating, developing, amending, updating, holding and supplying sealed particulars/specifications of the Defence items in accordance with the laid down procedures. AHSP may be the Director General of Quality Assurance (DGQA), an  authority  in  the  Service  Headquarters  (HQs)  for  Servicespecific  items  or  any  other  agency  designated  by  the  Service HQs. Similar responsibility for the Naval and Air Force equipment rests with respective Service HQs. DGAQA is one of the AHSP for indigenously manufactured aviation stores of all the Services and the Coast Guard. Procurement officers, the Sellers and the Inspection Agencies are required to comply with the specifications drawn up by the AHSP.
+- 1.3.3   Capital  Expenditure .    Significant  expenditure  incurred  with  the object  of  acquiring  tangible  assets  of  a  permanent  nature  (for use in the organisation and not for sale in the ordinary course of business) or enhancing the utility of existing assets, is broadly defined as Capital expenditure. Classification of expenditure as Capital shall be as per criteria promulgated by MoD from time to time.
+- 1.3.4   Capital  Procurement .  Refers  to  procurement  of  all  goods  and services as per the definition of capital expenditure given above. Capital procurement is undertaken in accordance with provisions of Defence Acquisition Procedure (DAP) -2020, as amended from time to time.
+- 1.3.5   Central Procurement (CP). Procurement undertaken centrally by the Central Provisioning Agency/Central Purchase Organisation of the Service HQs/ Organisations concerned under MoD against

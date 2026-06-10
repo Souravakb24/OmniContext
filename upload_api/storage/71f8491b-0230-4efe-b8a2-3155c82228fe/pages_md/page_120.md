@@ -1,0 +1,14 @@
+- (c) Medical  Officers  and  Medical  Assistants  employed  in  ships  and establishments.
+
+## SECTION II - INSTRUCTIONS TO MEDICAL OFFICERS
+
+
+0802. Director General of Medical Services (Navy). The Director General Medical Services (Navy) is the adviser to the Chief of the Naval Staff on all matters of health affecting the Navy. He will deal with all technical questions pertaining to the Medical Services that do not require reference to the Government. He will advise on the appointments and deployment of Medical and Dental officers and sailors so as to ensure  equitable  distribution  of  medical  manpower  as  required  for  a  high  level  of health care delivery. He will visit all the medical installations of the Navy and such ships  and  establishments,  as  he  consider  necessary.  He  will  be  responsible  for preparation of budget forecast and estimates in respect of medical and dental stores required  for  the  Navy.  He  will  plan  and  advise  on  the  professional  training  of  the medical  officers,  Special  Duties  List  Officers  (Medical),  officers  and  sailors  of  the Medical Branch. He will keep the Director General Armed Forces Medical Services (DGAFMS) informed of all general policy decisions and directive issued by the Chief of the Naval Staff in so far a they affect the Medical Services of the Navy, such as planning of  hospitals,  laboratories,  sick  bays,  pathological  institutions,  development of preventive medicine and research at the Naval Dental Centres.
+
+
+0803.  Command  Medical  Officer/Fleet  Medical  0fficer. The  Command Medical  officer  is  the  adviser  to  the  Administrative  Authority  of  the  Command  on medical matters and questions affecting the health of the personnel borne in ships and establishments  in  the  Command.  The  following  duties  shall  be  carried  out  by  him within the Command: -
+
+- (a) He  shall  carry  out  inspections  of  all  Naval  hospitals,  sickbays,  dental centres  and  other  medical  installations,  as  he  considers  necessary  and ensure that they are administered  in conformity  with the regulations and that the equipment and stores are properly maintained.
+- (b) He shall satisfy himself that patients in hospitals and sickbays are properly cared for and that due economy is observed.
+- (c) He shall visit all ships and establishments as considered necessary, with a view to ascertaining efficiency of the medical arrangements and the state of health of the ship's company.
+- (d) He shall be responsible for medical arrangements in aid of civil power. He shall  arrange  to  carry  out  inspection  of  medical  equipment  kept  for  the

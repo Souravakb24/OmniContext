@@ -1,0 +1,33 @@
+
+## FORMAT OF QUANTITY CLAIM
+
+
+Quantity Claim to the Contract Number ………………............................ dated …………………. Claim Protocol Number ………………........................................................................................ Laid down ……………….................................................................... for inter/ tare storage Commission,  consisting  of  Chairman  ……………….............................................................. and Members ………………………………………………………………............................... having examined the state of the delivered equipment, ascertained as follows:-
+
+- The  equipment  was  delivered  by  M/s  …….................................................................. against  Bill  of  Lading  Number  ……………..................  of  ………………………….. in  the  quantity  of  one collo with  the  Marking  …………………………....……............................. Case Number …………………………………………..........................................................
+- The obtained equipment is delivered under Contract Number ……………………...…................  Item Serial Number ………………………………........... Cost ……………………………….............
+- The state of packing and seals on goods packages, correspondence of the gross weight and the weight indicated in the way bills (packing lists), and numbers of the colli are to be pointed out ................…….............................…….......… Condition of the colli …………………………………………………....................................  Gross  weight  of  the colli …………………………………….. Net weight of the colli ……………………….........
+- While unpacking the goods packages, the following discrepancy between the shipping documents (packing lists) and the packed equipment was discovered/ separately for each package ………………………………………….……………………….…………………........ ..................……………………………………………..……………………......................
+- Conclusion of the Commission ......................................................................................... .................................……………………………………………..…………………….............. .................................……………………………………………..……………………..............
+- The following documents confirming the justification of the complaint are attached with the report (Packing list, photos of the damaged goods, etc.) .............................................
+- .................................……………………………………………..…………………….......... .................................……………………………………………..…………………….......... .................................……………………………………………..……………………..........
+
+Chairman :
+
+
+……………………………....
+
+
+Members :
+
+
+……………………………....
+
+
+Place and date of issue :
+
+
+……………………………....
+
+
+DPMF 19 {Refers to Paragraph 6.41.2, 7.19.1;  Sub-Paragraph  28(c)  of Part IV of DPMF 11}

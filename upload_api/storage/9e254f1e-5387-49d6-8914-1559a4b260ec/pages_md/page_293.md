@@ -1,0 +1,12 @@
+
+branch of the bank and forward the confirmation report to the procurement entity concerned.
+
+- (d) While  accepting  BGs,  it  should  also  be  checked  that  the Applicable Law indicated in the Agreement is Indian and the validity date of the BG has been specified.
+- (e) As  a measure  of  abundant  caution,  all  BGs  should  be independently  verified  by  the  procuring  entity  when  they  are received from the Guarantor Bank. It shall be clearly mentioned in the RFP that BGs issued by foreign banks are to be submitted to  an  Indian  Public  or  Private  Sector  SCB  through  SWIFT message with a copy to the Buyer through e-mail/ Post/ etc. The Indian Public or Private Sector SCB shall then ensure the authenticity of the SWIFT message and forward the same to the  Buyer  Directorate  with  a  certificate  that  the  message  is authentic and the BG has actually been established and can be accepted.
+- (f) The validity period of BG should be as under:-
+- (i) ABG-  Upto  the  delivery  period/amended    (extended) delivery period
+- (ii) PBG/WBG- 60 days beyond completion of all contractual obligations (including warranty period).
+- (iii) In  case  the  contract  incorporates  the  provision  for  JRI, the JRI period should also be added separately after the delivery period.
+- (g) In  exceptional  cases,  when  BGs  are  received  through  the vendors/ suppliers/ etc., the issuing bank should be requested to immediately send an unstamped duplicate copy of the BG by Regd. Post (A.D.) directly to the buyer, with a covering letter to compare with the original BGs and confirm that it is in order.
+- (h) In each office, the officer(s) concerned should be specifically assigned the responsibility to ensure verification, timely renewal and timely encashment of BGs, whenever required.
+- 14.9.6  Deviations .    In  certain  cases,  deviations  from  the  laid  down regulations  with  regard  to  BGs  may  be  recommended  by  the Procurement  Committee  (PC)/  Contract  Negotiation  Committee (CNC) wherever there are issues between the banks of the foreign and Indian sides on account of international sanctions, lack of faith due to reputation of Banks, specific requirement of firms, etc., for

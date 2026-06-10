@@ -1,0 +1,17 @@
+
+0370. Issue of Clothing. Facilities shall be provided for the issue of clothing to  the  entitled  personnel  as  frequently  as  is  necessary,  and  the  captain  shall  satisfy himself that the arrangements are adequate.
+
+
+## SECTION VII - LOSS OF SHIP
+
+
+0371. Loss of Ship. (1) If a ship is wrecked or otherwise lost or destroyed the Captain or senior surviving officer shall use every exertion to preserve the lives of the crew; and when as many of them as possible have been saved he shall use his utmost endeavours to save the confidential books and fittings, stores, provisions and portable equipment.  If  confidential  books  and  fittings  cannot  be  saved,  he  shall  if  possible, cause  them  to  be  destroyed  to  prevent  them  falling  into  improper  hands.  This especially applies to a vessel wrecked on a foreign coast.
+
+
+(2)  He  shall  himself  take  special  care  to  prevent  all  cryptographic  material, secret  orders,  signals  and  instructions  falling  into  improper  hands.  Unless  their preservation can absolutely be assured, he shall ensure that all secret documents are destroyed  by  fire  and  that  all ipher  machines  are  rendered  unrecognisable  and useless, either by explosive charge or smashing with a heavy hammer and disposed of overboard.
+
+
+(3) He shall give his particular attention to the saving of all books and papers relating to the ship's accounts, so that he may be enabled to cause the necessary books to be made out for transmission to the Chief of the Naval Staff pending the holding of a board of inquiry and an y subsequent court-martial. Should he find himself unable to comply with these directions, he shall immediately report the cause to the chief of the Naval staff in order that, if judged proper, directions may be given for the books to be made out from the last accounts received by the audit authorities concerned.
+
+
+(4) He shall dispose of the crew in the manner most conducive to their comfort and  to  economy,  that  the  circumstances  admit.  As  the  Chief  of  the  Naval  Staff  is normally in the best position to make arrangements for the passages from abroad of officers  and  sailors,  and  the  freight  of  stores,  the  Chief  of  the  Naval  Staff  is  to  be consulted before action is taken to send home the ship's company or stores. He shall place sufficient guards  over  the stores and  provisions to prevent their being embezzled, and shall be careful that the wine and spirits are so disposed of that they cannot be tampered with. He shall keep the crew together, and shall be very particular in  preserving  regular  and  perfect  discipline  among  them  and  in  preventing  the committal of any irregularities or the giving of opportunity to commit offence to the inhabitants of the country they are in. Should a sufficient quantity of provisions not be saved, he shall authorise the purchage of whatever may be required; and should the sailors be in want of clothes, he shall cause whatever may be absolutely requisite for their comfort to be purchased, and duly accounted for. Should the ship be wrecked on the coast of a foreign power in amity with India, he shall apply to the concerned local Government authority of the place for such assistance as he may stand in need of, and he  shall  particularly  attentive  in  observing  and  conforming  to  all  the  laws  and regulations of the country, so long as he shall continue in it.

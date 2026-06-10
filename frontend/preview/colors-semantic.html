@@ -1,0 +1,35 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Semantic colors</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 20px; }
+  .stack { border-radius: var(--radius); border: 1px solid var(--mist); overflow: hidden; }
+  .head { height: 80px; display: flex; align-items: center; justify-content: center; }
+  .head svg { width: 28px; height: 28px; }
+  .body { padding: 12px 14px; background: var(--paper-bright); }
+  .body b { font: 500 14px var(--font-sans); color: var(--ink); display: block; }
+  .body span { font: var(--type-code-sm); color: var(--fg-subtle); }
+  .pair { display: flex; gap: 6px; margin-top: 8px; }
+  .pair div { flex: 1; height: 28px; border-radius: 4px; border: 1px solid var(--mist); display: flex; align-items: center; justify-content: center; font: 500 11px var(--font-sans); }
+</style></head>
+<body>
+<div class="card">
+  <div class="stack">
+    <div class="head" style="background:#5C7A4F"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg></div>
+    <div class="body"><b>Moss · Success</b><span>#5C7A4F</span>
+      <div class="pair"><div style="background:#DCE3D2;color:#5C7A4F;border-color:#DCE3D2">Ready</div><div style="background:#fff;color:#5C7A4F">+12 indexed</div></div>
+    </div>
+  </div>
+  <div class="stack">
+    <div class="head" style="background:#C24A3A"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg></div>
+    <div class="body"><b>Ember · Danger</b><span>#C24A3A</span>
+      <div class="pair"><div style="background:#F4DAD3;color:#C24A3A;border-color:#F4DAD3">Failed</div><div style="background:#fff;color:#C24A3A">Deactivate</div></div>
+    </div>
+  </div>
+  <div class="stack">
+    <div class="head" style="background:#D9B271"><svg viewBox="0 0 24 24" fill="none" stroke="#0E1B2C" stroke-width="1.8"><path d="M12 2L2 22h20L12 2z"/><path d="M12 10v5M12 18h.01"/></svg></div>
+    <div class="body"><b>Sand · Warning</b><span>#D9B271</span>
+      <div class="pair"><div style="background:#F2E6CC;color:#7A5A1C;border-color:#F2E6CC">2 of 5 left</div><div style="background:#fff;color:#7A5A1C">Pro</div></div>
+    </div>
+  </div>
+</div>
+</body></html>

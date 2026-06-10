@@ -1,0 +1,28 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Mark</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { background: var(--paper); }
+  .grid-marks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .tile { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 16px 8px; border-radius: var(--radius-md); border: 1px solid var(--mist); background: var(--paper-bright); }
+  .tile.dark { background: var(--ink); border-color: var(--ink); }
+  .tile.cream { background: var(--paper); }
+  .tile.sand { background: var(--sand-soft); border-color: transparent; }
+  .meta { font: var(--type-overline); text-transform: uppercase; letter-spacing: var(--tracking-overline); color: var(--fg-subtle); }
+</style></head>
+<body>
+<div class="card">
+  <div class="grid-marks">
+    <div class="tile"><img src="../assets/mark.svg" width="56"><span class="meta">primary</span></div>
+    <div class="tile dark"><img src="../assets/mark.svg" width="56"><span class="meta" style="color:#A8B2BD">on ink</span></div>
+    <div class="tile cream"><img src="../assets/mark.svg" width="56"><span class="meta">on paper</span></div>
+    <div class="tile sand">
+      <svg viewBox="0 0 64 64" width="56" height="56">
+        <rect width="64" height="64" rx="14" fill="#F5F1E8"/>
+        <path d="M 10 36 C 18 24, 24 44, 32 32 S 46 20, 54 32" fill="none" stroke="#0E1B2C" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="32" cy="32" r="3.2" fill="#2E6F8E"/>
+      </svg>
+      <span class="meta">inverse</span>
+    </div>
+  </div>
+</div>
+</body></html>

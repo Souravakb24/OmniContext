@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InflowMind · Flow through your knowledge</title>
+  <link rel="stylesheet" href="../../colors_and_type.css" />
+  <style>
+    /* ------------------------------------------------------------------
+       Marketing site — local stylesheet. Uses tokens from colors_and_type.
+       ------------------------------------------------------------------ */
+    body { background: var(--paper); }
+
+    /* generic buttons */
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font: 500 14px/1 var(--font-sans); padding: 12px 18px; border-radius: var(--radius); border: 1px solid transparent; cursor: pointer; text-decoration: none; transition: all var(--dur-1) var(--ease-flow); letter-spacing: -0.005em; }
+    .btn-primary { background: var(--current); color: var(--paper); }
+    .btn-primary:hover { background: var(--current-deep); text-decoration: none; }
+    .btn-secondary { background: var(--paper-bright); color: var(--ink); border-color: var(--mist-2); }
+    .btn-secondary:hover { background: var(--paper); }
+    .btn-lg { padding: 14px 22px; font-size: 15px; }
+    .btn-block { width: 100%; }
+
+    .eyebrow { font: 500 12px/1.2 var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--current); margin: 0 0 14px; }
+    .section-title { font: 400 56px/1.08 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0 0 48px; max-width: 720px; }
+    .section-inner { max-width: var(--max-marketing); margin: 0 auto; padding: 96px 32px; }
+
+    /* ------- HEADER ------- */
+    .mkt-header { position: sticky; top: 0; z-index: 10; transition: background var(--dur-2) var(--ease-flow), backdrop-filter var(--dur-2) var(--ease-flow); }
+    .mkt-header.scrolled { background: rgba(245, 241, 232, 0.8); backdrop-filter: blur(16px); border-bottom: 1px solid var(--mist); }
+    .mkt-header-inner { max-width: var(--max-marketing); margin: 0 auto; padding: 18px 32px; display: flex; align-items: center; gap: 32px; }
+    .mkt-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .mkt-brand span { font: italic 400 22px var(--font-display); color: var(--ink); letter-spacing: -0.01em; }
+    .mkt-nav { display: flex; gap: 28px; margin-left: 24px; }
+    .mkt-nav a { color: var(--ink-2); font: 500 14px var(--font-sans); text-decoration: none; }
+    .mkt-nav a:hover { color: var(--ink); }
+    .mkt-cta { margin-left: auto; display: flex; align-items: center; gap: 18px; }
+    .mkt-link { color: var(--ink); font: 500 14px var(--font-sans); text-decoration: none; }
+    .mkt-link-arrow { color: var(--current); }
+    .mkt-link:hover { text-decoration: underline; }
+
+    /* ------- HERO ------- */
+    .hero { position: relative; overflow: hidden; }
+    .hero-flow { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+    .hero-inner { position: relative; max-width: var(--max-marketing); margin: 0 auto; padding: 80px 32px 120px; }
+    .hero-title { font: 400 96px/1.02 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0 0 28px; }
+    .hero-title em { color: var(--current); font-style: italic; }
+    .hero-lede { font: 400 19px/1.55 var(--font-sans); color: var(--ink-2); max-width: 560px; margin: 0 0 36px; }
+    .hero-cta { display: flex; gap: 24px; align-items: center; }
+    .hero-logos { margin-top: 72px; display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+    .hero-logos span { font: 500 12px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--ink-3); }
+    .hero-logos-row { display: flex; gap: 18px; align-items: center; }
+    .hero-logos-row span { font: italic 400 22px var(--font-display); text-transform: none; letter-spacing: -0.01em; color: var(--ink); }
+    .hero-logos-row span:nth-child(even) { font-family: var(--font-sans); font-style: normal; font-size: 14px; color: var(--ink-4); }
+
+    /* ------- HOW IT WORKS ------- */
+    .how { background: var(--paper-soft); border-top: 1px solid var(--mist); border-bottom: 1px solid var(--mist); }
+    .how-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .how-card { padding: 32px; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-xl); display: flex; flex-direction: column; gap: 12px; }
+    .how-num { font: italic 400 40px var(--font-display); color: var(--current); }
+    .how-card h3 { font: 500 22px/1.25 var(--font-sans); letter-spacing: -0.01em; color: var(--ink); margin: 0; }
+    .how-card p { font: 400 15px/1.55 var(--font-sans); color: var(--ink-2); margin: 0; }
+    .how-illu { margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--mist); min-height: 88px; display: flex; align-items: center; }
+
+    .dropzone-mini { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: var(--paper); border: 1.5px dashed var(--mist-2); border-radius: 8px; font: 400 13px var(--font-sans); color: var(--ink-2); width: 100%; }
+
+    .pipeline { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+    .pipeline-step { display: inline-flex; align-items: center; gap: 6px; font: 500 12px var(--font-sans); color: var(--ink-3); padding: 4px 8px; border-radius: 999px; background: var(--mist); transition: all var(--dur-2) var(--ease-flow); }
+    .pipeline-step.active { background: var(--current-soft); color: var(--current-deep); }
+    .pipeline-step.done { background: var(--moss-soft); color: var(--moss); }
+    .pipeline-dot { width: 5px; height: 5px; border-radius: 999px; background: currentColor; opacity: 0.7; }
+    .pipeline-step.active .pipeline-dot { animation: pulse 1.2s infinite; opacity: 1; }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    .pipeline-arrow { color: var(--ink-4); font-size: 12px; }
+
+    .ask-mini { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+    .ask-q { font: 400 13px var(--font-sans); color: var(--ink-3); font-style: italic; }
+    .ask-a { font: 400 13px/1.5 var(--font-sans); color: var(--ink); padding: 10px 12px; background: var(--paper); border-radius: 8px; border: 1px solid var(--mist); }
+    .ask-a .cite { display: block; margin-top: 6px; font: 400 11px var(--font-mono); color: var(--current); }
+
+    /* ------- PRICING ------- */
+    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .tier { padding: 32px; border: 1px solid var(--mist); background: var(--paper-bright); border-radius: var(--radius-xl); display: flex; flex-direction: column; gap: 16px; }
+    .tier-primary { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+    .tier-head { display: flex; align-items: center; gap: 12px; }
+    .tier-head h3 { font: 500 18px var(--font-sans); margin: 0; color: inherit; }
+    .tier-tag { font: 500 11px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; padding: 4px 10px; background: var(--sand); color: var(--ink); border-radius: 999px; }
+    .tier-price { display: flex; align-items: baseline; gap: 8px; }
+    .tier-amount { font: 400 48px var(--font-display); letter-spacing: var(--tracking-display); color: inherit; }
+    .tier-unit { font: 400 13px var(--font-sans); color: var(--ink-3); }
+    .tier-primary .tier-unit { color: rgba(245,241,232,0.6); }
+    .tier-note { font: 400 14px var(--font-sans); color: var(--ink-3); margin: 0; }
+    .tier-primary .tier-note { color: rgba(245,241,232,0.7); }
+    .tier-features { list-style: none; padding: 0; margin: 4px 0; display: flex; flex-direction: column; gap: 10px; }
+    .tier-features li { display: flex; align-items: flex-start; gap: 10px; font: 400 14px/1.45 var(--font-sans); color: inherit; }
+    .tier-features svg { flex: none; color: var(--current); margin-top: 3px; }
+    .tier-primary .tier-features svg { color: var(--sand); }
+    .tier-primary .btn-secondary { background: transparent; color: var(--paper); border-color: rgba(245,241,232,0.3); }
+    .tier-primary .btn-primary { background: var(--sand); color: var(--ink); }
+
+    /* ------- FOOTER ------- */
+    .mkt-footer { background: var(--ink); color: var(--paper); padding: 64px 0 24px; }
+    .mkt-footer-inner { max-width: var(--max-marketing); margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 320px 1fr; gap: 64px; }
+    .mkt-footer-brand { display: flex; flex-direction: column; gap: 16px; }
+    .mkt-footer-tag { font: italic 400 26px/1.15 var(--font-display); color: var(--paper); margin: 0; }
+    .mkt-footer-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+    .mkt-footer-cols .overline { font: 500 11px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: rgba(245,241,232,0.5); margin: 0 0 12px; }
+    .mkt-footer-cols a { display: block; font: 400 14px/2 var(--font-sans); color: rgba(245,241,232,0.85); text-decoration: none; }
+    .mkt-footer-cols a:hover { color: var(--paper); }
+    .mkt-footer-base { max-width: var(--max-marketing); margin: 48px auto 0; padding: 24px 32px 0; border-top: 1px solid rgba(245,241,232,0.1); display: flex; justify-content: space-between; font: 400 12px var(--font-sans); color: rgba(245,241,232,0.5); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script type="text/babel" src="Header.jsx"></script>
+  <script type="text/babel" src="Hero.jsx"></script>
+  <script type="text/babel" src="HowItWorks.jsx"></script>
+  <script type="text/babel" src="Pricing.jsx"></script>
+  <script type="text/babel" src="Footer.jsx"></script>
+
+  <script type="text/babel">
+    const App = () => (
+      <React.Fragment>
+        <Header />
+        <Hero />
+        <HowItWorks />
+        <Pricing />
+        <Footer />
+      </React.Fragment>
+    );
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>

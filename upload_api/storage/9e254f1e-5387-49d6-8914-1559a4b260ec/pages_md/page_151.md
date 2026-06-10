@@ -1,0 +1,12 @@
+
+## 6.13 Applicability of Conditions of Contract
+
+- 6.13.1   Terms and Conditions .  The formats of the RFP and the Contract agreement  contain  all  the  standard  and  special  conditions  of contract. The clauses given in the Standard conditions listed in Part III of the RFP Format (DPMF 11) , shall and Special Conditions listed in Part IV of the RFP Format (DPMF 11) , as applicable in a particular contract, may be included in the RFP and subsequently in the Contract. No deviation from the text given in the Standard Conditions  nor  deletion  of  any  of  these  clauses  is  allowed.  In case a deviation from the standard clauses has to be considered/ allowed due to insistence of the Seller, then approval of Raksha Mantri will be required. Before seeking approval of Raksha Mantri, legal opinion shall be obtained.
+- 6.13.2   Amplification of the  Terms and Conditions . The terms and  conditions  included  in  the  specimen  format  of  the  RFP (DPMF  11) and  the  contract (DPMF  12) are  self-explanatory. However,  some  of  the  salient  terms  and  conditions  are  also explained in the succeeding Paragraphs for better understanding. The Standard Conditions of Contract are listed out from Paragraph 6.14 to 6.24, followed by the Special Conditions of Contract listed out from Paragraph 6.25 to 6.41.
+
+## 6.14 Effective Date of Contract
+
+- 6.14.1 Contract  Effective  Date .    The  date  of  commencement  of  the obligations  under  a  contract  on  the  parties  to  a  contract,  is referred  as  the  contract  effective  date.  The  effective  date  of commencement of contract shall invariably be indicated in each contract as per agreed terms and conditions. Normally, the date of  signing  of  the  contract  is  the  effective  date,  except  when specifically provided otherwise in the contract. Where specifically agreed to by the parties to a contract, effective date may be the date on which any of the following conditions, as applicable, is complied with:-
+- (a) Furnishing of the Performance Bond/ Security in the form of Performance Bank Guarantee (PBG) by the Seller as given in Paragraph 6.28.
+- (b) Obtaining of the Export Licence/ authorisation from Seller's  Government for  supply  of  stores  by  the  Seller  and a confirmation in writing sent to the Buyer within specified days of signing of the contract.
+- (c) Receipt of the Advance Payment Bank Guarantee (APBG)/

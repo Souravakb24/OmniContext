@@ -1,0 +1,13 @@
+
+the same manner as the publication or communication of the initial bidding document was made.
+
+- (b) In case a clarification or modification is issued to the bidding document, the procuring entity shall, before the last date for submission of bids, extend such time limit, if, in its opinion, more time is required by bidders to take into account the clarification or modification, as the case may be, while submitting their bids.
+- (c) Any bidder who has submitted his bid in response to the original invitation, shall have the opportunity to modify or re-submit it, as the case may be, or withdraw such bid in case the modification to  bidding  document  materially  affects  the  essential  terms of the procurement, within the period initially allotted or such extended time as may be allowed for submission of bids, after the  modifications  are  made  to  the  bidding  document  by  the procuring entity, provided that the bid last submitted or the bid as modified by the bidder, shall be considered for evaluation.
+
+## 5.16.2 Extension of Tender Opening Within Due Date of Opening .
+
+- (a) CFA may extend the date of opening of the tender, as specified in the RFP upto a maximum period of three months (maximum upto  three  occasions  with  cumulative  period  not  more  than three months) without consultation of IFA, even where CFA's procurement powers are exercisable with financial concurrence.
+- (b) CFA may extend the date of opening of the tender, as specified in the RFP , for any period/ number of times, in consultation with IFA, where required as per delegation of financial powers.
+- (c) In  cases  where  PC  is  constituted,  the  PC  is  empowered  to extend the date of opening of the tender, as specified in the RFP, for any period/ number of times, in a collegiate manner. Paragraph 4.6.2 (Chapter 4) is relevant in this regard.
+- (d) The  procuring  entity  shall  publish  or  communicate  such extensions  and  amendments  in  the  same  manner  as  the publication or communication of the initial bidding document was made.
+- 5.16.3 Extension of Tender Opening Date After Due Date of Opening : In case no bid has been received within the due date of receipt, date of opening of the tender may be extended for a reasonable period with  the  approval  of  the  CFA  and  in  consultation  with  the  IFA, where financial powers are to be exercised with the concurrence of  Integrated  Finance.  While  granting  extension,  provisions  as stipulated at Para 5.16.2 (d) shall also be followed.

@@ -1,0 +1,16 @@
+- Limitation on Salutes to same authority .-  No  Flag  Officer,  Commodore, Captain or  other officer  in  command,  shall  salute  the  same  Flag Officer  or  Commodore  more  than  once  during  his command except in the case of promotion.
+- Limitation as to Rank .- Officers below the rank of Commodore, Brigadier or Air Commodore shall  not  be saluted  in  any  part  of  the  world;  nor  shall salutes be exchanged between Indian Naval Ships, forts and batteries.
+
+## SECTION III.- SALUTES TO NATIONAL FLAGS AND TO FOREIGN FLAG OFFICERS
+
+- Salutes to National Flags .- (1) Salute to the national flag of a country consists of 21 guns.
+- The Captain of a ship, or the senior officer of more than one ship, visiting a foreign port where there is a fort or saluting battery, or where a ship of the nation may be lying shall salute the national flag with 21 guns, on being satisfied that the salute will be returned.  A salute shall not be fired when the ship is passing through territorial waters with no intention of anchoring, or  making  fast  in  any  way,  in  them,  even  if  a  saluting  station  is  passed,  unless  unusual circumstances make it desirable.
+
+The salute shall be fired on each occasion that a ship visits a foreign port, except that of a ship leaving port temporarily, when, by agreement with the local authorities, the salute on her return may be dispensed with.
+
+- When a ship visits a foreign port where there is no saluting battery and no ship of the nation is lying on arrival, and a ship of the nation arrives during the visit, a salute to the national flag shall only be fired after mutual agreement between the Senior Officers of the ships concerned.
+- If the ship of a senior Indian officer is already present in the port, the junior will not fire a salute.
+- Salutes  to  a  national  flag  shall  not  be  fired  by  Indian  Naval  Ships  when  visiting Commonwealth countries.
+- Recognised Governments .- Salutes to foreign Royal personages and other foreign authorities and flags are only authorized in the case of a Government formally recognized by the Government.
+- Salutes  to  foreign  Functionaries .-  Salutes  in  conformity  with  the  table  of  salutes  given  in Regulation 19, shall be fired in compliment to foreign officials, from either ships or batteries, in the same manner and in circumstances similar to those in which salutes to an Indian Official would be fired.
+- Foreign Flag Officers and Commodores :- (1) If one or more Indian ships of war should meet a foreign ship of war at sea ,wearing the flag of a  Flag Officer or the broad pendant of a Commodore of superior rank to the Senior Officer in command of an Indian Naval Ship or ships aforementioned, such Senior Officer shall salute, subject to Regulation 25, the foreign Flag Officer with the number of guns accorded to his rank in Regulation 31.  If the meeting takes place in port, the salute shall not be fired  until  the  proper  national  salutes  shall  have  been  interchanged,  and  then  only  if  the  local regulations admit thereof.

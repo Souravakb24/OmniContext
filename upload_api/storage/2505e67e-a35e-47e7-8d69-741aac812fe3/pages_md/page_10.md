@@ -1,0 +1,34 @@
+
+(2) Subject to the exceptions contained in sub-regulation (3) person belonging to category be a person in whose favour a Certificate of Eligibility has been  issued  by  the  Government.  A  person  belonging  to  either  of  the  said categories may also be enrolled or appointed in anticipation of the issue of the certificate to him by the Government.  The Certificate of Eligibility shall be valid for one year from the date of his Appointment beyond which he shall be retained in  the  Service  only,  if  he  acquires  citizenship  of  India  in  accordance  with  the provisions of the Citizenship Act, 1955.
+
+
+(3) The certificate of Eligibility shall not be necessary in the case of persons belonging to any one of the following     categories namely:-
+
+
+(a) Persons  who  migrated  to  India  from  Pakistan  on  or  after  the nineteenth  day  of  July,  1948  and  have  got  themselves  registered  as citizens of India;
+
+- (b) Gorkha subjects of Nepal
+
+(4) Recruitment  of  a  non-citizen  to  the  Service  except  as  provided  in  the preceding  sub-regulation, shall require the specific prior approval  of the Government in each case.
+
+
+(5) A person shall be eligible for enrolment as a member of the Service, if-
+
+- (a) he is of good character;
+
+(b) he  is  resident  of  the  area  for  which  the  establishment  in  which enrolment has been applied for is constituted;
+
+
+(c) he  satisfies  such  standards  of  physical  fitness  in  height,  chest measurement, and in other respects as may be specified by the Chief of the Naval Staff.
+
+
+(d) he has obtained permission from the Central or State Government, where he may be serving, for enrolment and also a certificate to the effect that his services will forth with be made available whenever required;
+
+
+(e) he does not belong to any Reserve Force;
+
+
+(f) he does not have any reserve liability;
+
+
+(g) he has not any time been convicted of an offence involving moral turpitude  and  a  sentence  other  than  one  of  fine  or  of  imprisonment  in default  of  payment of  fine  has been passed  in  respect of  such  offence, such  sentence  not  having  been  subsequently  reversed  or  the  offence pardoned;

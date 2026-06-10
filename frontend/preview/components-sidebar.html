@@ -1,0 +1,42 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Sidebar nav</title><link rel="stylesheet" href="_preview.css">
+<style>
+  body { background: var(--paper); }
+  .card { padding: 0; display: grid; grid-template-columns: 240px 1fr; }
+  .side { background: var(--paper-bright); border-right: 1px solid var(--mist); padding: 18px 14px; display: flex; flex-direction: column; gap: 18px; min-height: 100%; }
+  .side .brand { display: flex; align-items: center; gap: 10px; padding: 4px 8px; }
+  .side .brand img { width: 28px; height: 28px; }
+  .side .brand b { font: italic 400 22px 'Instrument Serif', serif; color: var(--ink); letter-spacing: -0.01em; }
+  .side .group { display: flex; flex-direction: column; gap: 2px; }
+  .side .overline { font: 500 10px var(--font-sans); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-4); padding: 6px 10px 2px; }
+  .nav { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px; color: var(--ink-2); font: 500 13px var(--font-sans); cursor: pointer; }
+  .nav svg { width: 16px; height: 16px; stroke-width: 1.6; }
+  .nav.active { background: var(--current-soft); color: var(--current-deep); }
+  .nav .count { margin-left: auto; font: 400 11px var(--font-sans); color: var(--ink-4); }
+  .nav.active .count { color: var(--current); }
+  .main { padding: 20px 24px; }
+  .h { font: 600 18px var(--font-sans); color: var(--ink); }
+  .sub { font: var(--type-body-sm); color: var(--ink-3); margin-top: 4px; }
+</style></head>
+<body>
+<div class="card">
+  <aside class="side">
+    <div class="brand"><img src="../assets/mark.svg"><b>InflowMind</b></div>
+    <div class="group">
+      <span class="overline">Workspace</span>
+      <div class="nav active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7h18M3 12h18M3 17h12"/></svg>Library<span class="count">42</span></div>
+      <div class="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Ask<span class="count">·</span></div>
+      <div class="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 16V4M6 10l6-6 6 6M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>Upload<span class="count">3 left</span></div>
+    </div>
+    <div class="group">
+      <span class="overline">Admin</span>
+      <div class="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/></svg>Members</div>
+      <div class="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Usage</div>
+    </div>
+  </aside>
+  <div class="main">
+    <div class="h">Sidebar · selected state</div>
+    <div class="sub">Sentence-cased labels · 2 px ink underline on hover · current-soft fill when active</div>
+  </div>
+</div>
+</body></html>

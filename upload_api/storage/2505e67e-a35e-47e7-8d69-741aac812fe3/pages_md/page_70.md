@@ -1,0 +1,17 @@
+
+209. Conveyance for Certain Categories of Persons Called up for Temporary Employment with the Service. Ex-Officers, sailors (pensioners and non-pensioners) who are called up for temporary employment with the Service shall be issued with railway warrants for their outward and return journey.  The class of railway accommodation shall be the same as that which was admissible to them prior to their leaving the Service.
+
+- Civilian Employee. Civilians may be employed on the lowest nerrick rates of pay at the discretion of the Commanding Officer for a period of seven days before the assembly and seven days after the dispersal of camps.  Civilians in lieu of service personnel who are essential for training and  who are not  available for enrolment  may  also be employed.   Additional civilian establishment may at the discretion of the competent financial authority prescribed in regulation 59  of  the  Financial  Regulations  Part  I  be  entertained  at  the  lowest  local  rate  to  meet requirements.
+- Peons. The entertainment of one office peon per slip or establishment at the lowest rate is admissible.  Additional Class IV establishment, which may include Class IV servants other than  office  peons,  may,  at  the  discretion  of  the  competent  Financial  authority  prescribed  in regulations 58 and 59 of the Financial Regulations Part I, be entertained at the lowest local rates to meet requirements without restriction as regards the period of employment.  Officer peons employed by an establishment shall be granted liveries by the Government as admissible.
+
+## 212. Permission for Clerk to Accompany Commanding Officer on Recruiting Duty.
+
+
+(1)  A  Commanding Officer of any establishment when proceeding on recruiting duty and when it is anticipated that not less then twenty recruits shall be obtained may, if he so  desires,  take  with  him  a  clerk  from  the  existing  establishment of  clerks  employed with his establishment.
+
+
+(3) In the case of civilian clerks traveling allowance shall be admissible under the rules and conditions prescribed for Civilians (Subordinate) in Travel   Regulations.
+
+- Absence  from  Duty  of  Government  Servants  Enrolled  in  the  Service. When Government  servants  enrolled  in  the  Service  attend  the  annual  training,  or courses  of instructions,  the  period  of  absence  from  duty  shall  not be deducted from any  casual or other leave which may be admissible to them and shall be regarded as duty for the purposes of civil leave and pesnsion.
+- Service of Government Servants to Count towards Increment of Pay. Government servants called up for service, if on incremental salary, shall count such naval service towards increment in  civil  pay  and  also  towards civil pension,  if  they  would  have  counted  for  those purposes in their corresponding service in the civil department but for the deputation to naval service.   As  regards leave they shall continue to  be  governed by  the civil  rules  applicable  to them before transfer to naval service
+- Free rations. During annual and initial training camps for ships or establishments and training camps during courses  of  instructions or  when called  up  in  aid of  the civil power  or when otherwise embodied or when taken into and kept in military custody, all sailors shall be entitled to free ration or allowance in lieu thereof as laid down for the personnel of the regular Navy.

@@ -1,0 +1,12 @@
+
+## 5.32 Benchmarking
+
+
+.
+
+- 5.32.1 It  is  advisable to work out the estimated reasonable rate or the benchmark, to judge acceptability of the L1 offer based on available information. Benchmarking of price will be undertaken by the PC/ CNC where constituted or by a committee duly approved by the CFA  with  IFA  /IFA  representative  as  a  member,  if  the  financial powers  are  to  be  exercised  in  consultation  with  IFA  as  per  the delegation  of  financial  powers  and  shall  be  done  after  the  last date of receipt of bids and before opening of the price bids in case of two bid system and before the tender opening date in single bid system, to ensure complete objectivity and fairness, and also because the decision to negotiate or not, depends upon such an assessment. Data may be collected from trade journals/ internet/ technical  literature/  industry  sources/  international  or  domestic market surveys,  products  performing  similar  functions  or  using similar components/ materials/ technology/ etc.
+- 5.32.2 Approach  to  Benchmarking .    There  are  multiple  methods  of arriving  at  a  benchmark  for  assessing  reasonability  of  prices quoted.  It  may  be  acknowledged  that  a  budgetary  quote  is  at best an indicative price but not an assessment of reasonability of cost. Therefore, following approaches/ factors, either singly or in combination, may be adopted/ considered:-
+- (a) Ascertain  Element-wise  Break-Up  of  Cost .    The  quote/ selling price generally constitutes elements such as material cost, labour cost and overhead cost, along with applicable warranty and profit.
+- (b) Ascertain  the  Last  Purchase  Price  (LPP) .    Ascertain  the LPP of similar item, supplied by the vendor recently to same Service or other sister Services/ Organisations. If LPP is of an earlier period, then the Price Level (PL) is required to be fixed as per last delivery of item with applicable escalation on that PL up to the year of delivery for the current proposal.
+- (c) Ascertain Escalation .  Escalation is to be worked out on the basis of material composition and analysis of raw materials used to make the item. The movement of price indices of raw materials (year-over-year average), wholesale price indices, consumer price indices, global metal indices  such as London metal indices, US indices, UK aerospace and electronic cost indices , etc., may be used to assess the escalation rate.
+- (d) Ascertain Delivery Period . Delivery period is to be ascertained and if the delivery is scheduled for more than

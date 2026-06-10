@@ -1,0 +1,16 @@
+
+## CHAPTER IV
+
+
+## APPOINTMENT  AND DUTIES
+
+
+| Section   |           | Regulation   |
+|-----------|-----------|--------------|
+| I         | Permanent | 73-77        |
+| II        | Duties    | 78-82        |
+
+
+## SECTION I - PERMANENT STAFF
+
+- Establishment of Permanent Staff. The establishment of the permanent staff nay be

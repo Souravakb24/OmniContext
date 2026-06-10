@@ -1,0 +1,30 @@
+entity_types:
+- Concept
+- Material
+- Property
+- Structure
+- Technique
+relationship_types:
+- ANALYZES
+- INFLUENCES
+- IS_APPLIED_TO
+- IS_ESSENTIAL_FOR
+- POSSESSES
+- STUDIES
+saturation:
+  window:
+  - 11
+  docs_processed: 1
+  is_saturated: false
+corpus_summary: This ontology maps the complex relationships within material science,
+  detailing how fundamental materials interact with structural organization and defining
+  properties. It explores the physical attributes and theoretical concepts that govern
+  the behavior of matter, linking specific materials and inherent structures to measurable
+  physical properties. Furthermore, the graph elucidates the relationship between
+  advanced characterization techniques and core scientific study, illustrating which
+  methodologies analyze, influence, or are essential for the understanding and development
+  of novel materials.
+version: 1
+domain: material_science
+updated_at: '2026-05-31'
+last_document: 79a3c69c-3adb-4f52-8127-d7e9d7d5bd13

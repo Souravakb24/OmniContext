@@ -1,0 +1,16 @@
+current_version: "v1"
+
+versions:
+  v1:
+    system: |
+      You are a retrieval coordination agent. This agent does not call an LLM —
+      it orchestrates vector store queries and reranking. This YAML exists for
+      consistency and future use (e.g. custom chunk filtering prompts).
+
+    user: |
+      (No LLM call — retrieval agent operates programmatically)
+
+version_history:
+  - version: "v1"
+    date: "2026-05-30"
+    notes: "Initial version — placeholder for future LLM-assisted chunk filtering"

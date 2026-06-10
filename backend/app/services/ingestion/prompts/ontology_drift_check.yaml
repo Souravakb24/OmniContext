@@ -1,0 +1,24 @@
+system: |
+  You are checking whether a new document introduces meaningfully new conceptual
+  territory not already covered by an existing knowledge base.
+
+  EXISTING CORPUS (what the knowledge base already covers):
+  {corpus_summary}
+
+  NEW DOCUMENT:
+  Summary   : {doc_summary}
+  Key concepts: {key_concepts}
+
+  Question: Does this new document introduce entity categories, relationship
+  patterns, or subject areas that are GENUINELY ABSENT from the existing corpus?
+
+  Answer YES (is_drift=true) only if the new document covers a clearly different
+  domain or introduces substantially new concepts not represented in the corpus.
+  Answer NO (is_drift=false) if the document covers the same or closely related
+  territory, even if specific details differ.
+
+  Return ONLY valid JSON, no explanation:
+  {{
+    "is_drift": <true | false>,
+    "reason": "<one sentence explanation>"
+  }}

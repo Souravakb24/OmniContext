@@ -1,0 +1,13 @@
+
+enter into a contract for purposes not covered by its memorandum of association; any such agreement in excess of power entered into by the company is void and cannot be enforced. Therefore, in cases of doubt, the company shall be asked to produce its memorandum for verification or the position may be verified by an inspection of the memorandum from the office of the Registrar of Companies before entering into a contract. Normally, any one of the Directors of the company is empowered to represent the company. Where tenders are signed by persons other than Directors or authorised Managing Agents, it may be necessary to examine if the person signing  the  tender  is  authorised  by  the  company  to  enter  into contracts on its behalf.
+
+- 6.3.6  Corporations  other  than  Limited  Companies. Associations  of individuals incorporated under statutes such as the Trade Union Act, Cooperative Societies Act and Societies Registration Act are also artificial persons in the eye of law and are entitled to enter into  such  contracts  as  are  authorised  by  their  memorandum of  association.  If  any  contract  has  to  be  entered  into,  with  any one  of  such  corporations  or  associations,  the  capacity  of  such associations  to  enter  into  contract      and  also  the  authority  of the  person  coming  forward  to  represent  the  said  corporations/ associations are to be verified.
+- 6.3.7  Parties to Defence Contracts .   The parties to Defence contracts are the President of India as the purchaser acting through the authority signing the Contract/ Agreement/ Purchase Order/ etc., and the seller named in the contract.
+
+## 6.4 Consent of Both Parties
+
+- 6.4.1 Two or more persons are said to consent when they agree upon the  same  thing  in  the  same  sense.  When  two  persons  dealing with  each  other  have  their  minds  directed  to  or  attach  different meanings to the language, which they use, there is no agreement. The misunderstanding, which is incompatible with an agreement, may occur in the following cases:-
+- (a) When the misunderstanding relates to the identity of the other party to the agreement.
+- (b) When it relates to the nature or terms of the transactions.
+- (c) When it relates to the subject matter of the agreement.
+- 6.4.2  Free Consent of the Parties .      The  consent is said to be free when it is not caused by coercion, undue influence, fraud, misrepresentation or mistake. Consent is said to be so caused when it would not have been given but for the existence of coercion, undue influence, fraud,

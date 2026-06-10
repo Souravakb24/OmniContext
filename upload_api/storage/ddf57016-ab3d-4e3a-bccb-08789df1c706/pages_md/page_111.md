@@ -1,0 +1,16 @@
+- (g) Levies,  taxes  and  duties  levied  by  Central/  State/  Local  governments  on  final product  will  be  paid  by  the  Buyer  on  actuals,  based  on  relevant  documentary evidence. Bidders are required to include the same in the pricing of their product. Taxes and duties on input items/ raw materials, and any variations thereof, will not be paid by the Buyer and they may not be indicated separately in the bids.
+- (h) Liquidated damages or any other recoveries should not be shown as deductions on the invoice, and GST shall be applicable on the Invoice Amount.
+- (i) In case of Price Variation or Exchange Rate Variation, or any other variation, GST shall be applicable on the net invoice value after the variation is taken into account.
+- (j) In case of profiteering by the Seller relating to GST tax, the Procuring Entity shall treat  it  as  a  violation  of  the  Code  of  Integrity  in  the  Contract  and  take  any  or all  punitive  actions  thereunder,  in  addition  to  recovery  and  action  by  the  GST authorities under the Act.
+- (k) For imported stores, the Bidder shall quote prices thereof exclusive of customs duty  and  shall  specify  separately  the  CIF/  CIP/  any  other  INCOTERMS  (as applicable)  prices  and  total  amount  of  customs  duty  payable.  The  Bidder  will also indicate correctly the rate of customs duty applicable, along with the Indian Trade Classification (ITC-HS) applicable. Customs duty if paid by the Seller will be reimbursed at actuals, on production of necessary documents.
+
+The Bidder will be exempt from payment of Customs Duty, for which Customs Duty Exemption Certificate (CDEC) will be provided by the Buyer.
+
+
+(Strike out as applicable)
+
+- (l) Subsequent to the reimbursement of customs duty, the Bidder will submit to the Paying Authority concerned, a certificate to the effect that he has not obtained any refund of customs duty subsequent to the payment of duty to the Customs authority by  him.  In  addition,  he  shall  also  submit  to  the  Paying Authority  concerned,  a certificate immediately after a period of three months from the date of payment of the duty to the Customs authorities, to the effect that he has not applied for refund of the customs duty subsequent to the payment of duty to the Customs authorities by him.
+- (m) In case the Bidder obtains any refund of customs duty, subsequent to the payment of the same by him to the Customs authorities and reimbursement of the customs duty to him by the Paying Authority, he should forthwith furnish the details of the refund obtained and afford full credit of the same to the Buyer.
+- Integrity  Pact  Clause .    An  'Integrity  Pact'  would  be  signed  between  the  Ministry  of Defence/ Buyer and the Bidder for purchases exceeding ` 5 crore. This is a binding agreement between the Buyer and the Bidders for specific contracts in which the Buyer promises that it will not accept bribes during the procurement process and the Bidders promise that they will not offer bribes. Under this Pact, the Bidders for specific contracts agree with the Buyer to carry out the procurement in a specified manner.  The Bidders are to submit the Integrity Pact along with their bids (Technical/ Commercial, whichever
+
+## OR

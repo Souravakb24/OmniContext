@@ -1,0 +1,10 @@
+
+such eligible MSE bidders shall be called to match the  new  negotiated  L1  price  as  per procedure  mentioned  above  for  placement of 25% quantity.
+
+- (ad) Exemptions from the Public Procurement Policy for  MSEs .    Given  their  unique  nature,  Defence armament imports shall not be included in computing 25% goal for MoD. In addition, Defence equipment like weapon systems, missiles, military equipment spares, etc., shall remain out of purview of such policy of reservation.
+- (ae)   Further, if a subcontract is given to MSEs, it will be considered as procurement from MSEs.
+- (iii) Facilities for Start-ups recognised by DPIIT . Following  relaxations  shall  be  provided  to  Start-ups recognised by DPIIT subject to the entity complying with the eligibility conditions as notified by the Government from time to time:-
+- (aa)   Condition  of  prior  turnover  and  prior  experience may be relaxed for Start-ups subject to meeting  of  Qualitative  Requirements/  technical specifications.
+- (ab)   Exemption from payment of Bid Security/ EMD.
+- (ac) Relaxation/facilities towards ease of doing business,  under  iDEX  scheme  and  other  such schemes,  approved  for  inclusion  in  DAP-2020 (and amendment thereof), shall be automatically extended  for  procurements  from  such  entities under this manual.
+- (iv) Product Reservation for Khadi Goods/ Handloom Textiles .  The Central Government has reserved all items of  handspun  and  hand-woven  textiles  (Khadi  goods) for exclusive purchase from Khadi & Village Industries Commission (KVIC). Of all items of textiles required by Central Government departments, it shall be mandatory to  make  procurement  of  at  least  20%  from  amongst items of handloom origin for exclusive purchase from KVIC and/ or Handloom Clusters such as Cooperative Societies, Self-Help Group (SHG) Federations, Joint  Liability  Groups  (JLGs),  Producer  Companies,

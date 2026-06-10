@@ -1,0 +1,16 @@
+
+is  earlier).   The validity of the Integrity Pact shall be from the date of its signing and extend up to three years or up to 60 days beyond the date of completion of all contractual obligations including warranty to the complete satisfaction of both, the Buyer and the Bidder/ Seller, whichever is later. In case the Bidder is unsuccessful, the Integrity Pact shall  expire  after  six  months  from  the  date  of  signing  of  the  contract. The  Format  of Integrity Pact will be as per DPMF 14 . The essential elements of the Pact are as follows:-
+
+- (a) A  pact  (Contract)  between  the  Government  of  India  (Ministry  of  Defence)  (the authority or the 'Buyer') and those companies submitting a tender for this specific activity (the 'Bidder').
+- (b) An undertaking by the Buyer that its officials will not demand or accept any bribes, gifts, etc., with appropriate disciplinary or criminal sanctions in case of violation.
+- (c) A statement by each Bidder that it has not paid, and will not pay, any bribes.
+- (d) An undertaking by each Bidder to disclose all payments made in connection with the Contract in question, to anybody (including agents and other middlemen as well as family members, etc., of officials). The disclosure would be made either at the time of submission of Bids or upon demand from the Buyer, especially when a suspicion of a violation by that Bidder emerges.
+- (e) The explicit acceptance by each Bidder that the no-bribery commitment and the disclosure  obligation  as  well  as  the  attendant  sanctions  remain  in  force  for  the winning Bidder until the Contract has been fully executed.
+- (f) Undertaking on behalf of a Bidding company will be made 'in the name and on behalf of the company's Chief Executive Officer'.
+- (g) The following set of sanctions shall be enforced for any violation by a Bidder of its commitments or undertakings:-
+- (i) Denial or loss of Contracts.
+- (ii) Forfeiture  of  any  or  all  forms  of  security  deposits/  bonds/  guarantees, including Performance Bond, submitted by the Bidder either fully or partially, as decided by the Buyer and the Buyer shall not be required to assign any reason therefor.
+- (iii) (Covered in item above)Liability for damages to the Buyer.
+- (iv) Provisions  of  Sanctions  for  violation  of  the  Integrity  Pact  shall  also  be applicable for forfeiture of Performance Bond in case of a decision by the Buyer to forfeit the same without assigning any reasons for imposing sanction for violation of this Pact.
+- (v) Debarment of the violator by the Buyer for an appropriate period of time.
+- Denial Clause .  In case the delay in delivery is attributable to the Seller or a non-Force Majeure event, any statutory increase in, or fresh imposition of any taxes/ duty, including customs duty, leviable in respect of the Stores specified in the said Contract, and/ or upward rise in prices due to the PV clause, and/ or any adverse fluctuation in foreign exchange, are to be borne by the Seller during the extended delivery period, while the Buyer  reserves  the  right  to  get  any  benefit  of  a  decrease  in  price  on  any  aforesaid ground.

@@ -1,0 +1,12 @@
+
+## 12.6 Monitoring of the Consultancy Service/ Contract
+
+- 12.6.1 The organisation shall put in place a robust contract monitoring mechanism to ensure that the performance of the consultant/ service is in line with the objectives of the contract. A Contract Monitoring Committee (CMC) shall be formed by the procuring entity  to  monitor  progress  of  the  contract.  The  CMC  shall  be responsible  for  monitoring  the  progress  of  the  assignment,  to oversee that the assignment is carried out as per the contract, to assess the quality of the deliverables, to accept/reject any part of assignment, to levy appropriate liquidated damages or penalty if the assignment is not carried out as per the contract and if the quality of services is found inferior and for any such deficiency related to the completion of the assignment.
+- 12.6.2 Substitution of Key Personnel During Execution of a Consultancy Contract.  Quality in consultancy contracts is largely dependent upon  deployment  and  performance  of  key  personnel,  during execution  of  the  contract.  The  following  conditions  should  be incorporated in tender documents for procurement of consultancy services:-
+- (a) Substitution  of  key  personnel  may  be  allowed  only  in compelling  or  unavoidable  situations,  and  the  substitute shall be of equivalent or higher credentials. Such substitution may  ordinarily  be  limited  to  not  more  than  30%  of  total key  personnel,  subject  to  equally  or  better  qualified  and experienced personnel being provided, to the satisfaction of the procuring entity.
+- (b) Replacement of first 10% of key personnel will be subject to  reduction  of  remuneration.  The  remuneration  is  to  be reduced, say, by 5% of the remuneration which would have been  paid  to  the  original  personnel,  from  the  date  of  the replacement till completion of contract.
+- (c) In  case  of  the  next  10%  replacement,  the  reduction  in remuneration may be equal to (say) 10% (ten percent) and for the third 10% replacement, such reduction may be equal to (say) 15% (fifteen percent). In case such percentages are not relevant, or for some other practical considerations, for a particular contract, the procuring entity may formulate a suitable mechanism following the above logic, which should be specified in the tender documents.
+
+## 12.7 The Law of Agency
+
+- 12.7.1 A Consultant shall be an Agent of the Principal/ Client/ Procuring Entity  to  carry  out  the  service/  assignment on its behalf. Such

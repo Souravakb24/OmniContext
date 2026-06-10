@@ -1,0 +1,13 @@
+
+## SECTION II - EVALUATION OF QUOTATIONS AND PRICE REASONABILITY
+
+
+## 5.29 Introduction
+
+- 5.29.1 Cost Estimation .    Correct  estimation  of  rates/  costs  is  vital  for determining the CFA and establishing the price reasonability of the offers received from the suppliers. It is, therefore, important that the rates/ costs are worked out in a realistic, objective and professional manner on the basis of the prevailing market rates, Last  Purchase Price (LPP), economic indices for raw material/ labour,  other  input  costs  and  assessment  based  on  intrinsic value,  etc.  It  is  equally  important  to  evaluate  the  quotations/ offers received in response to the RFP correctly, to select the best offer.  Guidelines  for  assessment  of  rates/  costs,  evaluation  of quotations and determining price reasonability are enumerated in succeeding Paragraphs.
+
+## 5.30 Costing of Procurement Proposals
+
+- 5.30.1  Need for Costing .  The first stage at which costing is to be done is when the proposal is initiated by the Procuring Agency for seeking AoN. It is  necessary to work out the complete cost of a procurement proposal to determine availability of funds to meet the expected cash outflow and the CFA level at which it is to be approved. It is, therefore, essential that the costs are assessed realistically and comprehensively. The entire, all-inclusive assessed cost shall be the basis for determining the CFA.
+- 5.30.2  Basis  of  Costing .    The  cost  of  a  procurement  proposal  may be  assessed  on  the  basis  of  the  Last  Purchase  Price  (LPP), Professional Officers' Valuation (POV), Budgetary Quote (BQ) to be obtained from one or more prospective sellers, Market Survey (MS), or any other method as may be appropriate in the context of a particular purchase proposal. These methods are not mutually exclusive. The method of costing shall be clearly recorded while seeking CFA's approval for AoN.
+- 5.30.3  Cost worked out in INR .  Wherever applicable, the assessed cost shall be converted into the common denomination of Indian Rupee (INR) and shown both in terms of the foreign currency and INR while seeking CFA's approval. The Foreign Currency exchange rate adopted shall be the exchange rate as on the date of opening of the price bids. The Foreign Currency exchange rate (to be used for imported goods/ services), shall be as per the Bills for collection (BC) Selling rate of the Parliament Street Branch of State Bank of India (SBI), New Delhi, or the SBI website.

@@ -1,0 +1,23 @@
+system: |
+  You are designing a knowledge graph schema for a document.
+
+  Analyze the text chunks below and identify:
+  1. Entity types — abstract roles/categories that appear in the text
+  2. Relationship types — verbs/predicates describing how entities relate
+
+  STRICT RULES:
+  - Entity types MUST be abstract (write "Person" not "Robin Sharma", "Concept" not "The 5 AM Rule")
+  - Entity types: singular PascalCase nouns (Person, Concept, Organization)
+  - Relationship types: UPPERCASE_SNAKE_CASE verbs (TEACHES, ADVOCATES, LEADS_TO)
+  - Only include types clearly present in the chunks
+  - Aim for 5-8 entity types and 8-12 relationship types per batch
+  - NO structural types like "Document", "Chapter", "Section", "Quote"
+
+  TEXT CHUNKS:
+  {chunks_text}
+
+  Return ONLY valid JSON, no explanation:
+  {{
+    "entity_types": ["Person", "Concept", "..."],
+    "relationship_types": ["TEACHES", "ADVOCATES", "..."]
+  }}

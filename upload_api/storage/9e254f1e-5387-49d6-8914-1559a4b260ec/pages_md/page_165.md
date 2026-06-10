@@ -1,0 +1,12 @@
+
+reduction in the price in terms of the Price Variation clause being passed on to the buyer.
+
+- (e) The  clause  shall  also  stipulate  a  minimum  percentage  of variation of the contract price above which Price Variations are  admissible  (e.g.  where  resultant  increase  is  lower  than two per cent, no Price Adjustment will be made in favour of the seller).
+- (f) Where advance or stage payments are made, there shall be a further stipulation that no Price Variations are admissible on such portions of the price, after the dates of such payment.
+- (g) Where deliveries are accepted beyond the scheduled delivery date  subject  to  levy  of  liquidated  damages  as  provided  in the  Contract,  the  liquidated  damages  (as  a  percentage  of the  price)  shall  be  applicable  on  the  price  as  varied  by  the operation of the Price Variation clause.
+- (h) No  Price  Variation  shall  be  admissible  beyond  the  original scheduled delivery date for defaults on the part of the seller.
+- (i) Price Variation may be allowed beyond the original scheduled delivery  date  upto  the  re-fixed  delivery  date,  by  specific alteration of that date through an amendment to the contract in cases of Force Majeure or where alteration of the dates is due to reasons attributable to the buyer.
+- (j) Where contracts are for supply of equipment, goods, services etc.,  either  imported  (subject  to  customs  duty  and  foreign exchange fluctuations) and/ or locally manufactured/ supplied, (subject  to  applicable  taxes  and  duties)  the  percentage and element of duties and taxes included in the price shall be  specifically  stated,  along  with  the  selling  rate  of  foreign exchange element taken into  account,  in  the  calculation  of the  price  of  the  imported  item. The  mode  of  calculation  of variations in duties and taxes and foreign exchange rates and the documents to be produced in support of claims for such variations, shall also be stipulated in the Contract.
+- (k) The clause shall also contain the mode and terms of payment of the Price Variation admissible.
+- (l) Consultation  with  IFA  must  be  done  for  vetting  of  Price Variation Clause irrespective of whether the contract is being concluded within inherent power or otherwise.
+- 6.26.2 Formula  for Calculating Price Variation . The  formula for calculating  Price  Variation,  along  with  detailed  explanation,  is given in Paragraph 33 of Part IV of DPMF 11 (Format of RFP).

@@ -1,0 +1,8 @@
+
+## 6.11.9   Change of Name of the Company/ Entity .
+
+- (a) On receipt of information regarding change of name of the company/ entity due to merger, amalgamation, consolidation, acquisition,  etc.,  vendor  shall  be  asked  to  submit  selfauthenticated relevant documents such as the new certificate of  incorporation  issued  by  an  appropriate  Registrar  along with  Novation  Agreement,  and  an  undertaking  by  the  new company/ entity confirming inter alia that they have assumed all  obligations  and  liabilities  of  and  all  claims  against  the earlier company/ entity under the Supply Order/ Contract as if the new company/ entity were original party to the Supply Order/ Contract.
+- (b) User Directorates for Service HQ cases shall process the case for change of name of vendor including accord of approval of VCOAS/ VCNS/ VCAS/ DG ICG (as applicable). Action on similar lines may be initiated by lower formations as well as by other Organisations. Legal advice may be sought where required.
+- (c) On grant of consent, vendor is to be intimated and he shall submit new Integrity Pact (where applicable) and any other applicable  financial  instruments/  documents  bearing  the new entity name.
+- (d) If  the  firm  is  involved  in  multiple  contracts,  a  single  case should be progressed for seeking approval of the appropriate competent authority.
+- 6.11.10 Delegation  of  Post-Contract  Management  Activities .  Some  of the Post-Contract Management activities for revenue expenditure where CFA is MoD have been delegated to the Service HQs by the MoD from time to time. These are placed at Appendix G .

@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Form inputs</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { padding: 22px 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px 22px; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .label { font: 500 13px var(--font-sans); color: var(--ink); }
+  .help { font: 400 12px var(--font-sans); color: var(--fg-subtle); }
+  input, select { font: 400 14px var(--font-sans); padding: 10px 12px; border-radius: 8px; border: 1px solid var(--mist-2); background: var(--paper-bright); color: var(--ink); }
+  input::placeholder { color: var(--ink-4); }
+  input.focused { border-color: var(--current); box-shadow: 0 0 0 3px rgba(46,111,142,0.18); outline: none; }
+  input.error { border-color: var(--ember); }
+  .err { font: 400 12px var(--font-sans); color: var(--ember); }
+  .check { display: flex; align-items: center; gap: 10px; }
+  .check input { width: 18px; height: 18px; accent-color: #2E6F8E; }
+  .toggle { width: 36px; height: 22px; background: var(--current); border-radius: 999px; position: relative; }
+  .toggle::after { content: ''; position: absolute; top: 2px; left: 16px; width: 18px; height: 18px; background: #fff; border-radius: 999px; }
+</style></head>
+<body>
+<div class="card">
+  <div class="field">
+    <span class="label">Organisation</span>
+    <input type="text" value="Acme Research" />
+    <span class="help">Visible to everyone you invite.</span>
+  </div>
+  <div class="field">
+    <span class="label">Username</span>
+    <input class="focused" type="text" placeholder="rahul" />
+    <span class="help">Lowercase, no spaces.</span>
+  </div>
+  <div class="field">
+    <span class="label">Password</span>
+    <input class="error" type="password" value="pass" />
+    <span class="err">Use at least 8 characters.</span>
+  </div>
+  <div class="field">
+    <span class="label">Collection</span>
+    <select><option>research-papers</option></select>
+    <div class="check"><div class="toggle"></div><span class="help" style="color:var(--ink)">Tag uploads automatically</span></div>
+  </div>
+</div>
+</body></html>

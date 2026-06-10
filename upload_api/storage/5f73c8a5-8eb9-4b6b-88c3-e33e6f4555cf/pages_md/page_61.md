@@ -1,0 +1,3 @@
+- All officers shall be saluted by the officer incharge of the boat or coxwain when getting into or leaving the boat.
+- In private boats, officers and men should pay and return salutes as dictated by courtesy, but only the officer or the sailor in most convenient position should salute.
+- The Officer of the Guard with his pendant flying shall be saluted by all officers of junior rank, as in the case of Captain with his pendant flying.  The Officer of the Guard will salute all officers senior to himself.

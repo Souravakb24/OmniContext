@@ -1,0 +1,1 @@
+- If  two  or  more  national  anthems  are  played  they  shall  be  played  in  the  order  in  which countries are named in the collective toast.

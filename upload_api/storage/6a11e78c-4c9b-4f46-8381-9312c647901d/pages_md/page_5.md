@@ -1,0 +1,14 @@
+
+(2)  In  Ships  Commanded  by  officers  below  the  rank  of  Commander,  the punishments  referred  to  in  sub-regulation  (1)  may,  subject  to  the  exceptions provided  for  in  regulation  12,  in  respect  of  emergency  and  with  the  previous approval of an officer of or above, the rank of Commander, be awarded by the Commanding officer.
+
+
+(3) When being tried summarily, a Master Chief Petty Officer shall have no right to elect trial by court-martial.
+
+
+(4)  As  Master  Chief  Petty  officer  charged  with offences  which,  if  proved,  will merit more severe punishment, is to be tried by court-martial and in the event of such  Master  Chief  Petty  Officer  being  reduced  to  a  rank  below  Chief  Petty Officer, he shall be given the option of release from the Naval service.
+
+- Powers  of  officers  in  Command  of  tenders  absent  from  ship  or  boat detached: Subject to the provisions of these regulations the powers of trial and punishment of a Commanding Officer may, as respects sailors on board a tender to the ship, be exercised in the case of a single tender absent from the parent ship by the officer in Command of the tender and in the case of two or more tenders absent  from  the  parent  ship  in  company  or  acting  together,  by  the  officer  in immediate command of such tenders and  as respects sailors on board  any boat belonging to the ship be exercised when such boat is absent on detached service by the officer in Command of the boat, provided that the Commanding Officer of the parent ship may at his discretion restrict powers to be exercised under these regulations  according  to the circumstances including  the time  that the tender or boat will be away and the seniority and experience of the officer who is to be in command.
+- Power  of  officers  in  immediate  Command  of  sailors  on  DETACHED SERVICE: The  powers  of  trial  and  punishment  of  the  Commanding  Office may be exercised as respects sailors on detached service on shore or otherwise, by the officer in immediate command, provided that: -
+- (a) the  Commanding  Officer  of  the  ship  to  which  the  sailors  on  detached service belong may restrict the powers exercisable under these regulations and should in every case consider whether it is desirable to do so;
+- (b) where sailors belonging to different ship are on detached service together, the  proper  superior  authority  may  restrict  the  powers  exercisable  under these regulations;
+- (c) notwithstanding anything herein before contained, the Chief of the Naval Staff  may,  by  special  or  general  order  provide  for  the  regulation  of  the powers  on  the  officer  in  immediate  command  of  sailors  on  detached service  and  where  such  a  special  or  general  order  is  in  force,  no  other

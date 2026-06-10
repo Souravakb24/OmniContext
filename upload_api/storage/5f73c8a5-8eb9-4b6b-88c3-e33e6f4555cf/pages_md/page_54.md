@@ -1,0 +1,17 @@
+- (ii) On all ceremonial occasions for Governors when they attend ceremonial parades within their States.
+- (iii) At Republic and Independence Day Parades when the National Flag is broken; and
+- (iv) at 'Colours' when a guard and band are paraded.
+- (b) Short version On all other ceremonial occasions.
+- (a) ' Apne  Chief  Ko  Salami  Do' -  Salute  for  the  Chief  of  the  Naval  Staff  and visiting Chiefs of the other two services and Chief of the Foreign Armed Forces.
+- 'The  Low  Land  Sea'  when  played.  -  'The  Low  Land  Sea'  shall  be  played  only  at  the reception of Admirals of the Fleet,  Admirals, the Chief of the Naval Staff and Commanders- in-Chief in Indian Naval Ships and establishments.
+- Other Musical Salutes. - The following airs shall be played on the authorized occasions.-
+- (a) General  Salute  for  Flag  Officers  not  entitled  to  'The  Low  Land  Sea'  and Commodores 'Jolanthe'.
+- (b) General  Salute  for  Governors,  High  Commissioners,  etc.,  General  Officers, Brigadiers, Air Officers, Air Commodores, Foreign Officers and Officials…………………… 'Garb of Old Gaul'.
+- © March Past for the Indian Navy…………….'Hearts of Oak'.
+- (d) Advance in review Order………………………….. 'Nancy Lee'.
+- Honours from Army and Air Force . - (1) Officers of the Indian Navy, being in their proper uniform, shall have the same honours and marks of respect from the Army and the Air Force units as the officers of corresponding rank in those Services.
+- Officers other  than executive officers,  shall not be received by  garrison, regimental,  Air Force Station, or ship' guards.
+- Times at which Military Honours, etc., shall be rendered . - The military honours and marks of respect authorized in the foregoing regulations shall, unless otherwise ordered, be rendered at the departure as well as at the reception of the personages and officials specified.
+- Morning and Evening Guns . - Whenever the President is on board any of Indian Naval Ships with  his  standard  flying,  a  morning  and  evening  gun  shall  be  fired  from  the  ship  bearing  the President's  standard.    In  every  ship  present  carrying  a  band,  the  reveille  or  daylight  call  shall  be sounded immediately after firing of the morning gun, and the tattoo shall be sounded for a quarter of an hour previous to the firing of the evening gun.
+- Ceremonial for two Ships passing between Sunrise and Sunset. (1)  When two ships pass one another, of which only one is under way-
+- (a) If either is a ship wearing a President's flag or is a flagship or a foreign warship, the junior  ships  shall  sound  the  'alert'  on  the  bugle;  the  other  shall  immediately  do

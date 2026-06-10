@@ -1,0 +1,5 @@
+
+(2) The convening authority shall not give effect to a sentence if he considers that an error has occurred in the conduct of the court-martial calculated, in his opinion, to invalidate the finding of the court-martial and if he doubts the correctness of the  finding in  fact  or  in  law  or  the  legality  or  the  propriety  of  the  sentence,  he shall not put the sentence into effect until a decision has been obtained from the Chief of the Naval Staff.
+
+- Where an officer is sentenced to imprisonment, the convening authority shall not put the sentence into effect until he has communicated with and received the directions of the Chief of the Naval Staff.
+- Custody until commitment:A person sentenced to imprisonment or detention may  be  detained  in  Naval  custody  until  he  has  been  committed  to  prison  or detention  quarters  or  until  other  orders  have  been  received  from  the  proper superior authority.

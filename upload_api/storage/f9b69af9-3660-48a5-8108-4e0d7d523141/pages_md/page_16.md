@@ -1,0 +1,48 @@
+
+datasets examined: QuALITY, QASPER, and NarrativeQA. Figure 5 illustrates a clear linear correlation between the initial document length and the total token expenditure, emphasizing that RAPTOR maintains a linear token scaling regardless of document complexity or length.
+
+
+![Chart type: Line chart](images/page_16_pic_1.png)
+
+
+**Figure:** Figure 6
+**Caption:** Figure 6: Build time as a function of document length for documents of up to 80,000 tokens. RAPTOR tree construction time scales linearly with document length for each of the datasets.
+**Description:**
+Chart type: Line chart  
+Title: N/A  
+Axes: X — Length of document in tokens, Y — Time in seconds  
+Trend: Time increases with document length, showing a general upward trend with a temporary drop between 30,000 and 40,000 tokens.  
+Key data points:  
+| Length (tokens) | Time (seconds) |  
+|-----------------|----------------|  
+| 0               | 5              |  
+| 10000           | 125            |  
+| 20000           | 275            |  
+| 30000           | 800            |  
+| 40000           | 600            |  
+| 60000           | 1250           |  
+| 80000           | 1600           |
+
+
+Build Time We also empirically observed a consistent linear trend between the document length and the build time, as shown in Figure 6. This suggests that RAPTOR scales linearly in terms of time, making it a viable solution for efficiently processing large corpora of varying lengths.
+
+
+Conclusion Overall, our empirical results indicate that RAPTOR scales both in terms of tokens expended and build time. Even as the complexity and volume of the input text grow, the cost of constructing the tree scales predictably and linearly. This demonstrates that RAPTOR is computationally efficient and well-suited for processing large and diverse corpora.
+
+
+## B ABLATION STUDY ON CLUSTERING MECHANISM IN RAPTOR
+
+
+To assess the effectiveness of the clustering mechanism in our RAPTOR approach, we conducted an ablation study on the QuALITY dataset. This study compares RAPTOR's performance with a balanced tree-style encoding and summarization of contiguous chunks, in contrast to our standard clustering method.
+
+
+## B.1 METHODOLOGY
+
+
+Both configurations in this ablation study utilized SBERT embeddings and UnifiedQA to maintain consistency in retrieval. For RAPTOR, we employed our typical clustering and summarization process. In contrast, the alternative setup involved creating a balanced tree by recursively encoding and summarizing contiguous text chunks. We determined the window size for this setup based on the average cluster size observed in RAPTOR, which is approximately 6.7 nodes. Hence, we chose a window size of 7 nodes. The collapsed tree approach was applied for retrieval in both models.
+
+
+## B.2 RESULTS & DISCUSSION
+
+
+The results of the ablation study are presented in table 9. The results from this ablation study clearly indicate an improvement in accuracy when employing RAPTOR's clustering mechanism over the recency-based tree approach. This finding substantiates our hypothesis that the clustering strategy in RAPTORismore effective in capturing homogeneous content for summarization, thereby enhancing the overall retrieval performance.

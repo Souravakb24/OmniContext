@@ -1,0 +1,18 @@
+- (iv) This means that the guidelines shall correspond to the original appropriation as available at the level of 15-digit numeric code in respect of civil ministries and/or final unit of appropriation as available in the Detailed Demand for Grants in respect of non-civil ministries, as the case may be.
+- (v) Definitions as indicated in Paragraph 2 above will be the guiding factor while making decision on the applicability of limits of New Service/New Instrument of Service.
+- While using these terms and applying the financial limits as indicated in the Annex, it needs to be noted that no expenditure can be incurred from the Consolidated Fund of India on a 'New Service'/'New Instrument of Service' without prior approval of Parliament through supplementary demands for grants.
+- Where in an emergent case of 'New Service'/ 'New Instrument of Service' it is not possible to wait for prior approval of Parliament, the Contingency Fund of India can be drawn upon for meeting the expenditure pending its authorization by Parliament. Recourse to this arrangement should normally be taken only when Parliament is not in session. Such advances are required to be recouped to the Fund by obtaining a Supplementary Grant. However, when Parliament is in session, a Supplementary Grant should preferably be obtained before incurring any expenditure on a 'New Service'/ 'New Instrument of Service'. That is to say, recourse to Contingency Fund of India should be taken only in cases of extreme urgency. In such cases the following procedure recommended by the Sixth Lok Sabha Committee on Papers Laid on the Table in their 4 th Report should be observed:
+
+'
+
+
+As far as possible, before such withdrawal is made, the concerned Minister may make a statement on the floor of the Lok Sabha for information giving details of the amount and the scheme for which the money is needed. In emergent cases, however, where it is not possible to inform the Members in advance, the withdrawal may be made from the Contingency Fund and soon thereafter a statement may be laid on the Table of the Lok Sabha for the information of the Members '.
+
+
+It has been suggested by the Rajya Sabha Secretariat that the above procedure may also be observed in Rajya Sabha.
+
+
+![The image depicts the national emblem of India, featuring the Lion Capital of Ashoka in monochrome. Central to the composition are four lions standing in a row atop a circular abacus, with the lions facing outward in all directions. The abacus is adorned with carved symbols, including a wheel (representing the Dharmachakra) and floral motifs. Below the abacus, Devanagari script reads "भारत गणराज्य", translating to "Republic of India". The design is symmetrically arranged, with the lions and base occupying the upper portion and the text positioned at the bottom. The overall aesthetic is formal and historical, reflecting India’s heritage and constitutional identity.](images/page_49_pic_1.png)
+
+**Description:**
+The image depicts the national emblem of India, featuring the Lion Capital of Ashoka in monochrome. Central to the composition are four lions standing in a row atop a circular abacus, with the lions facing outward in all directions. The abacus is adorned with carved symbols, including a wheel (representing the Dharmachakra) and floral motifs. Below the abacus, Devanagari script reads "भारत गणराज्य", translating to "Republic of India". The design is symmetrically arranged, with the lions and base occupying the upper portion and the text positioned at the bottom. The overall aesthetic is formal and historical, reflecting India’s heritage and constitutional identity.

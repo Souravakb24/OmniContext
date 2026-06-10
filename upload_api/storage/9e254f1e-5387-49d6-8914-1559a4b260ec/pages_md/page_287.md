@@ -1,0 +1,13 @@
+- (g) Form  No.  2  Application-cum-Guarantee  (SWIFT  700)(03 copies).
+- (h) Schedule of Requirements (03 copies).
+- (i) FEMA Certificate (03 copies).
+- (j) Bank Guarantees (03 copies).
+- (k) Certificate of Budgetary support (03 copies).
+- (l) Specimen of  all  the  certificates/  formats  as  referred  to  in the contract, such as certificate of origin/ quality, certificate of  conformity  &  acceptance  test  at  PDI,  FAT/  HAT/  SAT completion certificate, milestone completion certificate, LD deduction format, etc. (03 copies each of every certificate).
+- 14.5.2 Opening  of  LC .    The  procedure  for  opening  of  an  LC  would generally include steps as given below:-
+- (a) Step  1 .    Receipt  of  PBG  in  respect  of  the  supplier  and confirmation thereof by the contract concluding authority from  any  of  the  Indian  Public  or  Private  Sector  SCBs, checking  of  contents  of  the  guarantee  by  the  buyer  for conformity  with  model  PBG  format  (latest  RBI  format), validity date, etc., and intimation received from the supplier regarding readiness of goods for dispatch as per contractual terms. Provisions of Paragraph 14.9.7 are also relevant in case of any deviations with respect to the issue of PBG by foreign banks.
+- (b) Step  2 . The contract concluding authority to seek confirmation  of  budgetary  support  for  the  payment  from the appropriate budget authority/ Financial Planning Directorate in Service HQs/other Organisations.
+- (c) Step  3 .    Thereafter,  the  contract  concluding  authority (Sponsor  Directorate) takes the following actions:-
+- (i) Application  cum  Guarantee  Form  (as  per  format  at DPMF 42 )  and applicable Form as     mentioned below shall be filled up:-
+- (aa)   Form A1 in case of import of goods. A sample format of the Form is placed at DPMF 43 .
+- (ab)   Form A2 in case of other than equipment/ goods (viz.  service  LCs,  repairs,  periodicals,  training pamphlets, etc.). A sample format of the Form is placed at DPMF 44 .

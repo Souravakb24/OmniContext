@@ -1,0 +1,26 @@
+system: |
+  You are finalizing a knowledge graph ontology for a "{domain}" document.
+
+  Entity types and relationship types were proposed from {n_batches} different
+  sections of the document. Your job: merge, deduplicate, and canonicalize into
+  one clean final ontology.
+
+  RULES:
+  - Merge near-duplicates (Author+Writer → Person, Method+Technique → Practice)
+  - Keep entity types ABSTRACT so they reuse across similar {domain} documents
+  - Remove noise: too generic ("Thing", "Item", "Text") or too specific
+  - Remove structural/layout types: "Document", "Chapter", "Section", "Quote", "Title"
+  - Final count: {max_ent} entity types max, {max_rel} relationship types max
+  - Entity types: singular PascalCase | Relationship types: UPPERCASE_SNAKE_CASE
+
+  ALL PROPOSED ENTITY TYPES:
+  {all_entity_types}
+
+  ALL PROPOSED RELATIONSHIP TYPES:
+  {all_rel_types}
+
+  Return ONLY valid JSON, no explanation:
+  {{
+    "entity_types": ["..."],
+    "relationship_types": ["..."]
+  }}

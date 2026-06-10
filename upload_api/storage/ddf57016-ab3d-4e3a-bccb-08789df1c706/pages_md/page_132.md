@@ -1,0 +1,21 @@
+- (i) Technical Literature .  The details of technical literature to be supplied with the system, should be as listed below. This should be provided with both the Technical and the Commercial Proposals. The cost column may be left blank in the Technical Proposal.
+- (aa) User Handbook/ Operators Manual in English and Hindi.
+- (ab) Design Specifications.
+- (ac) Technical Manuals .
+- Part  I .    T ech  description,  specifications,  functioning  of  various systems.
+- Part II .  Inspection/ Maintenance tasks repair procedures, materials used, fault diagnosis and use of Special Maintenance Tools (SMTs)/ Special Test Equipment (STE).
+- Part  III .    Procedure  for  assembly,  disassembly,  repair  up  to component level, safety precautions.
+- Part IV .  Parts list with drawing reference and List of SMTs/ STE Test Bench.
+- (ad)  Manufacturers Recommended List of Spares (MRLS) with schematic references and part numbers for all the items.
+- (ae) Illustrated  Spare  Parts  List  (ISPL),  along  with  the  prices  in  the Commercial offer.
+- (af) Technical Manual on SMTs & STE with drawing reference.
+- (ag)  Complete Equipment Schedule.
+- (ah) Table of Tools & Equipment (TOTE) & carried spares.
+- (ai) Rotable list, norms of consumption, mandatory/ non-mandatory spares list for each system.
+- (ii) One set of Gauges.
+- (iii) One set of complete SMTs, STE, Test Jigs (TJs), and Test setup.
+- (iv) Servicing Schedule and Condemnation limits.
+- (v) Permissive  repair  schedule,  for  repairs  possible  at  various  levels  with available infrastructure.
+- (vi) Packing specifications/ instructions.
+- (vii) Any additional information suggested by the OEM such as infrastructure/ facilities/  Buyer  furnished items for use and maintenance/ repair of equipment.
+- (g) Vendors quoting lesser ESP/ MRLS in terms of range and depth will have to make good the deficiency. The vendors quoting surplus items in ESP/ MRLS should agree to buy-back the surplus spares.

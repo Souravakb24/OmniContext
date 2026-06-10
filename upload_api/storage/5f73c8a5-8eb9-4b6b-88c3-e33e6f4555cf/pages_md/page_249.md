@@ -1,0 +1,14 @@
+
+## APPENDIX XI
+
+
+## DECLARATION
+
+
+BOND  TO  BE  SIGNED  BY  PARENT/  GUARDIAN  AND  THE  CNANDIATE  SELECTED FOR  INBTITAL  TRAINING  WITH  A  VIEW  TO  BEING  COMMISSIONED  IN  THE REGULAR NAVY
+
+- This agreement dated ____________ date of _____________ between _______________ son of  ____________(herein  after  called  the  'Guarantor'  which  expression  shall  include  the  personal representative when context so  admits) of the first part and __________  son/  ward of the  aforesaid 'Guarantor'  )herein  after  called  'the  Government'  which  expression  shall  include  a  successor  and assigns where the context so admits) of the third part.
+- Where as the Officer has been selected by the Government on the terms hereafter appearing for the purpose of receiving initial training with a view to being commissioned as an officer in the Regular Navy, provided he is considere3d by the Government to be suitable in all respects.
+- Now,  it  is  agreed  between  the  parties  referred  to  above  that  in  consideration  of  the  officer being sele3cted by the Government for the purpose of the aforesaid training, the Guarantor covenants with the Government that the officer will attend the training, as then Government may determine from time  to  time  for  the  prescribed  periods  or  until  he  is  declared  fit,  (as  to  which  the  decision  of  the appropriate authority prescribed by the Government for the time being shall be final), to   hold the assigned appointment and also complete the prescribed period of probationary period, unless he, the officer  is  prevented  from  doing  so by  death  or  on  account  of  ill-health  or  some  other  reason over which the officer has no  control  or  by death or on account of ill-health of some  other reason over which the officer has no control or by being removed on the ground that the officer is considered by the said appropriate authority to be unfit to continue  as an officer on probation.
+- If  for  any  reason not  beyond  the control of  the officer, he does not complete  the prescribed period of his training and probation or does not hold appointment assigned to him then the guarantor and the officers shall jointly and severally, be liable to pay forthwith to the Government in cash such sum as the Government shall fix, but not exceeding such expenses as shall have been incurred by the Government on account of the officer on his training and all monies received Government together with interest on the said monies calculated at the rate in  force for Government loans.
+- The  guarantor  further  agrees  that  the  guarantor  shall  not  be  relieved  form  his  liability  by reasons of any variation of the terms of or any indulgence by the Government to the officer or by any such matter of thing whatsoever which under the law relating to sureties would but for this provision have effect of so relieving the guarantor.

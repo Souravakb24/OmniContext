@@ -1,0 +1,10 @@
+- (c) Assist/handhold DcPAs by providing clarifications related to  functional  or  operational  aspects  of  the  equipment under  development,  as  may  be  sought  by  the  DcPAs from time to time, during the design and development of prototype.
+- (d) Assist in finalisation of trial methodology, duly specifying the fundamental  points that need  to  be  addressed for  validating  the  essential  parameters  and  facilitate provisioning of trial range/ test facilities/ consumables/ etc., as mentioned in the EoI. Procedures/ policies are to be laid down by the IIOs for prototype development, trial evaluation and subsequent induction of such items.
+- (e) Assist in preparation of PSO/RFP , as applicable.
+- (f) Assist  in  conversion  of  Preliminary  QRs  into  SQRs/ QRs,  prior  to  commencement  of  Field  Evaluation/  User Acceptance Trials, based on the technological threshold reached by the DcPAs.
+- (g) Coordinate conduct of Field Evaluation/ User Acceptance Trials.
+- (h) Closely  monitor  the  progress  of  each  case,  particularly the  work  being  undertaken  by  the  vendors,  as  well  as, recommend  rescheduling/re-costing/foreclosure,  where required, to the CFAs.
+
+## 10.13  Perspective Planning and Annual Plans
+
+- 10.13.1 A  Perspective  Indigenisation  Plan  of  3  to  5  years  shall  be framed by each Service HQs for items to be used in equipment/ systems/ subsystems that progressively need to be developed indigenously and for its further improvement and upgradation. This plan is to be shared with other Service HQs and with HQ IDS to ensure that there is no duplication of effort. HQ IDS shall also ensure that the Consolidated Perspective Indigenisation Plan of the Defence Services is shared with the Indian Industry, unless security considerations require otherwise. Within this overarching Plan, an Annual Roll-on Plan (RoP) shall be prepared, prior to commencement of the FY, which will form the basis of the Prioritised Annual Indigenisation Task which shall  be  approved by the Service HQs. On these lines, other Organisations may also draw up similar Plans and take suitable action.

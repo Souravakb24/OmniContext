@@ -1,0 +1,12 @@
+- (iii) In case of more than one such eligible MSE, the 25% quantity is to be distributed proportionately among these bidders.
+- (iv) Every Central Ministry/ Department/ PSU shall set an annual target for 25% procurement from the MSE sector. Within this, a sub-target of 4% is reserved for MSEs owned by Scheduled Caste (SC)/ Scheduled Tribe (ST) entrepreneurs (at least 51% share shall be held by SC/ ST promoters) and 3% is reserved for procurement from MSEs owned by women (if they participate in the tender process and match the L1 price). Provided that, in the event of failure of such SC/ ST or Women MSE to participate in the tender process or meet tender requirements and L1 price, 4% sub-target shall be met from other MSEs.
+- Support  to  Startups  recognised  by  DPIIT .    The  under-mentioned  policies  of  the Government to support Startups recognised by DPIIT, as amended and revised till date, shall apply to this procurement
+- (a) Exemption from payment of Bid Security/ EMD.
+- (b) Conditions  of  prior  turnover  and  prior  experience  may  be  relaxed  for  Startups, subject to meeting the Qualitative Requirements/ Technical Specifications. Decision of the Procuring Entity in this regard shall be final.
+- Bidders for Indigenisation/ Development Contracts . (Applicable only for Indigenisation/ Development Contract Categories)
+- (a) For indigenisation/ development contracts, Indian Vendors as defined hereunder: -……………………….……………………………. ( as per Paragraph 1.3.16 in Chapter 01 of DPM )
+- (b) Such bidders will also have to meet the Indigenous Content (IC) requirement of minimum of 50%/ ….% (as applicable), calculated as under:-
+- .....…………………….……………………………. ( to include computation methodology as per Paragraph  10.7 in Chapter 10 of DPM and DPMF 34 )
+- (c) To  meet  the  requirements  of  IC,  each  bidder/vendor  will  need  to  submit  an Indigenisation Plan as part of the bid.
+- (d) Subsequently, on contract conclusion, for all contracts where the base contract price exceeds  ₹10 crore, a certificate of IC, issued by the Responsible Designated Official, i.e. the Contract Signing Authority, Authorised Signatory, etc. of the vendor and certified by the Statutory Auditor or Cost Auditor (in case of companies) and by a practicing Cost Accountant or Chartered Accountant (in respect of vendors other than companies) is to be submitted along with or before the final invoice of the contract, as per DPMF 33.
+- (e) At all prior stages, the vendor shall submit an undertaking of compliance.

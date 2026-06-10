@@ -1,0 +1,21 @@
+- The conference shall be attended by such officers as are required so to do by the Chief of the Naval Staff.
+- Departmental  conference  of  the  Medical  Branch. (1)  A  Departmental conference of the officers of the Medical branch may be held annually at such time and place as may be ordered by the Chief of the Naval Staff.
+- Scope. The  Conference  will  consider  problems  concerning  administrative  and  technical  matters pertaining  to  the  Medical  branch  and  progress  of  action  on  decisions  taken  at  previous conferences.
+- The  Conference  shall  be  attended  by  such  officers  as  required  so  to  do  by  the Chief of the Naval Staff.
+- Naval Armament  Supply  Officers Conference. (1) A Departmental conference of Naval Armament Supply officers may be held annually at such time and place as may be ordered by the Chief of the Naval Staff.
+- Scope. The scope of the conference will cover the following: -
+- (a) To  review  the  work  done  at  each  Naval  Armament  Depot  during  the previous year.
+- (b) To plan the programme for the next year.
+- (c) To  discuss  and  find  ways  and  means  to  step  up  productivity  and  thus enhance the efficiency of the organization.
+- (d) To discuss policy matters and other matters of departmental interest.
+- (e) Progress of action on decisions taken at previous conferences.
+- The  Conference  shall  be  attended  by  such  officers  as  required  so  to  do  by  the Chief of the Naval Staff.
+- Departmental  Conference  of  Judge  Advocates. (1)  A  Departmental  Conference  of  Judge advocates may be held at such time and place as may be ordered by the Chief of the Naval Staff.
+- Scope. The scope of the Conference will cover the following: -
+- (a) Legal and administrative problems in general in the Navy.
+- (b) Items of professional and service interest in the field of law.
+- (c) Other  professional  matters  and  items  of  interest  of  the  Judge  Advocate General's department.
+- (d) Progress of action on decisions taken at previous conferences.
+- The Conference shall be attended by such officers, as are required so to do by the Chief of the Naval Staff.
+- Logistics  Conference. (1)  A  Logistics  conference  may  be  held  annually  at such time and place as may be ordered by the Chief of the Naval Staff.
+- Scope. The scope of the conference will cover the following: -

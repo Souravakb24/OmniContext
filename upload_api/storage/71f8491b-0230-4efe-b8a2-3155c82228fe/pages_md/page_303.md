@@ -1,0 +1,17 @@
+- (b) On  subsequent occasions by the commanding  officers of ships in commission  when  any  changes  occur  to  available  accommodation  as  a result of large repairs, modernization, conversion, or other causes
+- (c) Three copies of the return shall  be  forwarded through the administrative Authority to the chief of the naval staff and a copy is to be inserted in the Captain's.  Ship's Book
+
+2729. Messing of Ship's Company. (1) Within the overriding proviso that available mess  deck  space  is  equitably  distributed  to  provide  the  best  possible  habitability conditions, sailors are to be messed and accommodated according to branches, except than  Master  Chief  Petty  Officers  /  Chief  Petty  Officers  and  Petty  Officers  of  all branches will be messed and accommodated separately in enclosed messes according to their rank, wherever practicable as also the Regulating sailors who will be provided with a separate mess.
+
+
+(2)      (a)  Wherever practicable, Junior Commissioned officers of the  Army, Master Warrant officers, Warrant officers, and Junior Warrant officers of the Air Force shall, when embarked in Indian Naval Ship for any purpose, be messed with Master Chief Petty  officers/Chief  Petty  officers,  and  the  non-commission  officers,  viz.  Dafadars and Havildars of the Army and Sergents of the Air Force, with the Petty officers.
+
+- (b) L/Dafadars and Naiks, and men of the Army, Corporals and Aircraftsmen of the Air Force shall, when embarked in Indian Naval Ships, for any Purpose be messed  with  sailors other than Master  Chief  Petty  officers/Chief Petty officers/Petty officers according to the availability of space in sailors' messes.
+- (c) The  commanding  officer,  may  at  his  discretion,  arrange  for  the  common messing  at  I.N.scale  of  rations,  of  Army  and  Air  Force  personnel,  with  the ship's company, in a ship or shore establishment.
+
+(3)  The President of the Master Chief Petty officers' mess or Chief Petty officers' mess or petty officers' mess will be the senior most Master Chief Petty officer, Chief Petty officer or Petty officer accommodated in the mess, not being borne 'additional' or  for  training  only  unless  the  Captain,  for  good  and  sufficient  reasons,  should specifically nominate another Master Chief Petty officer, Chief Petty officer or Petty officer.
+
+- Sailors below petty officers shall mess together in broadside mess.
+- In  ships  and  shore  establishments  where  the  strict  application  of  the above regulations is not found to be practicable, the rules contained in this regulation shall be applied so far as the accommodation provided admits. Commanding  officers are to use their discretion in the allocation of messes so that the accommodation available in the ship or establishment  is  always  used  to  the  best  advantage.  Commanding officers of trooping  ships  shall use their direction  in re-arranging  and grouping  messes,  according  to  the  number  of  each  class  requesting passage
+
+2730. Mess man. A sufficient number of suitable junior sailors shall be attached as mess  men  to  all  Master  Chief  Petty  officers,  Chief  Petty  officers  or  Petty  officers messes. On  board submarines the  Captain  may resort to cafeteria system  for senior sailors in case there is a shortage of junior sailors in case there is a   shortage of junior sailors for performing Mess men duties.

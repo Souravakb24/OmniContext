@@ -1,0 +1,20 @@
+
+(2)A Senior Officer shall not require a junior officer to show him any secret orders, which relate to a special mission nor shall he divert him from his service, take him under his command, or interfere with the orders he may have received.  Should however,  any  pressing  exigency  of  the  public  service  require  the  senior  officer  to depart  from  these  injunctions,  and  his  measures  have  tended  to  delay  the  junior officer, he sall allow him to proceed in execution of his orders as soon as possible, if it  is  still  advisable  that  they  should  be  carried  out.    He  should  lose  no  time  in acquainting the Chief of the Naval Staff through Administrative Authority with what he has done, and, if the ship or ships so diverted belong to another Officers command, he shall inform that officer also without delay.
+
+
+0219. Ships on Special Duties . (1) Although surveying ships and other ships ordered  by  the  Chief  of  the  Naval  Staff  to  carry  out  special  duties  may  be  placed under the orders of the Administrative Authority of the area in which they happen to be operating, their programmes, and the directions for their movements will, as a rule, be ordered by the Chief of the Naval Staff.  The surveying ships and ships on special duties,  when  so  employed,  shall  not  be  interrupted  in  their  work  or  required  to confirm to the motions of the Senior Officer present.
+
+
+(2) Should it be necessary in pressing circumstances to divert them from their special duties, or to interfere with their establishments, full particulars of change shall at  one  be  reported  to  the  Chief  of  the  Naval  Staff  by  the  Senior  Officer  so  acting except as provided in the Navy orders issued from time to time.
+
+
+0220.  Senior  Officer  at  Sea.  (1) When at  sea,  the  Senior  Officer  shall  be particularly attentive in observing that the ship which carried his flag, broad pendant or  pendant,  and  all  the  ships  under  his  orders,  preserve  very  correctly  their  station preserve very correctly their station in whatever formation the fleet may be; and when any evolution is being performed he shall he be attentive to the manner in which the ships under his orders carry it out, always correcting immediately every apparent want of activity and exertion and every mistake or appearance of neglect.
+
+
+(2) He may correct the mistake or negligence of a ship in another division or sub-division  whenever  it  is  probable  that,  from  their  relative  situations,  the  ship cannot  distinctly  be  seen  by  the  officer  commanding  the  division  to  which  she belongs, or whenever being in the presence of an enemy, the officer commanding the division or sub-division, whatever may be his situation, does not himself immediately correct such mistake or negligence.
+
+
+0221. Sailing Order and Speed of Ships. (1) The Chief of the Naval Staff shall appoint sailing authorities for each  port. The  sailing authority shall be responsible for issuing a sailing order on each occasion of ordering a ship to sea. The sailing order will be issued in accordance with orders laid down by the Chief of the Naval  Staff  from  time  to  time.  Amongst  other  directions,  the  sailing  authority  will give a direction to the Captain, generally or specifically, at what speed of advance the service will be performed, according to circumstances.
+
+
+(2)  Except  when  exercising  or  when  for  other  reasons  a  high  speed  is obligatory,  the  most  economical  speed  of  each  squadron  or  ship  will  be  employed when making passage from port to port, or between harbour and exercise area. When, however, the sailing authority considers that the saving of fuel from proceeding at the most economical speed would be offset by spending inconvenient lengths of time on passage  or  in  reaching  exercise  areas,  he  may  order  ships  to  proceed  at  whatever speed  is  in  the  best  interests  of  the  service,  subject  to  maximum  which  will  be promulgated in orders by the Chief of the Naval Staff from time to time

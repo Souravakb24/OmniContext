@@ -1,0 +1,23 @@
+
+from  time  to  time,  for  sailors  of  the  regular  Navy.    During  training  periods  an  allowance  of twelve paise per drill per member may be made for every completed two hours of drill.
+
+- Amenities Grant. The annual per capita amenities grant for the establishments shall be promulgated through Navy Instructions from time to time.
+- Mineral Water and Ice Allowance. During period of initial and annual training and when attending courses of instructions or when called up in aid of the civil power or otherwise embodied, mineral water and ice allowance shall be admissible to personnel of the service as for personnel of the regular Navy.
+- Conservancy Allowance. Conservancy allowance shall be admissible to the permanent staff of the Service at the same scale conditions as are applicable to the regular Navy.
+- Issue of Monetary Grants for the Initial Equipment of Officer's Messes. (1)  The Administrative authority may sanction the initial issue of monetary grants up to the maximum amounts stated in the table below for the equipment of the officer's mess for all establishments provided  the  said  authority  is  satisfied  that  it  is  essential  that  the  establishment  should  form mess: -
+
+|                           |   Rs. |
+|---------------------------|-------|
+| Mess of 1 officer         |   150 |
+| Mess of 2 officers        |   275 |
+| Mess of 3 officers        |   400 |
+| Mess of 4 to 5 officers   |   500 |
+| Mess of 6 to 10 officers  |   950 |
+| Mess of 11 to 15 officers | 1,350 |
+| Mess of 16 to 20 officers | 1,750 |
+| Mess of 21 to 25 officers | 2,000 |
+| Mess of 26 to 30 officers | 2,300 |
+| Mess of 31 to 40 officers | 2,750 |
+| Mess of 41 or more        | 3,000 |
+
+- The  amounts  specified  in  sub-regulation  (1)  shall  be  paid  only  when  necessary equipment cannot be issued in kind from stocks held by the Government.

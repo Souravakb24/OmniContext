@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>omnicontext — ask documents the smart way</title>
+  <link rel="stylesheet" href="colors_and_type.css" />
+  <style>
+    /* ============================================================
+       omnicontext landing — built on the InflowMind design tokens.
+       ============================================================ */
+    body { background: var(--paper); color: var(--ink); }
+    .wrap { max-width: var(--max-marketing); margin: 0 auto; padding: 0 32px; }
+
+    /* generic buttons */
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font: 500 15px/1 var(--font-sans); padding: 13px 20px; border-radius: var(--radius); border: 1px solid transparent; cursor: pointer; text-decoration: none; transition: all var(--dur-1) var(--ease-flow); letter-spacing: -0.005em; white-space: nowrap; }
+    .btn-primary { background: var(--current); color: var(--paper); }
+    .btn-primary:hover { background: var(--current-deep); }
+    .btn-primary:active { transform: translateY(1px); }
+    .btn-ghost { background: transparent; color: var(--ink); border-color: var(--mist-2); }
+    .btn-ghost:hover { background: var(--paper-bright); border-color: var(--ink-4); }
+
+    .eyebrow { font: 500 12px/1.2 var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--current); margin: 0 0 18px; }
+
+    /* ---------- HEADER ---------- */
+    .hdr { position: sticky; top: 0; z-index: 20; transition: background var(--dur-2) var(--ease-flow), backdrop-filter var(--dur-2) var(--ease-flow), border-color var(--dur-2) var(--ease-flow); border-bottom: 1px solid transparent; }
+    .hdr.scrolled { background: rgba(245,241,232,0.82); backdrop-filter: blur(16px); border-bottom-color: var(--mist); }
+    .hdr-in { display: flex; align-items: center; gap: 28px; padding: 16px 0; }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .brand .mk { width: 30px; height: 30px; }
+    .brand b { font: italic 400 23px var(--font-display); color: var(--ink); letter-spacing: -0.01em; font-weight: 400; }
+    .nav { display: flex; gap: 26px; margin-left: 16px; }
+    .nav a { color: var(--ink-2); font: 500 14px var(--font-sans); text-decoration: none; white-space: nowrap; }
+    .nav a:hover { color: var(--ink); }
+    .hdr-cta { margin-left: auto; display: flex; align-items: center; gap: 16px; }
+    .hdr-cta .signin { color: var(--ink); font: 500 14px var(--font-sans); text-decoration: none; }
+    .hdr-cta .signin:hover { color: var(--current); }
+
+    /* ---------- HERO ---------- */
+    .hero { position: relative; overflow: hidden; }
+    .hero-in { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; padding: 80px 0 96px; }
+    .hero h1 { font: 400 76px/1.03 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0 0 24px; }
+    .hero h1 em { color: var(--current); font-style: italic; }
+    .hero-sub { font: 400 19px/1.6 var(--font-sans); color: var(--ink-2); margin: 0 0 36px; max-width: 480px; }
+    .hero-cta { display: flex; gap: 14px; align-items: center; }
+    .hero-trust { margin-top: 40px; display: flex; align-items: center; gap: 14px; }
+    .hero-trust span { font: 500 11px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--ink-3); }
+    .hero-trust .dot { width: 4px; height: 4px; border-radius: 999px; background: var(--mist-2); }
+    .hero-trust em { font: italic 400 18px var(--font-display); color: var(--ink); font-style: italic; }
+
+    /* hero visual panel */
+    .panel { position: relative; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-xl); box-shadow: var(--shadow-2); overflow: hidden; }
+    .panel-flow { position: relative; height: 224px; background: linear-gradient(180deg, var(--paper-bright), var(--paper-soft)); }
+    .panel-flow svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .panel-flow .label { position: absolute; left: 20px; top: 16px; font: 500 11px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--ink-3); }
+    .doc { fill: #FAF7F0; stroke: #8A95A3; stroke-width: 1; }
+    .doc-fold { fill: #E7E1D3; }
+    .doc-hi { fill: #2E6F8E; stroke: #1B4A63; }
+    .doc-hi-fold { fill: #1B4A63; }
+    .glow { filter: blur(13px); }
+    .float { animation: drift 6s ease-in-out infinite; }
+    .float-2 { animation-delay: -1.5s; animation-duration: 7s; }
+    .float-3 { animation-delay: -3s; animation-duration: 5.5s; }
+    .float-4 { animation-delay: -4.5s; animation-duration: 8s; }
+    @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    .pglow { animation: pglow 2.6s ease-in-out infinite; }
+    @keyframes pglow { 0%,100% { opacity: 0.3; } 50% { opacity: 0.66; } }
+
+    .panel-ask { padding: 18px 20px 20px; border-top: 1px solid var(--mist); display: flex; flex-direction: column; gap: 12px; }
+    .ask-q { font: 400 14px var(--font-sans); color: var(--ink-3); font-style: italic; }
+    .ask-a { font: 400 14px/1.55 var(--font-sans); color: var(--ink); background: var(--paper); border: 1px solid var(--mist); border-radius: 12px; padding: 13px 15px; }
+    .ask-a b { font-weight: 500; color: var(--current-deep); }
+    .ask-cite { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; font: 400 12px var(--font-mono); color: var(--current); }
+    .ask-cite svg { width: 13px; height: 13px; flex: none; }
+    .ask-cite { white-space: nowrap; }
+
+    /* ---------- SECTION SHELL ---------- */
+    .section { padding: 88px 0; }
+    .section-soft { background: var(--paper-soft); border-top: 1px solid var(--mist); border-bottom: 1px solid var(--mist); }
+    .section-title { font: 400 48px/1.08 var(--font-display); letter-spacing: var(--tracking-display); color: var(--ink); margin: 0; max-width: 660px; }
+    .section-lede { font: 400 17px/1.6 var(--font-sans); color: var(--ink-2); margin: 16px 0 0; max-width: 540px; }
+    .section-head { margin-bottom: 48px; }
+
+    /* ---------- WHAT IT DOES ---------- */
+    .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .feat { padding: 28px; background: var(--paper-bright); border: 1px solid var(--mist); border-radius: var(--radius-xl); display: flex; flex-direction: column; gap: 14px; transition: all var(--dur-2) var(--ease-flow); }
+    .feat:hover { transform: translateY(-3px); box-shadow: var(--shadow-2); border-color: var(--mist-2); }
+    .feat-ico { width: 44px; height: 44px; border-radius: 12px; background: var(--current-soft); display: flex; align-items: center; justify-content: center; }
+    .feat-ico svg { width: 22px; height: 22px; color: var(--current-deep); stroke-width: 1.6; }
+    .feat h3 { font: 500 19px var(--font-sans); letter-spacing: -0.01em; color: var(--ink); margin: 0; }
+    .feat p { font: 400 14px/1.6 var(--font-sans); color: var(--ink-2); margin: 0; }
+
+    /* ---------- WHY TEAMS LOVE IT ---------- */
+    .why { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 56px; align-items: center; }
+    .why-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+    .why-list li { display: flex; align-items: center; gap: 14px; padding: 16px 4px; border-bottom: 1px solid var(--mist); font: 400 17px var(--font-sans); color: var(--ink); }
+    .why-list li:last-child { border-bottom: none; }
+    .why-check { flex: none; width: 26px; height: 26px; border-radius: 999px; background: var(--current); display: flex; align-items: center; justify-content: center; }
+    .why-check svg { width: 14px; height: 14px; color: var(--paper); stroke-width: 2.2; }
+
+    /* ---------- HIGHLIGHTS ---------- */
+    .hi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 44px; }
+    .hi { display: flex; flex-direction: column; gap: 10px; }
+    .hi-num { font: italic 400 22px var(--font-display); color: var(--current); }
+    .hi-rule { width: 40px; height: 2px; background: var(--sand); margin-bottom: 6px; }
+    .hi h3 { font: 500 18px var(--font-sans); letter-spacing: -0.005em; color: var(--ink); margin: 0; }
+    .hi p { font: 400 14px/1.6 var(--font-sans); color: var(--ink-2); margin: 0; }
+
+    /* ---------- CTA BAND ---------- */
+    .cta-band { background: var(--ink); color: var(--paper); border-radius: var(--radius-xl); padding: 64px; text-align: center; position: relative; overflow: hidden; }
+    .cta-band svg.bg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.5; }
+    .cta-band h2 { position: relative; font: 400 52px/1.06 var(--font-display); letter-spacing: var(--tracking-display); margin: 0 0 14px; }
+    .cta-band h2 em { color: var(--sand); font-style: italic; }
+    .cta-band p { position: relative; font: 400 17px var(--font-sans); color: rgba(245,241,232,0.75); margin: 0 0 32px; }
+    .cta-band .btn-primary { background: var(--sand); color: var(--ink); }
+    .cta-band .btn-primary:hover { background: #C99F58; }
+    .cta-band .btn-ghost { color: var(--paper); border-color: rgba(245,241,232,0.3); }
+    .cta-band .btn-ghost:hover { background: rgba(245,241,232,0.08); }
+    .cta-band .row { position: relative; display: flex; gap: 14px; justify-content: center; }
+
+    /* ---------- FOOTER ---------- */
+    .ftr { padding: 56px 0 32px; border-top: 1px solid var(--mist); margin-top: 88px; }
+    .ftr-in { display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; flex-wrap: wrap; }
+    .ftr-brand { display: flex; flex-direction: column; gap: 12px; max-width: 320px; }
+    .ftr-brand .row { display: flex; align-items: center; gap: 10px; }
+    .ftr-brand b { font: italic 400 22px var(--font-display); color: var(--ink); }
+    .ftr-line { font: italic 400 19px/1.3 var(--font-display); color: var(--ink-2); }
+    .ftr-cols { display: flex; gap: 56px; }
+    .ftr-cols .ov { font: 500 11px var(--font-sans); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--ink-4); margin: 0 0 12px; }
+    .ftr-cols a { display: block; font: 400 14px/2 var(--font-sans); color: var(--ink-2); text-decoration: none; white-space: nowrap; }
+    .ftr-cols a:hover { color: var(--current); }
+    .ftr-base { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--mist); display: flex; justify-content: space-between; font: 400 12px var(--font-sans); color: var(--ink-3); }
+
+    @media (max-width: 900px) {
+      .hero-in, .why { grid-template-columns: 1fr; }
+      .feat-grid, .hi-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 56px; }
+      .nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hdr" id="hdr">
+    <div class="wrap hdr-in">
+      <a class="brand" href="#top">
+        <svg class="mk" viewBox="0 0 64 64" aria-hidden>
+          <rect width="64" height="64" rx="14" fill="#0E1B2C"/>
+          <path d="M 10 36 C 18 24, 24 44, 32 32 S 46 20, 54 32" fill="none" stroke="#F5F1E8" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="3.2" fill="#D9B271"/>
+        </svg>
+        <b>omnicontext</b>
+      </a>
+      <nav class="nav">
+        <a href="#what">What it does</a>
+        <a href="#why">Why teams</a>
+        <a href="#highlights">Highlights</a>
+      </nav>
+      <div class="hdr-cta">
+        <a class="signin" href="Omnicontext Login.html">Sign in</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-in">
+      <div>
+        <p class="eyebrow">Document intelligence for teams</p>
+        <h1>Ask documents<br>the <em>smart</em> way.</h1>
+        <p class="hero-sub">Upload, organize, and instantly get answers from your documents — with AI-powered search that understands meaning, not just keywords.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="Omnicontext Login.html">Sign in</a>
+          <a class="btn btn-ghost" href="#demo">Try demo</a>
+        </div>
+        <div class="hero-trust">
+          <span>Trusted by teams at</span>
+          <span class="dot"></span>
+          <em>Atlas</em>
+          <em>Northwind</em>
+          <em>Quill&nbsp;&amp;&nbsp;Co.</em>
+        </div>
+      </div>
+
+      <!-- visual panel: documents flow in, the answer surfaces -->
+      <div class="panel">
+        <div class="panel-flow">
+          <span class="label">Retrieving across your collections</span>
+          <svg viewBox="0 0 520 224" preserveAspectRatio="none" aria-hidden>
+            <defs>
+              <symbol id="d" viewBox="0 0 14 18" overflow="visible">
+                <path class="doc" d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+                <path class="doc-fold" d="M 9 1 V 5 H 13 Z"/>
+              </symbol>
+              <symbol id="dh" viewBox="0 0 14 18" overflow="visible">
+                <path class="doc-hi" d="M 1 1 H 9 L 13 5 V 17 H 1 Z"/>
+                <path class="doc-hi-fold" d="M 9 1 V 5 H 13 Z"/>
+              </symbol>
+            </defs>
+            <path d="M -20 110 C 90 60, 200 170, 300 110 S 480 50, 540 96" fill="none" stroke="#2E6F8E" stroke-width="1.3" stroke-linecap="round" opacity="0.42"/>
+            <path d="M -20 150 C 110 96, 230 200, 330 150 S 500 92, 540 132" fill="none" stroke="#2E6F8E" stroke-width="1.3" stroke-linecap="round" opacity="0.26"/>
+            <path d="M -20 188 C 130 150, 280 232, 380 188 S 500 156, 540 174" fill="none" stroke="#8A95A3" stroke-width="1" stroke-linecap="round" opacity="0.34"/>
+            <g class="float"><use href="#d" x="150" y="128" width="14" height="18"/></g>
+            <g class="float float-2"><use href="#d" x="214" y="176" width="14" height="18"/></g>
+            <g class="float float-3"><use href="#d" x="276" y="200" width="14" height="18"/></g>
+            <g class="float"><use href="#d" x="322" y="166" width="14" height="18"/></g>
+            <g class="float float-4"><use href="#d" x="372" y="196" width="14" height="18"/></g>
+            <g class="float float-2"><use href="#d" x="436" y="180" width="14" height="18"/></g>
+            <g class="float float-3"><use href="#d" x="486" y="200" width="14" height="18"/></g>
+            <g>
+              <circle class="glow pglow" cx="430" cy="66" r="24" fill="#2E6F8E"/>
+              <g class="float float-4"><use href="#dh" x="423" y="57" width="14" height="18"/></g>
+            </g>
+          </svg>
+        </div>
+        <div class="panel-ask">
+          <div class="ask-q">“What did the Q3 report say about churn?”</div>
+          <div class="ask-a">
+            Churn fell to <b>3.4%</b> in Q3 — the lowest since 2022, driven by the onboarding overhaul.
+            <span class="ask-cite">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+              q3-report.pdf · p. 14
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IT DOES -->
+  <section class="section section-soft" id="what">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What it does</p>
+        <h2 class="section-title">One workspace. From a pile of files to answers.</h2>
+      </div>
+      <div class="feat-grid">
+        <article class="feat">
+          <div class="feat-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 16V4M6 10l6-6 6 6"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>
+          </div>
+          <h3>Smart uploads</h3>
+          <p>Upload PDFs, docs, and reports into one intelligent workspace. We handle the parsing.</p>
+        </article>
+        <article class="feat">
+          <div class="feat-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Instant answers</h3>
+          <p>Ask questions naturally and get accurate answers in seconds — each one citing its source.</p>
+        </article>
+        <article class="feat">
+          <div class="feat-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Organized knowledge</h3>
+          <p>Keep everything structured, searchable, and easy to explore across named collections.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY TEAMS LOVE IT -->
+  <section class="section" id="why">
+    <div class="wrap why">
+      <div class="section-head" style="margin:0">
+        <p class="eyebrow">Why teams love it</p>
+        <h2 class="section-title">Built to be lived in,<br>not learned.</h2>
+        <p class="section-lede">Everything a team needs to turn scattered documents into shared, trustworthy knowledge.</p>
+      </div>
+      <ul class="why-list">
+        <li><span class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span>Fast, AI-powered document search</li>
+        <li><span class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span>Simple organization across collections</li>
+        <li><span class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span>Understands documents beyond keywords</li>
+        <li><span class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span>Built for teams and collaboration</li>
+        <li><span class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6 9 17l-5-5"/></svg></span>Secure, scalable, and easy to use</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="section section-soft" id="highlights">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Highlights</p>
+        <h2 class="section-title">The parts worth knowing.</h2>
+      </div>
+      <div class="hi-grid">
+        <div class="hi">
+          <div class="hi-rule"></div>
+          <h3>Multi-format support</h3>
+          <p>Works with PDFs, reports, notes, and more — dropped into a single shared space.</p>
+        </div>
+        <div class="hi">
+          <div class="hi-rule"></div>
+          <h3>AI-powered intelligence</h3>
+          <p>Understands context, meaning, and the relationships between what you've written.</p>
+        </div>
+        <div class="hi">
+          <div class="hi-rule"></div>
+          <h3>Built for modern teams</h3>
+          <p>A shared knowledge space for your organization — secure and ready to scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" id="start">
+    <div class="wrap">
+      <div class="cta-band">
+        <svg class="bg" viewBox="0 0 1100 300" preserveAspectRatio="none" aria-hidden>
+          <path d="M -20 150 C 160 90, 360 220, 540 150 S 900 80, 1120 130" fill="none" stroke="#2E6F8E" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          <path d="M -20 200 C 200 140, 420 260, 600 200 S 920 130, 1120 180" fill="none" stroke="#D9B271" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+        </svg>
+        <h2>Ask your documents <em>anything.</em></h2>
+        <p>Start free. Bring your first ten documents and see the difference.</p>
+        <div class="row">
+          <a class="btn btn-primary" href="Omnicontext Login.html">Sign in</a>
+          <a class="btn btn-ghost" href="#demo">Try demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="ftr">
+    <div class="wrap">
+      <div class="ftr-in">
+        <div class="ftr-brand">
+          <div class="row">
+            <svg class="mk" width="30" height="30" viewBox="0 0 64 64" aria-hidden>
+              <rect width="64" height="64" rx="14" fill="#0E1B2C"/>
+              <path d="M 10 36 C 18 24, 24 44, 32 32 S 46 20, 54 32" fill="none" stroke="#F5F1E8" stroke-width="2.4" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="3.2" fill="#D9B271"/>
+            </svg>
+            <b>omnicontext</b>
+          </div>
+          <p class="ftr-line">Smarter document intelligence for modern teams.</p>
+        </div>
+        <div class="ftr-cols">
+          <div>
+            <p class="ov">Product</p>
+            <a href="#what">What it does</a>
+            <a href="#why">Why teams</a>
+            <a href="#highlights">Highlights</a>
+          </div>
+          <div>
+            <p class="ov">Company</p>
+            <a href="#">About</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+          </div>
+          <div>
+            <p class="ov">Start</p>
+            <a href="Omnicontext Login.html">Sign in</a>
+            <a href="#demo">Try demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="ftr-base">
+        <span>© 2026 omnicontext</span>
+        <span>Made on paper.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hdr = document.getElementById('hdr');
+    const onScroll = () => hdr.classList.toggle('scrolled', window.scrollY > 60);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+</body>
+</html>

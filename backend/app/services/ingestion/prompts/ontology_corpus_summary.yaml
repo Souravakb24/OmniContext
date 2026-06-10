@@ -1,0 +1,17 @@
+system: |
+  You are generating a corpus summary for a knowledge graph ontology.
+
+  Given the entity types and relationship types from a "{domain}" domain knowledge
+  graph, write a 3-4 sentence description of the conceptual territory this ontology
+  covers.
+
+  Requirements:
+  - Be abstract and concept-dense
+  - Describe WHAT kinds of things and relationships exist, not how they are structured
+  - Focus on subject matter and domain coverage, not technical schema details
+  - Write in plain prose — no bullet points, no lists
+
+  Entity types: {entity_types}
+  Relationship types: {relationship_types}
+
+  Return ONLY the summary text. No JSON, no preamble, no explanation.

@@ -1,0 +1,14 @@
+- No.7 Omitted;
+- No.8 Solitary confinement in a cell or under a canvas screen for a period not exceeding fourteen days;
+- No.9 Deprivation of Good Conduct Badge and Good Conduct Medal;
+- No.10 Reprimand by the Captain;
+- No.11 Extra work and drill for a period not exceeding fourteen days;
+- No.12 Stoppage of leave for a period not exceeding sixty days;
+- No.13 Extra  work  or  drill  for  not  more  than  two  hours  in  a  day  for  a period not exceeding seven days;
+- No.14 Admonition.
+- The punishments which may be awarded to Artificer Apprentices and Boys under training shall be as set forth in Chapter III of these Regulations.
+- Warrant Punishment: Punishments Nos 1 to 5 and 8 and 9 shall be known as warrant punishments and shall not have effect unless a warrant is made out in the prescribed form
+- Punishments requiring approval of superior authority: (1) Punishment No.3, dismissal from the Naval Service, and where any other punishment accompanies it, the whole of the punishment proposed to be awarded shall require the approval of the Chief of the Naval Staff.
+- Punishment No.1, imprisonment, and punishment No.2, detention, Punishment No.3A, forfeiture of seniority in rank in case of Master Chief Petty Officer and Punishment No.3B, Forfeiture of time for promotion in case of Master Chief Petty Officer, shall require the approval of the Administrative Authority.
+- Punishment  No.4,  5  and  punishment  No.9  (in  so  far  as  it  refers  to  the deprivation of a Good Conduct Medal) shall require the approval of a Flag Officer or Commodore.
+- Preparation  of  Warrants:  (1)  Officer  awarding  Warrant  punishment  shall ensure that the warrant is correctly drawn up in accordance with the instructions contained in these regulations and the directions and the notes on the prescribed form.

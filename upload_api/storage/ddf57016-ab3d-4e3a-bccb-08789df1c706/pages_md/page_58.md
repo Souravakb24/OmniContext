@@ -1,0 +1,6 @@
+- (d) Network Protocols and Ports being used by the product, e.g. SMB, TCP, HTTP, Port 80, etc. In the event of custom protocols, complete description of the protocols is to be given.
+- (e) Cryptographic Hash values of the files being provided.
+- (f) A  certificate  stating  'No  known  security  issues,  Malware,  Trojans  exist  in  the software components being provided'.
+- (g) A code Audit Certificate providing details regarding known exploit techniques (e.g. buffer/  heap  overflow),  bugs,  back-doors,  list  of  components  that  could  not  be audited and Third party DLLs used.
+- (h) Any other aspect related to information/ cyber security depending on type/ nature of the project.
+- For Management Information Systems, bespoke/ customised software and Enterprise wide solutions, Vulnerability Assessment shall be undertaken by a CERT-In empanelled vendor or Info Security agencies/ depts. of the respective Services and shall be included in the RFP.

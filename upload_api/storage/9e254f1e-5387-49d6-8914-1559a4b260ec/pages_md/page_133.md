@@ -1,0 +1,11 @@
+
+## 5.33 Reasonableness of Prices in Competitive Tendering
+
+- 5.33.1 The  approach  to  be  adopted  for  assessing  reasonability  in different contingencies is given in the succeeding Paragraphs.
+- 5.33.2   Evaluation  against  Benchmark .  The  Benchmark  price  is  an estimated  price  and  shall  not  be  taken  as  a  cut-off  price  in deciding reasonableness of the quoted price. It is to be used as a basis/ yardstick for comparison with the quoted price. Further, no percentage deviation from the benchmark price is prescribed as a rule of thumb and the decision is to be taken by the PC/ CNC on a case-by-case basis for justifiable reasons, depending on the accuracy  with  which  the  benchmark  price  is  assessed,  nature of the item, volatility of prices and the urgency for meeting the requirement.
+- 5.33.3   Determining Reasonability of Prices .  In the case of competitive tendering, where two or more vendors are competing independently to  secure  a  contract,  competitive  bids  form  the basis for  determining  reasonableness of prices. The following factors are to be considered to determine price reasonability:-
+- (a) Evaluation  of  tenders  is  to  be  made  on  the  basis  of  the ultimate cost to the user.
+- (b) As  a  general  principle,  no  offer  involving  any  uncertain or  indefinite  liability  or  any  condition  of  unusual  rate  or character, shall be considered.
+- (c) The  reasonableness  of  the  price  proposed  has  to  be established by taking into account the competition observed from the response of the  vendors to the RFP , Last Purchase Price  (LPP),  estimated  value  as  given  in  the  AoN/  indent, database maintained on costs based on the past contracts entered  into,  market  price,  wherever  available,  changes in  prices    of  raw  materials,  labour  and  energy,  statutory changes, price indices, and so on, to bring the prices/ costs up to the current prevailing levels/ conditions.
+- (d) For  procurement  of  spare  parts,  consumables  and  small value  contracts,  which  were  supplied  in  the  past,  price reasonableness, may be determined after comparing with LPP and factoring in changes in price indices published by Government sources. Other relevant factors as stated in (c) above may also be considered.
+- (e) The  reasonableness  of  price  may  also  be  examined  by

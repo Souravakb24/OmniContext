@@ -1,0 +1,76 @@
+entity_types:
+- Appointment
+- Authority
+- Concept
+- Coordinate
+- Direction
+- Document
+- Equipment
+- Facility
+- Force
+- Government
+- Information
+- Location
+- Organization
+- Person
+- Personnel
+- Position
+- Procedure
+- Qualification
+- Rank
+- Resource
+- Service
+- Ship
+- Signal
+- Target
+relationship_types:
+- ADJUSTS
+- ALLOCATES
+- APPLY_FOR
+- APPOINTED_BY
+- APPOINTS
+- BE_ENTITLED_TO
+- BE_LIABLE_TO
+- COMMANDS
+- COMMENCES
+- CONDUCTS
+- CONTAINS
+- COORDINATES
+- DESCRIBES
+- DETECTS
+- DIRECTS
+- ENGAGES
+- ESTABLISHES
+- FOLLOWS
+- GENERATES
+- IDENTIFIES
+- ISSUE_DIRECTIVES
+- IS_ELIGIBLE_FOR
+- IS_PROMOTED_TO
+- LOCATED_IN
+- MAINTAINS_POSITION
+- PASSES_THROUGH
+- REPORTING_STATUS
+- REPORT_TO
+- REQUIRES
+- SERVES_IN
+- UTILIZES
+saturation:
+  window:
+  - 36
+  - 10
+  - 9
+  docs_processed: 3
+  is_saturated: false
+corpus_summary: This ontology models the complex operational domain of military action,
+  encompassing the structure of armed forces, governmental authorities, and associated
+  organizations. It tracks the deployment of personnel, specialized equipment, and
+  naval assets across various locations and facilities, detailing the command relationships,
+  reporting chains, and hierarchical appointments that govern military operations.
+  Furthermore, it captures the lifecycle of military activity, including the planning
+  of procedures, the utilization of intelligence and resources, the engagement with
+  targets, and the establishment of operational directives.
+version: 3
+domain: military
+updated_at: '2026-06-07'
+last_document: 15c26d83-8e9c-4a65-80a6-ca13fff70d72

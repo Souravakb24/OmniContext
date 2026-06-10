@@ -1,0 +1,12 @@
+
+## 6.3 Competency of Parties
+
+- 6.3.1  Entering into Contract .  Under law, any person who has attained the age of majority, is of sound mind and not disqualified or debarred by law to which he is subject, may enter into contracts. It, therefore, follows that minors and persons of unsound mind cannot enter into contracts nor can insolvent persons do so.
+- 6.3.2  Categories of Parties to the Contract .  Categories of persons and bodies who are parties to the contract may be broadly subdivided under the following heads:-
+- (a) Individuals.
+- (b) Partnerships.
+- (c) Limited Companies.
+- (d) Corporations other than limited companies.
+- 6.3.3  Contracts with Individuals .  Individuals tender either in their own name or in the name of their business. If the tender is signed by any person other than the individual concerned, the authority of the person signing the tender on behalf of another is to be verified, and a proper power of attorney authorising such person, is to be insisted upon. In case a tender is submitted in a business name and if it is a concern of an individual, the constitution of the business and the capacity of the individual shall appear on the face of the contract and the tender signed by the individual himself as proprietor or by his duly authorised attorney.
+- 6.3.4  Contracts with Partnerships .    A  partnership is an association of two or more individuals formed for the purpose of doing business jointly under a business name. It is also called a firm. It is to be noted that a partnership is not a legal entity by itself, apart from the individuals constituting it. A partner is the implied authority to bind the firm in a contract coming in the purview of the usual business of the firm. The implied authority of a partner, however, does not extend to enter into arbitration agreement on behalf of the firm. While entering into a contract with partnership firm, care is to be taken to verify the existence of consent of all the partners to the arbitration agreement.
+- 6.3.5  Contracts with Limited Companies .  Companies are associations of individuals registered under Companies Act in which the liability of the members comprising the association is limited to the extent of the shares held by them in such companies. The company, after its incorporation or registration, is an artificial legal person, which has an existence quite distinct and separate from the members of shareholders comprising the same. A company is not empowered to

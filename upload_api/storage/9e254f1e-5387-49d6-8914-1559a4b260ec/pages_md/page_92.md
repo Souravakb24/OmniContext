@@ -1,0 +1,13 @@
+- (b) There are sufficient reasons, to be recorded in writing by the competent authority, indicating that it shall not be in the public interest to procure the goods through ATE mode.
+- (c) The sources of supply are definitely known and possibility of fresh source(s) beyond those being tapped, is remote.
+- (d) The nature of item to be procured is such that pre-verification of the competence of the firms and their registration is essential.
+- 5.5.3   Unsolicited Bids : Unsolicited bids are not to be accepted. However, Organisations/ Formations shall evolve a system  by which interested  firms  may  be  registered  as  covered  in  Chapter  3  to enable bidding in future.
+- 5.5.4 Related to the ATE and LTE modes of procurement, are the Single/ Two  Bid  Systems  and  Two-Stage  Bidding  System,  which  are discussed below, followed by STE and PAC modes of procurement.
+
+## 5.6 Single and Two Bid Systems
+
+- 5.6.1   Single Bid System . For COTS stores and LP items, where QRs and technical specifications are clear, capability of source of supply is not critical and value of procurement is low or moderate, the single bid  system,  where  eligibility,  technical,  commercial  and  financial details  are  submitted  together,  may  be  followed.  The  lowest responsive  price  bid  that  meets  the  eligibility  criteria,  technical and commercial requirements laid down in the bid documents, is declared as successful. No sample shall be called for in single bid system at the RFP stage.
+- 5.6.2  Two  Bid  System .  For  purchasing  high  value  plant,  machinery, equipment,  IT  and  communication  systems  and  for  turnkey projects, etc., which are of a complex and technical nature, bids are normally obtained in two parts as follows: -
+- (a) Technical/  Techno-commercial  bid,  containing  the  eligibility, technical quality and performance aspects, commercial terms and conditions and documents sought in the tender, except the price and relevant financial details.
+- (b) Financial  bid,  containing  the  price  quotation,  indicating  item wise price for the items mentioned in the technical bid, along with other financial details.
+- 5.6.3 Two Bid System Procedure . The technical bid and the financial bid shall be submitted separately, but concurrently. In case of manual tendering, both the bids shall be sealed by the bidder in separate covers duly superscribed and both these sealed covers are to be put

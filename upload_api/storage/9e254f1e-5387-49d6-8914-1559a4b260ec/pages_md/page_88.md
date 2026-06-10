@@ -1,0 +1,12 @@
+- 5.3.3 Procurement of Goods and Services by Obtaining Bids .      Except in cases covered by purchase of goods/services without obtaining quotations  [Paragraph  2.4.2  (Chapter  2)],  purchase  of  goods/ services  through  Local  Purchase  Committee  (LPC)  [Paragraph 2.4.3  (Chapter  2)],  purchase  of  goods/services  against  Rate Contracts  [Paragraph  2.5  (Chapter  2)]  and  purchase  of  goods/ services  through  GeM  (Paragraph  5.2  above)  goods/services shall be procured under the delegation of financial powers, where required,  by  adopting  one  of  the  following  standard  modes  of obtaining bids:-
+- (a) Open Tenders: Advertised Tender Enquiry (ATE), which includes Open Tender Enquiry (OTE) and Global Tender Enquiry (GTE).
+- (b) Tenders to Selected Suppliers: Limited Tender Enquiry (LTE).
+- (c) Single Tender Enquiry (STE) without Proprietary Article Certificate (PAC)/ PAC procurement cases.
+
+## 5.4 Advertised Tender Enquiry (ATE)
+
+- 5.4.1 Open Tender Enquiry (OTE). This mode shall be adopted in all cases where the estimated value of the tender is more than ₹ 50 lakh, except purchase through Single Tender Enquiry (STE)/ PAC. The organisation should also post the complete bidding document on its website (if available) and CPPP/ DePP to enable prospective bidders to make use of the document by downloading from the website.  Open  online  tendering  shall  be  the  default  method  to ensure efficiency in procurement. This mode may be adopted even for  procurements  below  ₹  50  lakh,  when  requirements  are  not available from known sources or sources are presently limited or to expand the vendor base. In other words, OTE procedures through e-procurement or through traditional tendering should be adopted in the following situations:-
+- (a) Procurements exceeding the threshold of ₹ 50 lakh.
+- (b) All   common use requirements with clear technical specifications.
+- (c) For  requirements  that  are  ordinarily  available  in  the  open market, but it is necessary to evaluate competitive offers to decide the most suitable and economical option available.
+- (d) When requirements are not available from known sources, or sources are presently limited and need to be broad based. In such situations, even for procurements below ₹ 50 lakh, OTE mode may be used, if warranted.

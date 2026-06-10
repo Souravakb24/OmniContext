@@ -1,0 +1,11 @@
+
+in  force  applicable  to  that  industry  will  be  classified  as  an Indian Vendor/ Bidder.
+
+
+Note : 'Definition  of  Indian  Company/Entity/Vendor  be adopted  as  per  the  provisions  of  Companies  Act  2013  or any other Act/Rules/Regulations notified by Government of India, as amended from time to time'.
+
+- (b)  The following additional conditions relating to ownership and control,  will  apply  to  Indigenous  Design  and  Development categories covered in Chapter 10:-
+- (i) Ownership  by  Resident  Indian  Citizen(s). A  company is  considered  as  'Owned'  by  resident  Indian  citizens if  more  than  fifty  percent  (50%)  of  the  capital  in  it  is directly or beneficially owned by resident Indian citizens and/ or Indian companies, which are ultimately owned and controlled by resident Indian citizens. This implies that the maximum permitted Foreign Direct Investment (FDI) shall be forty-nine percent (49%). No pyramiding of FDI in Indian holding companies or in Indian entities subscribing  to  shares  or  securities  of  the  Applicant Company shall be permitted. Indirect foreign investment shall be accounted for in counting the forty-nine percent (49%) FDI.
+- (ii) Control  by  Resident  Indian  Citizen(s)  (As  defined  in the Companies Act   2013) .  'Control' shall include the right  to  appoint  majority  of  the  directors  or  to  control the  management  or  policy  decisions  exercisable  by person/s directly or indirectly including by virtue of their shareholding  or  management  rights  or  shareholder's agreements or voting agreements.
+- 1.3.17  Inspecting  Agency .  The  Inspecting  Authority  nominates  the Inspecting  Agency  and  the  Inspecting  Officer,  based  on  the type  of  items  and  geographical  location  of  the  purchaser  and supplier. The Inspecting officer need not necessarily be from the organisation of the Inspecting Authority.
+- 1.3.18  Inspecting  Authority .  Authority,  which  promulgates  inspection methodology  and  nominates  suitable  Inspection  or  Inspecting Agency for specific contracts. Normally, AHSP is designated as the Inspecting Authority. This may be DGQA/DGAQA/DGNAI or Government authorised QA organisation as nominated by CFA for Defence related items.

@@ -1,0 +1,19 @@
+
+![The image displays the header of an official government document. On the left, there is the National Emblem of India (Ashoka Lion Capital), featuring four lions standing on a circular base with the Buddhist wheel, bull, horse, and elephant on each side, and the Sanskrit phrase "सत्यमेव जयते" (Truth Alone Triumphs) at the bottom. To the right of the emblem, three lines of black text are printed on a light purple background. The text reads: "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", and "DEPARTMENT OF EXPENDITURE". The layout is horizontal, with the emblem aligned vertically on the left and the text block filling the remaining space to the right. The overall design is formal and typographic, typical of official government documentation.](images/page_44_pic_1.png)
+
+**Description:**
+The image displays the header of an official government document. On the left, there is the National Emblem of India (Ashoka Lion Capital), featuring four lions standing on a circular base with the Buddhist wheel, bull, horse, and elephant on each side, and the Sanskrit phrase "सत्यमेव जयते" (Truth Alone Triumphs) at the bottom. To the right of the emblem, three lines of black text are printed on a light purple background. The text reads: "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", and "DEPARTMENT OF EXPENDITURE". The layout is horizontal, with the emblem aligned vertically on the left and the text block filling the remaining space to the right. The overall design is formal and typographic, typical of official government documentation.
+
+
+## Annexure - II (See Rule 12)
+
+
+## General Conditions for incurring expenditure
+
+- The powers delegated to the Departments of the Government of India are to be exercised by the issue of formal sanctions in the name of the President, such sanctions being authenticated by the officers authorised to do so under article 77 of the Constitution.
+- These powers are to be exercised subject to such rules, orders or restrictions issued by the Finance Ministry and other nodal Ministries / Departments from time to time and the financial limits being in accordance with provisions of  General  Financial  Rules  (GFR),  Fundamental  Rules  &  Supplementary Rules, economy instructions issued by Finance Ministry, Fiscal Codes and procedures and the limit being within the budgetary allocation for the year.
+- Expenditure, already incurred under an emergent situation by an authority in  excess  of  its  powers  should  be  treated  as  irregular  expenditure.  Any irregular expenditure under emergent situations should be regularised by issue of an ex-post facto sanction with the concurrence of Financial Adviser and approval of Administrative Secretary. These powers should, however, not be exercised in respect of areas where powers vest with the Cabinet.
+- In so far as matters of expenditure are concerned, subordinate authorities can  exercise  the  same  financial  powers  in  respect  of  capital  expenditure as  they  can  exercise  in  respect  of  revenue  expenditure,  except  in  case  of those  items  where  the  powers  may  be  specifically  restricted  to  revenue expenditure by the Department of the Government of India concerned.
+- An officer appointed to perform the current duties of a post in addition to his own can exercise financial powers vested in the full-fledged incumbent of the post.
+- In  exercising  powers  to  sanction  unusual  expenditure,  Departments  of Government of India should exercise due care and restrict the growth of expenditure on new lines or new types of items.
+- Expenditure  on  legal  charges  shall  ordinarily  be  incurred  only  with  the previous consent of the Ministry of Law and Justice except for charges, the rates of which are notified by the Ministry of Law and Justice from time to time.

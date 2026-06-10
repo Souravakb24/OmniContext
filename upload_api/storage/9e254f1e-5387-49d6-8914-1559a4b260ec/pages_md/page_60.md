@@ -1,0 +1,12 @@
+- (d) Order  of  suspension  of  business  dealings  with  an  entity may be extended to its allied firms by specific order of the competent authority.
+
+## 3.7.6 Banning  of  Business  Dealings  with  an  Entity/Debarment  of  an Entity
+
+- (a) Banning of business dealings with an entity may be ordered by the competent authority on acceptance of misconduct related to any of the grounds enumerated in paragraph 3.7.3(a) to (f) above by the entity or establishment of such misconduct by a competent court/tribunal/ authority.
+- (b) Banning of business dealings with an entity may be ordered by the competent authority on receipt of information regarding filing of charge sheet in the court of law by CBI or any other investigating agency.
+- (c) The order of banning of business dealings with an entity will be issued for such specified period as the competent authority may deem fit. For the grounds listed in paragraph 3.7.3(a) to (d)  above,  the  period  of  banning  of  business  dealings  with an  entity  shall  not  be  less  than  five  years.  For  the  grounds listed in paragraph 3.7.3(e) and (f) above, banning of business dealings may be resorted to if, in the view of the competent authority,  the  grounds  for  action  are  such  that  continuation of  business  dealings  with  an  entity  would  be  detrimental to  public  interest.  In  such  cases  the  period  of  banning  of business  dealing  with  an  entity  shall  not  ordinarily  exceed three years. The period of banning of business dealings with an entity in both the categories will be inclusive of period of suspension of business dealings with an entity, if any, for the same cause of act. In exceptional cases and those involving national security consideration the competent authority may order a longer period of banning of business dealings with an Entity, as deemed appropriate.
+
+## 3.7.7 Effect of Banning of Business Dealings with an Entity/ Debarment of an Entity
+
+- (a) An order of banning of business dealings with an entity shall result in immediate ineligibility of the entity from participating in future bids for a specified period with effect from the date of such order. No RFP will be issued to such an entity.
+- (b) Any on-going procurement process where L1 determination has not yet been done will be progressed after excluding the bid involving entity with which the business dealings are banned.

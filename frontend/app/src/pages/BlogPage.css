@@ -1,0 +1,51 @@
+/* Blog page — extends LandingPage.css (same .oc-landing scope) */
+
+/* ── nav active state ── */
+.oc-landing .nav .nav-active { color: var(--current) !important; }
+
+/* ── blog hero ── */
+.oc-landing .blog-hero { padding: 80px 0 60px; }
+.oc-landing .blog-hero-title { font: 400 68px/1.04 var(--font-display); letter-spacing: -0.02em; color: var(--ink); margin: 0 0 20px; }
+.oc-landing .blog-hero-sub { font: 400 18px/1.65 var(--font-sans); color: var(--ink-2); max-width: 520px; margin: 0; }
+
+/* ── posts section ── */
+.oc-landing .blog-body { padding: 0 0 96px; }
+.oc-landing .blog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.oc-landing .blog-empty { font: 400 15px var(--font-sans); color: var(--ink-3); padding: 40px 0; }
+
+/* ── blog card ── */
+.oc-landing .blog-card { background: var(--paper-bright); border: 1px solid var(--mist); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 14px; text-decoration: none; transition: all 0.2s ease; }
+.oc-landing .blog-card:hover { transform: translateY(-3px); box-shadow: 0 10px 32px rgba(14,27,44,0.1); border-color: var(--mist-2); }
+
+.oc-landing .blog-card-top { display: flex; align-items: center; justify-content: space-between; }
+.oc-landing .blog-tag { font: 500 11px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--current-deep); background: var(--current-soft); padding: 4px 10px; border-radius: 999px; }
+.oc-landing .blog-ext { display: inline-flex; align-items: center; gap: 4px; font: 500 11px var(--font-sans); color: var(--ink-3); }
+
+.oc-landing .blog-card-title { font: 400 26px/1.15 var(--font-display); letter-spacing: -0.01em; color: var(--ink); margin: 0; }
+.oc-landing .blog-card-sub { font: 400 14px/1.65 var(--font-sans); color: var(--ink-2); margin: 0; flex: 1; }
+
+.oc-landing .blog-card-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 4px; flex-wrap: wrap; }
+.oc-landing .blog-author { display: flex; align-items: center; gap: 8px; }
+.oc-landing .blog-avatar { width: 28px; height: 28px; border-radius: 50%; background: var(--current); color: var(--paper); font: 600 11px var(--font-sans); display: flex; align-items: center; justify-content: center; flex: none; letter-spacing: 0.03em; }
+.oc-landing .blog-author-name { font: 500 13px var(--font-sans); color: var(--ink); }
+.oc-landing .blog-meta { font: 400 12px var(--font-sans); color: var(--ink-3); white-space: nowrap; }
+
+/* ── about-us blog teaser (replaces dark tile) ── */
+.oc-landing .about-blog-teaser { grid-column: 1 / -1; border: 1px solid var(--mist); border-radius: 16px; padding: 28px 32px; display: flex; align-items: center; justify-content: space-between; gap: 24px; background: var(--paper-bright); border-left: 4px solid var(--current); }
+.oc-landing .about-blog-teaser-left { display: flex; flex-direction: column; gap: 6px; }
+.oc-landing .about-blog-teaser-label { font: 500 11px var(--font-sans); letter-spacing: 0.1em; text-transform: uppercase; color: var(--current); }
+.oc-landing .about-blog-teaser-title { font: 400 22px/1.2 var(--font-display); color: var(--ink); letter-spacing: -0.01em; margin: 0; }
+.oc-landing .about-blog-teaser-sub { font: 400 13px/1.55 var(--font-sans); color: var(--ink-2); margin: 0; max-width: 500px; }
+.oc-landing .about-blog-teaser-right { display: flex; align-items: center; gap: 12px; flex: none; }
+.oc-landing .about-blog-teaser-link { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--font-sans); color: var(--current-deep); background: var(--current-soft); padding: 8px 14px; border-radius: 8px; text-decoration: none; transition: gap 0.15s ease, background 0.15s ease; white-space: nowrap; }
+.oc-landing .about-blog-teaser-link:hover { gap: 10px; background: #C8E8DC; }
+.oc-landing .about-blog-all { display: inline-flex; align-items: center; gap: 6px; font: 500 13px var(--font-sans); color: var(--ink-2); text-decoration: none; padding: 8px 14px; border: 1px solid var(--mist); border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+.oc-landing .about-blog-all:hover { color: var(--ink); border-color: var(--mist-2); }
+
+/* ── responsive ── */
+@media (max-width: 900px) {
+  .oc-landing .blog-hero-title { font-size: 44px; }
+  .oc-landing .blog-grid { grid-template-columns: 1fr; }
+  .oc-landing .about-blog-teaser { flex-direction: column; align-items: flex-start; border-left-width: 0; border-top: 4px solid var(--current); }
+  .oc-landing .about-blog-teaser-right { width: 100%; justify-content: flex-start; }
+}

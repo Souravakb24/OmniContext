@@ -1,0 +1,15 @@
+
+0821. Malingering. Whenever in the course of his duties, the Medical officer shall discover that any person has wilfully produced, concealed, aggravated or feigned any disease to the prejudice of the service, he shall report the particulars of the case to the  Captain  so  that,  if  deemed  advisable  the  offender  may  be  punished  as  the  case shall deserve. (See section 61 of the Navy Act, 1957 and orders issued from time to time).
+
+
+0822. Wounded Men. (1) He shall take care that every preparation is made for the accommodation and treatment of the wounded. When clearing for action he, and others appointed to assist him shall report to their respective stations.
+
+
+(2)  Treatment  on  Board. The  following  instructions,  indicating  the  broad lines  on  which  the  wounded  should  be  treated  on  board  a  vessel  of  war,  shall  be observed: -
+
+- (a) It may be possible during an action to bring the wounded to the dressing stations, and thus clear the fighting parts of the ships, but in other ships all that  can  be  done  is  to  place  the  wounded  in  a  comfortable  position  near where they fall, and out of the way of combatants.
+- (b) Nothing but first aid should be attempted during action. It is probable that opportunities  will  occur  during  lulls  when  the  Captain  of  a  ship  may summon, by some pre-determined broadcast, the Medical officer and  his staff to render assistance whenever it may be required.
+- (c) The Medical officer's life is of the greatest possible value when regarded from the standpoint of the sick and wounded. For this reason he sould be stationed under the best possible protection.
+- (d) A distributing station should be determined upon (iof not laid down in the ship's design) where all medical stores, instruments etc., should be placed for their conservation and whence  the 'first aid' supplies can be replenished. In  addition to this station, provision  should  be  made  for the supply of  'first aid' in other parts of the ship
+- (e) The  most suitable place  for  the  treatment  of  wounded  after  action  in  all classes of ships will probably be some portion of the upper deck properly screened in, so as to afford some protection against the weather and yet to permit  of  free  ventilation.  Failing  the  use  of  the  upper  deck  for  this purpose  owing  to  objections,  which  might  at  the  time  be  considered paramount the places selected must be the very best the ship can offer. In the  event  of  the  possibility  of  a  further  action  being  fought  it  will  be essential to remove the wounded to spaces between decks under whatever protection can be obtained.
+- (f) In  selecting  a  situation  for  the  performance  of  pressing  operations  and other  surgical  work  after  action,  the  choice  must  be  governed  by  the

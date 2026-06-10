@@ -1,0 +1,12 @@
+
+![Logo: Ashoka Lion Capital (Indian Government emblem) with text "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", "DEPARTMENT OF EXPENDITURE"](images/page_116_pic_1.png)
+
+**Description:**
+Logo: Ashoka Lion Capital (Indian Government emblem) with text "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", "DEPARTMENT OF EXPENDITURE"
+
+
+|    |                     | Nature of power:- Full powers The above delegation is subject to the condition that funds to meet the cost of the post, if temporary, can be found by valid appropriation or re-appropri- ation from within the provision placed at the disposal of the Comptroller and Auditor General; or, if permanent, per- manent recurring saving is available to meet its cost. powers delegated to undertake   |            |
+|----|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 2. | Railways            | The crew rationalization and create non- gazatted revenue posts necessitated by crew review exercise, in relaxation of this Department's O.M. dated                                                                                                                                                                                                                                                    | 19.06.2023 |
+|    |                     | 04.09.2020 power is delegated to Rail- ways to create non-gazetted revenue posts (crew only) as part of crew re- view exercise.                                                                                                                                                                                                                                                                        |            |
+| 3. | Intelligence Bureau | For continuation of delegated powers to DIB for transfer of location of posts and exemption from the clauses of deemed-abolition, taking into account the CCS approval.                                                                                                                                                                                                                                | 31.05.2019 |

@@ -1,0 +1,9 @@
+
+## GENERAL INSTRUCTIONS
+
+- A confidential report on C. W. Form No.1 N. 369-A is to be rendered on this Sailor quarterly on the 1 st January, 1 st April, 1 st July and 1 st October to the Chief of the Naval Staff, and the Captain, Naval Barracks (Drafting Office), Bombay.
+- The  possession  of  this  sheet  means  that  this  Sailor  is  well  above  the  average  of  his contemporaries in most if not all of the qualities enumerated on C.W. Form No. I. N. 369-A and is considered by his Commanding Officer to be potentially suitable for promotion to commissioned rank. Should  he  fall  below  this  standard  in  any  respect,  his  Commanding  Officer  should  consider  the advisability of  destroying  this sheet,  which is only  to be held by  him as  long  as he is considered a worthy candidate for commissioned rank.  It may be destroyed at any time under these circumstances. Such    action  should  be  reported  at  once  to  the  Chief  of  the  Naval  Staff,  and  the  Captain,  Naval Barracks (Drafting Office), Bombay together with an explanation of the reasons.
+- The destruction of this sheet would not in any way imply that the above named Sailor could not  reacquire  a  Confidential  History  Sheet,  should  he  at  any  future  time be considered sufficiently promising.
+- This sheet should also be destroyed if the holder is selected for, or becomes ineligible under the regulations for commissioned rank.
+- Reports on C.W. Form No. I. N. 369-A will automatically cease should this sheet be destroyed.
+- If the Sailor to whom this sheet belongs goes before a Selection Board for commissioned rank this  sheet  should  be  sent  to  the  Captain,  Naval  Barracks  (Drafting  Office),  Bombay.    It  should subsequently be sent to the Commanding Officer of the Ship or Establishment in which the Sailor is then serving.

@@ -1,0 +1,23 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+psycopg2-binary
+passlib[bcrypt]
+python-jose[cryptography]
+python-dotenv
+pydantic[email]
+pydantic-settings
+python-multipart
+pyyaml
+neo4j
+
+openai
+
+# Retrieval pipeline
+langgraph
+httpx
+rapidfuzz
+sentence-transformers
+chromadb
+nvidia-nccl-cu12==2.28.9

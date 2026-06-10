@@ -1,0 +1,13 @@
+
+covered by sub-para 3(a) above, and with estimated value of purchases less than ₹ 200 crore, in accordance with Rule 161(iv) of GFR 2017, Global tender enquiry shall not be issued except with the approval of competent authority as designated by Department of Expenditure.
+
+- (c) For  the  purpose  of  this  Order,  works  includes  Engineering,  Procurement  and Construction  (EPC)  contracts  and  services  including  System  Integrator  (SI) contracts.
+
+## 3A. Purchase Preference .
+
+- (a) Subject to the provisions of this Order and to any specific instructions issued  by  the  Nodal  Ministry  or  in  pursuance  of  this  Order,  purchase preference  shall  be  given  to  Class-I  local  supplier  in  procurements undertaken by procuring entities in the manner specified hereunder.
+- (b) In the procurement of goods or works, which are covered by sub-para 3(b) above and which are divisible in nature, the Class-I local supplier shall get purchase preference over Class-II local supplier as well as Non-local supplier, as per following procedure:-
+- (i) Among all qualified bids, the lowest bid shall be termed as L1. If L1  is  Class-I  local  supplier,  the  contract  for  full  quantity  shall  be awarded to L1.
+- (ii) If  L1 bid is not a Class-I local supplier, 50% of the order quantity shall  be  awarded to L1. Thereafter, the lowest bidder among the Class-I  local  suppliers  shall  be  invited  to  match  the  L1  price  for the remaining 50% quantity subject to the Class-I local supplier's quoted price falling within the margin of purchase preference, and contract  for  that  quantity  shall  be  awarded  to  such  Class-I  local supplier  subject  to  matching  the  L1  price.  In  case  such  lowest eligible Class-I local supplier fails to match the L1 price or accepts less than the offered quantity, the next higher Class-I local supplier within the margin of purchase preference shall be invited to match the L1 price for remaining quantity and so on, and contract shall be awarded accordingly. In case some quantity is still left uncovered on Class-I local suppliers, then such balance quantity may also be ordered on the L1 bidder.
+- (c) In the procurement of goods or works, which are covered by sub-para  3(b)  above  and  which  are  not  divisible,  and  in  procurement of services where the bid is evaluated on price alone, the Class-I local supplier shall get purchase preference over Class-II local supplier as well as Non-local supplier, as per following procedure:-
+- (i) Among all qualified bids, the lowest bid shall be termed as L1. If L1 is Class-I local supplier, the contract shall be awarded to L1.

@@ -1,0 +1,31 @@
+- (vii) INS Garuda.
+- (aa) School for Naval Airmen.
+- (ab) School of Naval Oceanology and Meteorology.
+- (ac) Observer School.
+- (ad) Helicopter Training School (HTS).
+- (viii) INS Hamla
+- (aa) Supply and Secretariat School (S&S School).
+- (ix) INS Kunjali
+- (aa) Naval Police and Regulating School.
+- (ab) Motor Driving School.
+- (x) INS Trata (School of Music).
+- (xi) INS Mandovi (Naval Academy).
+- (xii) INS Satavahana.
+- (aa) Escape Training School.
+- (ab) Submarine School
+- (xiii) INS Shivaji
+- (aa) Naval College of Engineering.
+- (ab) Nuclear Biological Chemical Warfare and Damage Control (NBCD) School.
+- (ac) School of Marine Technology.
+- (xiv) INS Valsura
+- (xv) INS Venduruthy
+- (aa) Seamanship School
+- (ab) Naval Institute of Educational Training Technology (NIETT)
+- (ac) Pre-commissioning Training (OCT) School.
+- (ad) Anti-Submarine Warfare (ASW) School.
+- (ae) School for Maritime Warfare & Tactics (SMWT)
+- (af) Diving School
+- (ag) Navigation and Direction (ND) School.
+- (ah) Signal School.
+- (aj) Indian Naval Physical Training (INPT) School.
+- (xvi) Hydrographic School.

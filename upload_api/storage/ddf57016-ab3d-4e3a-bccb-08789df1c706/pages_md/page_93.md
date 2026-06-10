@@ -1,0 +1,16 @@
+- (b) In  Bids  for  Turnkey  contracts,  the  successful  bidder  shall  not  be  allowed  to subcontract works to any contractor from such Restricted Countries unless such contractor is similarly registered with the Registration Committee constituted by the DPIIT. In such cases the bidders shall enclose certificate in the Bid Form.
+- (c) Any bidder (including an Indian bidder) who has a Specified Transfer of Technology (ToT) arrangement with an entity from a country which shares a land border with India will be eligible to bid in any procurement whether of goods or services (including consultancy services and non-consultancy services), and turnkey projects, only if the bidder is similarly registered with the Registration Committee constituted by the DPIIT. The bidders shall enclose certificate in this regard in the Bid Form.
+- (d) 'Bidder from such Restricted Countries' for the purpose of this clause means: -
+- (i) An entity incorporated, established, or registered in such a country; or
+- (ii) A subsidiary of an entity incorporated, established, or registered in such a country; or
+- (iii) An entity substantially controlled through entities incorporated, established, or registered in such a country; or
+- (iv) An entity whose beneficial owner is situated in such a country; or
+- (v) An Indian (or other) agent of such an entity; or
+- (vi) A natural person who is a citizen of such a country; or
+- (vii) A consortium or joint venture where any member of the consortium or joint venture falls under any of the above.
+- (e) The  'beneficial  owner'  for  the  purpose  of  sub-paragraph  (d)  above  shall  be  as under:-
+- (i) In case of a company or Limited Liability Partnership, the beneficial owner is  the  natural  person(s), who, whether acting alone or together, or through one or more juridical person(s), has a controlling ownership interest or who exercises control through other means.
+- (ii) Explanations for the sub-paragraph (i) above are given below:-
+- (aa)  'Controlling ownership interest' means ownership of or entitlement to more than 25% of shares or capital or profits of the company.
+- (ab)  'Control'  shall  include  the  right  to  appoint  the  majority  of  the  directors  or to  control  the  management  or  policy  decisions,  including  by  virtue  of  their shareholding  or  management  rights  or  shareholders  agreements  or  voting agreements.
+- (ac) In case of a partnership firm, the beneficial owner is the natural person(s) who, whether acting alone or together, or through one or more juridical person, has ownership of entitlement to more than 15% of capital or profits of the partnership.

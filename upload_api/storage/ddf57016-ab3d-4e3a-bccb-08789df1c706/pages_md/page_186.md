@@ -1,0 +1,7 @@
+- Outcomes, Deliverables, Reports and Time Schedule for Deliverables .
+- Statutory and Contractual Obligations to be Complied with by the Service Provid -er/ Contractor : Various statutory provisions relating to labour, taxation, Workmen safe -ty, child and women labour, private security agencies, environmental protection, mining, forest clearance, employment reservations and Procuring Entity's own regulation about safety, security, confidentiality, etc., must be listed, so that price implications and compli -ance is taken care of by the bidder .
+- Facilities and Utilities to be provided by the Procuring Entity to Service Provider/ Contractor at Site . It  should  be  mentioned, if any facility/ utility (operation manuals, emergency medical, room, furniture, electricity connection, water connection, etc.) would be made available to the successful bidder to carry out the service. In case it is proposed to charge the electricity/ water supplied to the service provider, the same may be men -tioned, including the rate of charges. Specially mention facilities and utilities which will not be provided, or the facilities which would be provided on chargeable basis.
+- Institutional and Organisational Arrangement :-
+- (a) Counterpart Project Manager and Team .
+- (b) Chain of Command for Reporting .
+- Procedure for Review of the Work of Service Provider/ Contractor after Award of Contract .

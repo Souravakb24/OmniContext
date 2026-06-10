@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Mono</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { padding: 24px 28px; display: flex; flex-direction: column; gap: 14px; }
+  pre { margin: 0; padding: 14px 16px; background: var(--ink); color: var(--paper); border-radius: var(--radius-md); font: 400 13px/1.55 'JetBrains Mono', monospace; overflow-x: auto; }
+  pre .k { color: #D9B271; }
+  pre .s { color: #A8D0BE; }
+  pre .c { color: #8A95A3; }
+  .inline { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .inline code { font: 400 13px/1 'JetBrains Mono', monospace; background: var(--mist); color: var(--ink); padding: 4px 8px; border-radius: 4px; }
+</style></head>
+<body>
+<div class="card">
+  <pre><span class="c"># curl the ingestion status</span>
+<span class="k">GET</span> <span class="s">/api/user/document/&lt;doc_id&gt;/status</span>
+<span class="k">200</span> { <span class="s">"status"</span>: <span class="s">"INDEXING"</span>, <span class="s">"chunks"</span>: 248 }</pre>
+  <div class="inline"><code>doc_id</code><code>org_id</code><code>POST /upload</code><code>Bearer &lt;jwt&gt;</code></div>
+</div>
+</body></html>

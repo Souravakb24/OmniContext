@@ -1,0 +1,17 @@
+
+![DELEGATION OF FINANCIAL POWERS RULES, 2024](images/page_56_pic_1.png)
+
+**Description:**
+DELEGATION OF FINANCIAL POWERS RULES, 2024
+MINISTRY OF FINANCE
+DEPARTMENT OF EXPENDITURE
+
+
+| Remarks                           | Remarks              | Remarks           |                      |                      | Falling within the concept of Normal Establishment Expenditure   | Falling within the   | concept of Normal Establishment Expenditure   | Falling within the concept of Normal Establishment Expenditure   | Falling within the concept of Normal Establishment   |                       |
+|-----------------------------------|----------------------|-------------------|----------------------|----------------------|------------------------------------------------------------------|----------------------|-----------------------------------------------|------------------------------------------------------------------|------------------------------------------------------|-----------------------|
+| of Service                        | Prior Approval Limit | Category Category | be decided on merits | be decided on merits | Exempted be decided on merits                                    | Exempted             | Exempted                                      | be decided on merits                                             | Exempted                                             | be decided on merits  |
+| New Instrument Approval Limit     | Reporting Limit      | Category          | To                   | To                   | Exempted To                                                      | Exempted             |                                               | cases To                                                         | Exempted                                             | cases To              |
+| New Service Reporting Limit Prior | Category             |                   | All cases            | All cases            | All cases                                                        |                      | Exempted                                      | All                                                              |                                                      | All                   |
+| Category                          | Object Head [Voted]  | Rent for others   | Digital              | Equipment            | Materials and Supplies Arms and                                  | Cost of Ration       | Fuels and Lubricants                          | Advertising and Publicity                                        | Minor civil and electric works                       | Professional Services |
+| Object Code                       |                      | 15                | 18 19                |                      | 17 21 22                                                         | 23                   | 20 24                                         | 21 26                                                            | 27                                                   | 28                    |
+| Sl.                               | No.                  |                   | 16                   |                      | 18                                                               | 19                   |                                               |                                                                  | 22                                                   | 23                    |

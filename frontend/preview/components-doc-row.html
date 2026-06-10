@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Document row</title><link rel="stylesheet" href="_preview.css">
+<style>
+  .card { padding: 18px 24px; }
+  table { width: 100%; border-collapse: collapse; }
+  thead th { text-align: left; font: 500 11px var(--font-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-4); padding: 0 0 10px; border-bottom: 1px solid var(--mist); }
+  tbody td { padding: 12px 0; border-bottom: 1px dashed var(--mist); font: 400 14px var(--font-sans); color: var(--ink); vertical-align: middle; }
+  tbody tr:last-child td { border-bottom: none; }
+  .file { display: flex; align-items: center; gap: 10px; }
+  .file img { width: 22px; height: 22px; }
+  .meta { font: 400 12px var(--font-sans); color: var(--ink-3); }
+  .pill { font: 500 11px/1 var(--font-sans); padding: 5px 9px; border-radius: 999px; display: inline-flex; align-items: center; gap: 5px; }
+  .pill .dot { width: 5px; height: 5px; border-radius: 999px; }
+  .moss { background: var(--moss-soft); color: var(--moss); } .moss .dot { background: var(--moss); }
+  .current { background: var(--current-soft); color: var(--current-deep); } .current .dot { background: var(--current); }
+  .ember { background: var(--ember-soft); color: var(--ember); } .ember .dot { background: var(--ember); }
+</style></head>
+<body>
+<div class="card">
+  <table>
+    <thead><tr><th>Document</th><th>Collection</th><th>Status</th><th>Uploaded</th></tr></thead>
+    <tbody>
+      <tr><td><div class="file"><img src="../assets/file-glyphs/pdf.svg"><span>Attention is all you need.pdf<div class="meta">2.1 MB · 11 pages</div></span></div></td><td>research-papers</td><td><span class="pill moss"><span class="dot"></span>Ready</span></td><td>2 days ago</td></tr>
+      <tr><td><div class="file"><img src="../assets/file-glyphs/docx.svg"><span>Q3 brand brief.docx<div class="meta">340 KB · 8 pages</div></span></div></td><td>marketing</td><td><span class="pill current"><span class="dot"></span>Embedding · 78 %</span></td><td>4 min ago</td></tr>
+      <tr><td><div class="file"><img src="../assets/file-glyphs/pptx.svg"><span>All-hands Apr.pptx<div class="meta">12.4 MB · 34 slides</div></span></div></td><td>internal</td><td><span class="pill ember"><span class="dot"></span>Failed · retry</span></td><td>yesterday</td></tr>
+    </tbody>
+  </table>
+</div>
+</body></html>

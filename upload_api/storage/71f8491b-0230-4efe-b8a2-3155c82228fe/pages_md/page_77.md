@@ -1,0 +1,14 @@
+- (e) Inform  the  Captain  of  delay  and  non-receipt  of  mail  so  that  the latter can report the fact to the Naval authority or civil post officer concerned.
+- (f) Take  care  that  registered  items  pass  through  as  few  hands  as possible, and that all possible precautions are taken to prevent their being  tampered  with  while  in  Navy  custody.  They  shall  be  kept under  lock  and  key  until  delivered.  A  signature  shall  be  obtained when they are transferred from one person to another.
+- (g) Before  sailing,  make  proper  arrangements  for  diversion  of  the ship's mail, stating the latest time at which mail for the ship on be received at ports before the ship's departure.
+
+(2) The ship's mailman shall be a trustworthy Petty officer or Leading sailor who must be furnished with written authority, signed by the Commanding officer and bearing the signature of the mailman, to collect mail for them ship. His duties are to:-
+
+- (a) Deliver mail from the ship to the appropriate Naval shore authority and  to  the  post  office  as  instructed  by  the  ship's  mail  officer, obtaining signatures for registered items.
+- (b) Deliver  and  collect  special  items  of  mail  at  places  ashore  on  the instructions of the ship's Mail officer.
+- (c) Collect  mail  for  the  ship  from  the  naval  shore  authority  and  post office, and from other places as specially instructed; check and sign for registered items and deliver the mail to the ship's mail officer.
+
+(3) When one mailman is authorised to collect mails for several vessels, the Mail  officer  of  the  ship  to  which  he  delivers  the  mails  shall  see  that  full particulars of the registered items (or sealed registered bags) for each ship, as well  as  his own, are entered  in the  ship's  Record Book S.568 and placed in safe  custody  until  called  for  by  the  addressee  or  the  postman  from  the addressee's ship.
+
+
+0374.  Receipt  of  Mail  on  Board. (1)  Particulars  of  each  registered  item received on board shall be entered in Record Book S.568. The letter bill and register list enclosed in sealed bags of mail shall be checked and, if correct, one copy shall be signed and returned promptly to the officer from which the mail was despatched and the  other  copy  signed  and  filed  for  reference.  Discrepancies  in  the  number  of registered items received, or damage to a registered item or to a parcel enclosed in the bag shall be reported by signal to the office from which the mail was despatched. The bag,  seal,  label, string,  letter bill and register  list concerned  shall  be retained  in the receiving office until the query has been satisfactorily settled in case it is required by the  despatching  office.  Before  such  a  report  is  made,  a  commissioned  or  gazetted officer shall be called by the person who has discovered the loss or damage to witness the correctness of the report.

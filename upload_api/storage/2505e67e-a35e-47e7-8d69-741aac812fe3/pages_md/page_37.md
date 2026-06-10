@@ -1,0 +1,30 @@
+
+Government.
+
+
+(2)  Subjects  to  the  provisions  of  sub-regulation  (1)  and  other  conditions  as  may  be prescribed, every officer or sailor shall be bound to serve, in the Indian Naval Ship to which he has been appointed or transferred, Provided that an officer or sailor may seek transfer to another ship with the change of residence.
+
+
+(3)  The  personnel  of  the  Service  shall  be  liable  to  be  called  up  for  service  with  the Indian Navy-
+
+- (a) on declaration of War/Emergency or when grave Emergency is imminent or whenever required;
+
+(b) to undergo training as ordered from time to time by the Chief of the Naval Staff or the Administrative authority, as the case may be;
+
+
+© for supporting, manning or supplementing essential services;
+
+- (d) in aid of the civil power;
+
+105. Calling up of Personnel of Service. The personnel of the Service of a particular port or naval base  may  be called up  for  service by  order of  the Government without  recourse  to the general mobilization where it becomes necessary to activate the essential services in such port or naval base.
+
+
+106. Duties. The establishments of the Service shall be organized in or near the Naval Bases or principal ports for the following duties:-
+
+- (a) Coast Batteries
+- (b) Mines Watching
+- © Communication
+- (d) Plotting
+- (e) Mechanical Transport
+- (f) Naval Control of Shipping.
+- (g) Engineering Service in Dockyard

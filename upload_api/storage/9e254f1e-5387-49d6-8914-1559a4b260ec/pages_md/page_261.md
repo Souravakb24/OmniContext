@@ -1,0 +1,11 @@
+
+score will be ranked as H-1, followed by the proposals securing lower 'B' scores being ranked as H-2, H-3 etc. The proposal securing the highest 'B' score and ranked H-1, shall be recommended for award of contract. In the event two or more bids have the same 'B' score in final ranking, the bid with highest technical score will be H-1. An illustration of the method of using the above formula for arriving at the Evaluated Bid Score (B) is placed at Appendix N
+
+- 12.5.9 Consultancy by Direct Selection/Single Source Selection/ Nomination .    Selection  by  direct  negotiation/  nomination,  on the  lines  of  Single  Tender  mode  of  procurement  of  goods,  is considered  appropriate  only  under  exceptional  circumstances, such as:-
+- (a) Tasks  that  represent  a  natural  continuation  of  previous work carried out by a firm/ consultant.
+- (b) In case of an emergency situation, situations arising after natural disasters, situations where timely completion of the assignments is of utmost importance.
+- (c) Situations where execution of the assignment may involve use of proprietary techniques or only one consultant has requisite expertise.
+- (d) Under some special circumstances, it may become necessary to select a particular consultant where adequate justification is available for such single-source selection in the context of the overall interest of the organisation. Full justification for single-source selection shall be recorded in the file and approval of the CFA obtained with concurrence of  the  IFA,  where  required  as  per  delegation  of  financial powers, before resorting to such single-source selection.
+- (e) The  procuring  entity  shall  have  a  procedure  in  place  to ensure that the prices are reasonable and consistent with market  rates  for  tasks  of  a  similar  nature.    If  necessary, negotiations may be held with the consultants to examine reasonableness of quoted price.
+- (f) The procuring entity shall ensure fairness and equity, and also  that  the  required  consultancy  services  are  not  split into  smaller  sized  procurements  to  avoid  competitive processes.
+- (g) All  consultancy  contracts  proposed  to  be  awarded  on nomination basis, shall be subject to prior approval of the administrative Secretary and the Vice Chief/ equivalent in the case of Service HQs/other Organisations.

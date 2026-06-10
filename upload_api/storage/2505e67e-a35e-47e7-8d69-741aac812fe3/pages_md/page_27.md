@@ -1,0 +1,14 @@
+- A  sailor  whose  efficiency,  physical  condition  or  utility  to  the  Service  becomes materially  impaired  may  be  discharged  from  the  Service  by  the  Administrative  authority concerned in consultation with Commodore Bureau of Sailors.
+- Discharge on Compassionate Grounds. A sailor may be discharged on compassionate grounds  from  the  Service  by  the  Administrative  authority  concerned  in  consultation  with Commodore Bureau of Sailors.
+- Discharge on Application. (1)    A sailor not entitled to discharge under the Act or these  regulations,  may  apply  in  writing  to  the  Commanding  Officer  of  the  establishment  to which  he  is  for  the  time  being  appointed,  stating  the  reasons  for  which  he  wants  to  be discharged.
+- The Prescribed Authority, on the recommendation of Commanding Officer may in the discretion, grant his application of discharge and inform Commodore, Bureau of Sailors.
+- Discharge on other Grounds. (1) A sailor may be discharged on any of the following grounds, namely:-
+- (a)  that he has been convicted by a criminal court of an offence punishable with imprisonment;
+- (b)   that he has in filling up any forms prescribed by these regulations or otherwise for the purpose of obtaining his enrolment made any statement which is false and which he knows to be false or does not believe to be true;
+- © that his services are no longer required
+- Until a sailor is discharged, no irregularity or illegality in his enrolment shall affect his position as an enrolled person or invalidate any proceedings against him under the Act.
+- Discharge  to  be  Expedited. A  sailor  shall,  on  becoming  entitled  to  receive  his discharge under these regulations, be so discharged with all convenient speed.
+- 65 Probationary Period. A sailor shall be on probation for a period of two years.
+- Adverse Verification. (1) Sailor who is found, on receipt of information during postenrolment  verification,  to  have  unsatisfactory  character  or  antecedents,  shall  be  liable  to  be discharged, as 'Service on Longer Required'.
+- All cases for discharge under sub-regulation (1) shall be reffered to the Chief of the Naval Staff for orders.
+- Enrolment of former Government Employees. (1) Employees of the Central or the State Government who have been dismissed or removed from Government service shall not be enrolled in the Service

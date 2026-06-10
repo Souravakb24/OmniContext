@@ -1,0 +1,18 @@
+
+![The image displays an official document header featuring the Lion Capital of Ashoka (India's national emblem) on the left against a light purple background, with black text to its right. The text reads "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", and "DEPARTMENT OF EXPENDITURE" in a clear, sans-serif font. The layout is horizontal, with the emblem and text aligned to convey authority and formal context, consistent with government publications.](images/page_136_pic_1.png)
+
+**Description:**
+The image displays an official document header featuring the Lion Capital of Ashoka (India's national emblem) on the left against a light purple background, with black text to its right. The text reads "DELEGATION OF FINANCIAL POWERS RULES, 2024", "MINISTRY OF FINANCE", and "DEPARTMENT OF EXPENDITURE" in a clear, sans-serif font. The layout is horizontal, with the emblem and text aligned to convey authority and formal context, consistent with government publications.
+
+
+of vehicles etc. and in developing an e-auction catalog. Auction notification containing details of e-auction starting date, list of vehicles, location, ownership etc. will be sent to RVSFs. Such scrapping is to be done in accordance with the procedure as prescribed in Motor Vehicles (Registration and Functions of Vehicle Scrapping Facility) Rules 2021.
+
+- e-Auction is then launched on the auction portal.
+- Prospective bidders would be allowed to conduct on-site inspection of vehicles to assess fair value of the e-auction lot. High quality images may be included in auction catalog to reduce the requirement of physical inspection since the RVSFs may not have enough capacity to conduct physical inspection over a short period of time.
+- Interested  bidders  to  deposit  a  pre-bid  earnest  money  deposit  (EMD)  or Standing Security Deposit, as prescribed by the auction agency, to become eligible for bidding. After depositing EMD or Standing Security deposit, bidders to submit their bid on the auction portal.
+- e-Auction is to be closed at a pre-determined time. An e-auction is deemed successful if the highest bid value is more than the reserve price or within the tolerance threshold and is cancelled if the highest bid is lower than the tolerance of reserve price set by the seller. If an e-auction is cancelled, then the Competent Authority may put up the lot for re-auction after re-fixing the reserve price based on market response.
+- Auto-generated notification is sent to the highest bidder and the seller.
+- Highest bidder (RVSF) would then transfer the bid amount to the auction agency or the seller, as per the terms in the e-auction catalog. Auction agency to issue a digitally signed Delivery/Sale Order upon confirmation of payment.
+- Highest bidder (RVSF) to pick up the vehicles for scrapping and hand over a 'Certificate of Deposit' to the seller through the Vahan RVSF module as per the process specified in rule 10 sub-rule 1 of GSR 653 (E) dated 23rd September 2021 and its amendment vide GSR 695 (E) dated 13th September 2022.
+- De-registration of vehicles to be done by RVSF as per the process specified in rule 10 sub-rule 1 of GSR 653 (E) dated 23rd September 2021 and its amendment vide GSR 695 (E) dated 13th September 2022.
+- If  the  bid  amount was transferred by the RVSF to the auction agency, the auction agency shall further transfer the bid amount to Union Ministries/ Departments and State Governments along with the 'Certificate of Deposit'.

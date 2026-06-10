@@ -1,0 +1,23 @@
+
+## PART II - ESSENTIAL DETAILS OF ITEMS/ SERVICES SUPPLY ORDERED
+
+
+(Same as Part II of DPMF 12 )
+
+
+## PART III - STANDARD CONDITIONS OF SUPPLY ORDER
+
+
+(As per Paragraphs 1 to 15 of Part III of DPMF 11 )
+
+
+## PART IV - SPECIAL CONDITIONS OF SUPPLY ORDER
+
+
+(As per Paragraphs 1 to 34 of Part IV of DPMF 11 )
+
+
+## PART V - OTHER DETAILS
+
+
+(As per Part V of DPMF 12 )

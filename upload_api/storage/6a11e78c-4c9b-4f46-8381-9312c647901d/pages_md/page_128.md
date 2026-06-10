@@ -1,0 +1,6 @@
+- (e) He  shall  muster  the  witness  outside  the  courtroom  and  as  soon  as  the  court  is assembled, he shall report to the president that they are in attendance.
+- (f) When so directed by the President, he shall cause the accused to be brought in and to admit the prosecutor and audience.
+- (g) He shall ensure  that no  witness enters the court  unless called to  give evidence, except by the permission of the court.
+- (h) He  shall  ensure  that  each  witness  leaves  the  court  as  soon  as  he  has  been examined and is not allowed to communicate with those witnesses who have yet to give evidence.
+- (i) He shall ensure that no witness duly summoned leaves the vicinity of the court.
+- (j) When the Court is cleared for deliberations, he shall ensure that no one is allowed to remain within the court's vicinity.'

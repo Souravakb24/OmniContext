@@ -1,0 +1,11 @@
+
+## 6.25 Payment of Advance
+
+- 6.25.1 Advance  Payment  to  Sellers .  Ordinarily,  payments  for  services rendered  or  supplies  made  are  released  only  after  the  services have been rendered or supplies made. However, it may become necessary to make advance payments in the following types of cases:-
+- (a) Advance payments demanded by firms holding maintenance contracts for servicing of air-conditioners, computers, other costly equipment, etc.
+- (b) Advance  payments  demanded  by  firms  against  fabrication contracts, turnkey contracts, long-term sustainment contracts, PBL contracts, training contracts, Maintenance Repair Overhaul (MRO) contracts, Repair Order Contracts (ROC), etc.
+- (c) Quantum of Advance .  Advance payments should not exceed 30%  of  the  contract  value  (excluding  taxes  and  duties)  or the amount payable for six months in case of maintenance contracts. In case of payment to State Government or Central Government  agency  or  a  Public  Sector  Undertaking,  the advance  payment  limit  shall  be  40%  of  the  contract  value (excluding taxes and duties).
+- (d) Relaxation of the Prescribed Ceiling .  The ceiling mentioned above may be relaxed only with the approval of the Secretary of the Department concerned, after concurrence of Secretary (Defence Finance)/ FA (DS).
+- (e) Stage/ Part Payments .  If stage/ part payments are proposed to be made on achievement of milestones, it shall be clearly mentioned upfront in the RFP with the approval of CFA and the  concurrence  of  the  IFA,  wherever  required,  as  per  the delegation of financial powers.
+- (f) Securing the Advance .  While making any advance payment, adequate safeguards in the form of bank guarantee, etc., shall be obtained from the firm. A sample format for the Advance Payment Bank Guarantee (APBG) is placed at DPMF 26 .
+- (g) Interest-free . Since the provision of advance payment leverages the difference in interest rate  and considering the additional cost of Bank Guarantee for advances for the bidder, interest-free advance payments may be considered with the approval  of  competent  authority  and  finance  concurrence. Where an interest-free advance is permitted, a clause in the

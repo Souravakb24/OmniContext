@@ -1,0 +1,13 @@
+
+of PDI, to the extent possible, the RFP should mention the broad scope of such inspections, the likely number of such inspections, the composition of the teams and the duration of the inspections.
+
+
+## 7.6 Quality Assurance
+
+- 7.6.1 The goods/ services supplied under the contract should conform to the standards, which should be clearly mentioned as a part of the  technical  specifications  in  the  RFP .  The  latest  authoritative standards,  issued  by  the  institution  concerned  in  India,  in  the absence of which, standards applicable in the country of origin, of the goods/ services to be procured, could also be considered as acceptable standards and, if so decided, it should be mentioned in the RFP . In such situations, the RFP should also state that the details of such standards would be submitted by the prospective bidder while submitting his bid. All the items should be supplied and  accepted  along  with  OEM  certification  only.  The  quality assurance  requirements  should  be  specified  both  in  terms  of testing norms as well as methodology. In case of medical devices/ equipment,  wherever  the  Indian  standards  are  available,  these would  be  sufficient  and  the  indenting  organisation  shall  not insist on any foreign specification or standards like USFDA or CE certification,  etc.  In  case  of  medical  devices/  equipment,  where Indian standards are not available, in order to ensure quality of the devices/ equipment being purchased, the indenting organisation would be free to lay down the standards of ISO or USFDA or CE certification in such cases.
+
+## 7.7 OEM Certificate in Case of Vendors/ Stockists
+
+- 7.7.1 In case the bidder is not the OEM, it would be necessary for the bidder  to  furnish  the  agreement  certificate  with  the  OEM  from whom the spares are to be sourced by the bidder, along with the bid.
+- 7.7.2 However, where OEMs do not exist, minor aggregates and spares can  be  sourced  from  authorised  vendors  subject  to  quality certification  by  the  designated  certification  agency  as  the  case may be.
+- 7.7.3 In  case of weapon systems/ platforms/ major equipment where the  OEM  wishes  to  discontinue  production  of  spares/parts  for operational or any other reasons, the Services must take measures to procure such spares/parts from the OEM as per the assessed requirement based on remaining technical life of weapon systems/ platforms/ major equipment before production is stopped by the OEM.
