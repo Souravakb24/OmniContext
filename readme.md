@@ -1,4 +1,8 @@
-# ContextFlow API — Full cURL Reference
+## OmniContext Workflow
+
+![Workflow Diagram](omnicontext-workflow.png)
+
+# OmniContext API — Full cURL Reference
 
 Base URL (org-facing API): `http://127.0.0.1:8000`
 Base URL (super admin API): `http://127.0.0.1:8000`
