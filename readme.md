@@ -2,6 +2,14 @@
 
 ![Workflow Diagram](omnicontext-workflow.png)
 
+## Working demmo of the Project
+
+### OmniContext
+- **LinkedIn Post & Demo Video:** https://www.linkedin.com/feed/update/urn:li:activity:7469644804176400384/
+
+### OmniResearch
+- **LinkedIn Post & Demo Video:** https://www.linkedin.com/feed/update/urn:li:activity:7473613850467274752/
+
 # OmniContext API — Full cURL Reference
 
 Base URL (org-facing API): `http://127.0.0.1:8000`
