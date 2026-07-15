@@ -1,7 +1,7 @@
 ## OmniContext Workflow
 
 
-## Working demmo of the Project
+## Working demo of the Project
 
 ### OmniContext
 - **LinkedIn Post & Demo Video:** https://www.linkedin.com/feed/update/urn:li:activity:7469644804176400384/
