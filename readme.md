@@ -1,6 +1,5 @@
 ## OmniContext Workflow
 
-![Workflow Diagram](omnicontext-workflow.png)
 
 ## Working demmo of the Project
 
